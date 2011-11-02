@@ -16,6 +16,10 @@ html, body, div, li, form, fieldset, input, textarea, h1, h2, h3, h4, h5, h6, p,
     padding: 0;
 }
 
+a:link, a:visited, a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+
 html {
     background: url("./images/fondMdh.png") repeat-y scroll top center  #05101E;
     overflow-y: scroll;
@@ -44,9 +48,13 @@ body {
     margin-top: 10px;
 }
 
+#navigation {
+    
+}
+
 #navigation ul {
-    list-style: none outside none;
     float: right;
+    list-style: none outside none;
 }
 
 #navigation li {
@@ -54,4 +62,16 @@ body {
     float: left;
     margin-right: 20px;
     margin-top: 0;
+}
+
+#navigation li a {
+    display: block;
+    padding-top: 60px;
+    font-size: 15px;
+    color: #888;
+}
+
+#navigation li a:hover {
+    background-color: #aaa;
+    color: #5c9de6;
 }
