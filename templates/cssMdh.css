@@ -12,7 +12,7 @@
 */
 
 html {
-    background: url("../fondMdh.png") repeat-y scroll top center  #05101E;
+    background: url("./images/fondMdh.png") repeat-y scroll top center  #05101E;
     overflow-y: scroll;
 }
 
