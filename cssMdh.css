@@ -1,0 +1,25 @@
+/* 
+    Document   : cssMdh
+    Created on : 28 oct. 2011, 09:28:35
+    Author     : 
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+html {
+    background: url("../fondMdh.png") repeat-y scroll top center  #05101E;
+    overflow-y: scroll;
+}
+
+body {
+    font-family: 'Trebuchet MS',Arial,Helvetica,Sans-serif;
+    line-height: 20px;
+    word-spacing: 1px;
+    font-size: 12px;
+    color: #66666A;
+}
