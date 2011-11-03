@@ -60,18 +60,30 @@ body {
 #navigation li {
     cursor: pointer;
     float: left;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-top: 0;
 }
 
 #navigation li a {
     display: block;
-    padding-top: 60px;
+    padding: 60px 10px 2px 10px;
     font-size: 15px;
     color: #888;
 }
 
 #navigation li a:hover {
-    background-color: #aaa;
+    background-color: #343333;
     color: #5c9de6;
+    
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-radius: 0px 0px 8px 8px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#content {
+    width: 960px;
+    background: url("./images/content-back.png") repeat-y scroll top center transparent;
 }
