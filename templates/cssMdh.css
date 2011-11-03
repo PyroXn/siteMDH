@@ -85,5 +85,9 @@ body {
 
 #content {
     width: 960px;
+    margin: 0 auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
     background: url("./images/content-back.png") repeat-y scroll top center transparent;
 }
