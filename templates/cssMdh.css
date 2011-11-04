@@ -76,13 +76,6 @@ body {
     -moz-border-radius-bottomleft: 8px;
     -webkit-border-radius: 0px 0px 8px 8px;
     border-radius: 0px 0px 8px 8px;
-    
-/*    transition: color, background-color;
-    transition-duration: 0.5s;
-    -webkit-transition-property: color, background-color;
-    -moz-transition-property: color, background-color;
-    -moz-transition-duration: 0.5s;
-    -webkit-transition-duration: 0.5s;*/
 
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
@@ -92,7 +85,6 @@ body {
 #navigation li a:hover {
     background-color: #343333;
     color: #5c9de6;
-/*    opacity: 1;*/
     padding-top: 60px;
     -moz-border-radius-topleft: 0px;
     -moz-border-radius-topright: 0px;
@@ -100,40 +92,13 @@ body {
     -moz-border-radius-bottomleft: 8px;
     -webkit-border-radius: 0px 0px 8px 8px;
     border-radius: 0px 0px 8px 8px;
-    
-/*    transition-property: color, background-color, opacity;
-    transition-duration: 0.5s;
-    -webkit-transition-property: color, background-color, opacity;
-    -moz-transition-property: color, background-color, opacity;
-    -moz-transition-duration: 0.5s;
-    -webkit-transition-duration: 0.5s;*/
-}
-
-#navigation li a:hover #navigation li a {
-/*    background-color: #343333;
-    color: #5c9de6;*/
-    opacity: 0;
-    
-    -moz-border-radius-topleft: 0px;
-    -moz-border-radius-topright: 0px;
-    -moz-border-radius-bottomright: 8px;
-    -moz-border-radius-bottomleft: 8px;
-    -webkit-border-radius: 0px 0px 8px 8px;
-    border-radius: 0px 0px 8px 8px;
-    
-/*    transition-property: color, background-color, opacity;
-    transition-duration: 0.5s;
-    -webkit-transition-property: color, background-color, opacity;
-    -moz-transition-property: color, background-color, opacity;
-    -moz-transition-duration: 0.5s;
-    -webkit-transition-duration: 0.5s;*/
 }
 
 #content {
     width: 960px;
     margin: 0 auto;
-    -moz-border-radius: 10px;
+/*    -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    border-radius: 10px;
+    border-radius: 10px;*/
     background: url("./images/content-back.png") repeat-y scroll top center transparent;
 }
