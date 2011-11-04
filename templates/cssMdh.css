@@ -66,7 +66,7 @@ body {
 
 #navigation li a {
     display: block;
-    padding: 60px 10px 2px 10px;
+    padding: 35px 10px 2px 10px;
     font-size: 15px;
     color: #888;
     
@@ -77,18 +77,42 @@ body {
     -webkit-border-radius: 0px 0px 8px 8px;
     border-radius: 0px 0px 8px 8px;
     
-    transition-property: color, background-color;
-    transition-duration: 1s;
+/*    transition: color, background-color;
+    transition-duration: 0.5s;
     -webkit-transition-property: color, background-color;
     -moz-transition-property: color, background-color;
-    -moz-transition-duration: 1s;
-    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;*/
+
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
 }
 
 #navigation li a:hover {
     background-color: #343333;
     color: #5c9de6;
-    opacity: 1;
+/*    opacity: 1;*/
+    padding-top: 60px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-radius: 0px 0px 8px 8px;
+    border-radius: 0px 0px 8px 8px;
+    
+/*    transition-property: color, background-color, opacity;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color, background-color, opacity;
+    -moz-transition-property: color, background-color, opacity;
+    -moz-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;*/
+}
+
+#navigation li a:hover #navigation li a {
+/*    background-color: #343333;
+    color: #5c9de6;*/
+    opacity: 0;
     
     -moz-border-radius-topleft: 0px;
     -moz-border-radius-topright: 0px;
@@ -97,12 +121,12 @@ body {
     -webkit-border-radius: 0px 0px 8px 8px;
     border-radius: 0px 0px 8px 8px;
     
-    transition-property: color, background-color, opacity;
+/*    transition-property: color, background-color, opacity;
     transition-duration: 0.5s;
     -webkit-transition-property: color, background-color, opacity;
     -moz-transition-property: color, background-color, opacity;
     -moz-transition-duration: 0.5s;
-    -webkit-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;*/
 }
 
 #content {
