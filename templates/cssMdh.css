@@ -33,7 +33,7 @@ body {
     color: #66666A;
 }
 
-#header, #footer, #content {
+#header, #footer,#content_background, #content {
     margin: 0 auto;
     width: 960px;
 } 
@@ -102,10 +102,15 @@ body {
     
 }
 
-#content {
+#content_background {
     
 /*    -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;*/
     background: url("./images/content-back2.png") repeat-y scroll top center transparent;
+}
+
+#content {
+    width: 884px;
+    padding: 20px 0;
 }
