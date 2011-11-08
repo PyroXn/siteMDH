@@ -35,7 +35,7 @@ function home() {
                 Avec My Dev House démarquez-vous et mettez l’accent sur votre communication pour bénéficiez d’une image de qualité sur le web comme sur papier. <a href="#">en savoir +</a>';
     
     $contenu .= '<h1>Referencement</h1>
-                    Vous souhaitez améliorer la visibilité de votre site web ? Nous proposons diverses offres vous permettant de gérer au mieu vos besoins. <a href="#">en savoir +</a>';
+                    Vous souhaitez améliorer le positionnement de votre site internet dans les moteurs de recherche ? Nous proposons diverses offres vous permettant d\'acceder à un référencement durable. <a href="#">en savoir +</a>';
     
     $contenu .= '<h1>Formation</h1>
                 Vous souhaitez améliorer vos connaissances dans le domaine informatique ? Nous vous proposons différentes formations. <a href="#">en savoir +</a>';
