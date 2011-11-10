@@ -33,6 +33,11 @@ body {
     color: #66666A;
 }
 
+h1 {
+    color: #5d9ee6;
+}
+
+
 #header, #footer,#content_background, #content {
     margin: 0 auto;
     width: 960px;
