@@ -166,8 +166,8 @@ a {
     color: #56616A;
     margin-top: 15px;
     font-weight: bold;
-    float: right;
     margin-right: 5px;
+    text-align: right;
 }
 
 #content_background li em:after {
