@@ -13,6 +13,14 @@ function display($title,$contenu) {
 function home() {
     $title = 'My Dev House - Agence de Developpement Informatique';
     $contenu = '<h1>Agence de Developpement Informatique</h1>';
+    $contenu .= '
+        <p>
+            Nous maitrisons de manières globales les différentes technologies web nous permettant de vous accompagné
+            du début à la fin de votre projet. Le referencement et le respect des standards web permettent à nos 
+            réalisations d\'être accessible par le plus grand nombre d\'utilisateurs quelque soit leurs plateformes. 
+            Le design quand à lui nous permet de rendre chacune de nos réalisations unique. Enfin notre professionalisme et 
+            le suivi de nos clients vous garanties une tranquilitées d\'esprit sur le produit livré.
+        </p>';
     $contenu .= '<ul>';
     $contenu .= '
         <li>
