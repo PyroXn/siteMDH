@@ -22,7 +22,70 @@ function home() {
 
 function agence() {
     $title = 'My Dev House - Agence de Developpement Informatique';
-    $contenu = 'NOUS !';
+    $contenu = '<h1>Qui sommes-nous?</h1>';
+    $contenu .= '
+        <h2>Présentation de l\'entreprise</h2>
+        <p>My Dev House est une S.A.R.L crée par 3 associés en 2011. Jeunes, dynamiques et passionnés 
+           nous utilisons tout notre savoir faire au service de nos clients.
+        </p>';
+    
+    $contenu .= '
+        <h2>Bref description de ce qu\'on sait faire sans rentrer dans le détail qui sera dans le menu "Ce qu\'on sait faire"</h2>
+        <p>
+            Passionnés par les technologies du web, Passionnées par les technologies offerte depuis la disponibilité d\'internet,
+        </p>';
+    
+    $contenu .= '
+        <h2>Notre coté interface humaine par rapport a vous (accompagnenment)</h2>
+        <p>
+            L\'équipe de My Dev House vous accompagne tout au long des différentes étapes de la réalisation de votre projet. 
+            Nous sommes à vos côtés de la réalisation du cahier des charges à la mise en place d\'un suivi à long terme.
+            Notre équipe saura vous conseiller afin de satisfaire au mieux vos besoins. Notre objectif est de vous fournir un service 
+            complet de qualité.
+        </p>';
+    
+    $contenu .= '
+        <h2>Notre savoir faire (revoir peut-etre le nom : domaine de competence)</h2>
+        <p>
+            Mettre les logo des technologies que nous utilisons (php javascript java jquery ajax css gimp linux, ...)
+            Petite photo de nous entrain de travaillé (genre)
+        </p>';
+    
+    $contenu .= '
+        <h2>4 phases de conceptions avec l\'explication de chaque phase : Analyse Création Livraison suivi</h2>
+        <ul>
+            <li>
+                <h3>Analyse</h3>
+                <p>Grâce à notre étroite collaboration, nous vous proposons un devis complet vous donnant un contrôle total sur 
+                    les différents services demandés dans le respect de votre budget.
+                </p>
+            </li>
+            <li>
+                <h3>Création</h3>
+                <p>Dans le respect des délais, nous vous proposons différentes étapes de contrôle afin de toujours être au plus près de vos besoins.</p>
+            </li>
+            <li>
+                <h3>Livraison</h3>
+                <p>Le produit terminé et validé, nous vous le déployons afin qu\'il soit directement prêt à être utilisé.</p>
+            </li>
+            <li>
+                <h3>Suivi</h3>
+                <p>Nous restons à votre écoute et proposons des solutions d\'accompagnement tout au long de votre activité.</p>
+            </li>
+        </ul>';
+    
+    $contenu .= '<div class="clearboth"></div>';
+    
+    $contenu .= '
+        <h2>Pourquoi nous choisir plutot qu\'un autre</h2>
+        <p>My Dev House c\'est :
+            <ol>
+                <li>Un interlocuteur disponible</li>
+                <li>Une équipe dynamique et passionée</li>
+                <li>Des délais de livraison respecté</li>
+                <li>Un suivi tout au long de votre activité</li>
+            </ol>
+        </p>';
     display($title,$contenu);
 }
 

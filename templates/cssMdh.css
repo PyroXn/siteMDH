@@ -119,6 +119,8 @@ p {
     text-align: justify;
     line-height: 20px;
     word-spacing: 1px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 a:link, a:visited, a:hover, a:active, a:focus {
@@ -150,8 +152,6 @@ a {
     display: block;
     float: left;
     width: 422px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
 }
 
 .firstcolonne {
@@ -181,6 +181,8 @@ a {
 
 #content_background li p {
     text-align: inherit;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #content_background li em {
