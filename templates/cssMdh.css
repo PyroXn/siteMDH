@@ -179,10 +179,17 @@ a {
     background-color: #d8eaff;
 }
 
-#content_background li p {
-    text-align: inherit;
-    margin-bottom: 0;
-    padding-bottom: 0;
+#content_background li .titre_liste {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #56616A;
+}
+
+#content_background li .paragraphe_liste {
+    font-size: 14px;
+    line-height: 20px;
+    word-spacing: 1px;
 }
 
 #content_background li em {
@@ -198,7 +205,7 @@ a {
     content: ' +';
 }
 
-#content_background li a:hover em:after {    
+#content_background li:hover em:after {    
     margin-left: 10px;
     content: ' >>';
 }
