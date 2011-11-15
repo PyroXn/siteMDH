@@ -10,17 +10,17 @@
     <body>
         <div id="header">
             <div id="logo">
-                <a href="">
+                <a href="index.php?p=home">
                     <img alt="mdh" src="./templates/images/mdh2.png"/>
                 </a>
             </div>
             <div id="navigation">
                 <ul>
-                    <li id="accueil_menu" class="currentpage"><a href="" title="">Accueil<span class="hover"></span></a></li>
-                    <li id="agence_menu" class=""><a href="" title="">Qui sommes-nous<span class="hover"></span></a></li>
-                    <li id="services_menu" class=""><a href="" title="">Savoir faire<span class="hover"></span></a></li>
-                    <li id="realisations_menu" class=""><a href="" title="">Réalisations<span class="hover"></span></a></li>
-                    <li id="contact_menu" class=""><a href="" title="">Contact<span class="hover"></span></a></li>
+                    <li id="accueil_menu" class="currentpage"><a href="index.php?p=home" title="">Accueil<span class="hover"></span></a></li>
+                    <li id="agence_menu" class=""><a href="index.php?p=agence" title="">Qui sommes-nous<span class="hover"></span></a></li>
+                    <li id="services_menu" class=""><a href="index.php?p=services" title="">Savoir faire<span class="hover"></span></a></li>
+                    <li id="realisations_menu" class=""><a href="index.php?p=realisations" title="">Réalisations<span class="hover"></span></a></li>
+                    <li id="contact_menu" class=""><a href="index.php?p=contact" title="">Contact<span class="hover"></span></a></li>
                 </ul>
             </div>
             <div id="top">

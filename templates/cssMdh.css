@@ -101,7 +101,17 @@ body {
 
 /*****CONTENU*****/
 h1 {
+    display: block;
+    margin-bottom: 30px;
     color: #5d9ee6;
+}
+
+h2 {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #56616A;
 }
 
 p {
@@ -134,6 +144,18 @@ a {
 #content {
     width: 884px;
     padding: 20px 0;
+}
+
+.paraDouble {
+    display: block;
+    float: left;
+    width: 422px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.firstcolonne {
+    margin-right: 40px;
 }
 
 
