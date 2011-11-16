@@ -53,24 +53,28 @@ function agence() {
     
     $contenu .= '
         <h2>4 phases de conceptions avec l\'explication de chaque phase : Analyse Création Livraison suivi</h2>
-        <ul>
-            <li>
-                <h3>Analyse</h3>
-                <p>Grâce à notre étroite collaboration, nous vous proposons un devis complet vous donnant un contrôle total sur 
+        <ul id="methodologie">
+            <li class="analyse">
+                <span class="image_hover"></span>
+                <span class="titre_liste">Analyse</span>
+                <span class="paragraphe_liste">Grâce à notre étroite collaboration, nous vous proposons un devis complet vous donnant un contrôle total sur 
                     les différents services demandés dans le respect de votre budget.
-                </p>
+                </span>
             </li>
-            <li>
-                <h3>Création</h3>
-                <p>Dans le respect des délais, nous vous proposons différentes étapes de contrôle afin de toujours être au plus près de vos besoins.</p>
+            <li class="creation">
+                <span class="image_hover"></span>
+                <span class="titre_liste">Création</span>
+                <span class="paragraphe_liste">Dans le respect des délais, nous vous proposons différentes étapes de contrôle afin de toujours être au plus près de vos besoins.</span>
             </li>
-            <li>
-                <h3>Livraison</h3>
-                <p>Le produit terminé et validé, nous vous le déployons afin qu\'il soit directement prêt à être utilisé.</p>
+            <li class="livraison">
+                <span class="image_hover"></span>
+                <span class="titre_liste">Livraison</span>
+                <span class="paragraphe_liste">Le produit terminé et validé, nous vous le déployons afin qu\'il soit directement prêt à être utilisé.</span>
             </li>
-            <li>
-                <h3>Suivi</h3>
-                <p>Nous restons à votre écoute et proposons des solutions d\'accompagnement tout au long de votre activité.</p>
+            <li class="suivi">
+                <span class="image_hover"></span>
+                <span class="titre_liste">Suivi</span>
+                <span class="paragraphe_liste">Nous restons à votre écoute et proposons des solutions d\'accompagnement tout au long de votre activité.</span>
             </li>
         </ul>';
     

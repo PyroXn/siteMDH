@@ -219,7 +219,66 @@ a {
     width: 100%;
 }
 
+#methodologie span.image_hover {
+    background: url("./images/shema_methodologie3.png") no-repeat scroll left top;
+    height: 171px;
+    width: 223px;
+    position: absolute;
+}
 
+#methodologie li .titre_liste {
+   margin-top: 180px;
+}
+
+#methodologie li {
+   text-align: center;
+}
+
+#methodologie li.analyse span.image_hover {
+    background-position: 0px 0px;
+}
+#methodologie li.creation span.image_hover {
+    background-position: -223px 0px;
+}
+#methodologie li.livraison span.image_hover {
+    background-position: -446px 0px;
+}
+#methodologie li.suivi span.image_hover {
+    background-position: -669px 0px;
+}
+
+#methodologie li.analyse:hover span.image_hover {   
+    background-position: 0px -171px;
+   
+}
+#methodologie li.analyse:hover {   
+    background-color: #feb2b2;
+}
+#methodologie li.creation:hover span.image_hover {   
+    background-position: -223px -171px;
+}
+#methodologie li.creation:hover {   
+    background-color: #fdf296;
+}
+#methodologie li.livraison:hover span.image_hover {   
+    background-position: -446px -171px;
+}
+#methodologie li.livraison:hover {   
+    background-color: #b1e9ad;
+}
+#methodologie li.suivi:hover span.image_hover {   
+    background-position: -669px -171px;
+}
+
+.rond{
+	width:200px;
+	height:200px;
+	background:#069;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	border-radius:100px;
+}
 
 /****FOOTER****/
 #bot {
