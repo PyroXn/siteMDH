@@ -228,10 +228,17 @@ a {
 
 #methodologie li .titre_liste {
    margin-top: 180px;
+   text-align: center;
+}
+
+#methodologie li .paragraphe_liste {
+   margin-top: 180px;
+   text-align: center;
 }
 
 #methodologie li {
-   text-align: center;
+    /***Bug avec firefox centre l'img aussi***/
+/*   text-align: center;*/
 }
 
 #methodologie li.analyse span.image_hover {
