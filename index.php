@@ -182,7 +182,17 @@ function realisations() {
 
 function contact() {
     $title = 'My Dev House - Agence de Developpement Informatique';
-    $contenu = 'contact !';
+    $contenu = '<h1>Nous contacter</h1>';
+    $contenu .= '<p>Vous souhaitez nous contact ? Faire une demande de devis ? Nous vous apportons une réponse sous 72h.</p>';
+    $contenu .= '<form method="POST" action="index.php?p=contactSend">
+                 <label for="type">Type</label>
+                 <select id="typeContact" name="type">
+                    <option value="0">...</option>
+                    <option value="1">Devis</option>
+                    <option value="2">Contact</option>
+                </select>
+                <div id="suite"></div>
+                </form>';
     display($title,$contenu);
 }
 

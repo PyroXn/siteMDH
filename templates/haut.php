@@ -4,6 +4,8 @@
     <head>
         <title><?php echo $title; ?></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script language="javascript" type="text/javascript" src="./js/javascript.js"></script>
         <link rel="stylesheet" type="text/css" href="./templates/cssMdh.css" media="screen" />
     </head>
     <body>
