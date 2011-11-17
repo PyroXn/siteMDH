@@ -187,11 +187,27 @@ function contact() {
     $contenu .= '<form method="POST" action="index.php?p=contactSend">
                  <label for="type">Type</label>
                  <select id="typeContact" name="type">
-                    <option value="0">...</option>
                     <option value="1">Devis</option>
                     <option value="2">Contact</option>
                 </select>
-                <div id="suite"></div>
+                <div id="suite">
+                    <label for="typeProduit">Type du produit</label>
+                    <select name="typeProduit">
+                        <option value="1">Progiciel</option>
+                        <option value="2">Site web</option>
+                    </select><br />
+                    <label for="objet">Objet</label>
+                    <input type="text" name="objet" id="objet"><br />
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="80" rows="8"></textarea><br />
+                    <label for="cahierCharge">Cahier des charges</label>
+                    <textarea name="cahierCharge" id="cahierCharge" cols="80" rows="15"></textarea><br />
+                    <label for="budget">Budget</label>
+                    <input type="text" name="budget" id="budget"><br />
+                    <label for="mail">Adresse e-mail</label>
+                    <input type="text" name="mail" id="mail"><br />
+                    <input type="submit" id="submitDevis" value="Envoyer">
+                </div>
                 </form>';
     display($title,$contenu);
 }
@@ -226,7 +242,7 @@ function contactSend() {
     // envois du mail
     mail($destinataire,$objet, $message_html, $headers);
     
-    $title = '';
+    $title = 'My Dev House - Message envoyé';
     $contenu = '';
     display($title,$contenu);
 }
