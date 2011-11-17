@@ -183,7 +183,7 @@ function realisations() {
 function contact() {
     $title = 'My Dev House - Agence de Developpement Informatique';
     $contenu = '<h1>Nous contacter</h1>';
-    $contenu .= '<p>Vous souhaitez nous contact ? Faire une demande de devis ? Nous vous apportons une réponse sous 72h.</p>';
+    $contenu .= '<p>Vous souhaitez nous contacter ? Faire une demande de devis ? Nous vous apportons une réponse sous 72h.</p>';
     $contenu .= '<form method="POST" action="index.php?p=contactSend">
                  <label for="type">Type</label>
                  <select id="typeContact" name="type">
@@ -196,4 +196,38 @@ function contact() {
     display($title,$contenu);
 }
 
+function contactSend() {
+    // Modifier le destinataire
+    $destinataire = "????";
+    $type = $_POST['typeContact'];
+    switch($type) {
+        case '1':
+            $objet = 'Devis - ' . $_POST['objet'];
+            $message = $_POST['message'];
+            $cahier = $_POST['cahierCharge'];
+            $budget = $_POST['budget'];
+            $email = $_POST['mail'];
+            
+            $message_html = '';
+            break;
+        case '2':
+            $objet = 'Contact - ' . $_POST['objet'];
+            $message = $_POST['message'];
+            $email = $_POST['mail'];
+            
+            $message_html = '';
+            break;
+    }
+    
+    $headers  = "From: $email\n";
+    $headers .= "Reply-To: $email";
+    $headers .= "Content-Type: text/html; charset=\"UTF-8\"";
+
+    // envois du mail
+    mail($destinataire,$objet, $message_html, $headers);
+    
+    $title = '';
+    $contenu = '';
+    display($title,$contenu);
+}
 ?>
