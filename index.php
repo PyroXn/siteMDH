@@ -184,31 +184,24 @@ function contact() {
     $title = 'My Dev House - Agence de Developpement Informatique';
     $contenu = '<h1>Nous contacter</h1>';
     $contenu .= '<p>Vous souhaitez nous contacter ? Faire une demande de devis ? Nous vous apportons une réponse sous 72h.</p>';
-    $contenu .= '<form method="POST" action="index.php?p=contactSend">
-                 <label for="type">Type</label>
-                 <select id="typeContact" name="type">
-                    <option value="1">Devis</option>
-                    <option value="2">Contact</option>
-                </select>
-                <div id="suite">
-                    <label for="typeProduit">Type du produit</label>
-                    <select name="typeProduit">
-                        <option value="1">Progiciel</option>
-                        <option value="2">Site web</option>
-                    </select><br />
-                    <label for="objet">Objet</label>
-                    <input type="text" name="objet" id="objet"><br />
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="80" rows="8"></textarea><br />
-                    <label for="cahierCharge">Cahier des charges</label>
-                    <textarea name="cahierCharge" id="cahierCharge" cols="80" rows="15"></textarea><br />
-                    <label for="budget">Budget</label>
-                    <input type="text" name="budget" id="budget"><br />
-                    <label for="mail">Adresse e-mail</label>
-                    <input type="text" name="mail" id="mail"><br />
-                    <input type="submit" id="submitDevis" value="Envoyer">
-                </div>
-                </form>';
+    $contenu .= '
+    <form method="POST" action="index.php?p=contactSend">
+        <legend>Type</legend>
+        <input type="radio" name="typeContact" value="Devis" checked="checked">Devis</input>            
+        <input type="radio" name="typeContact" value="Contact">Contact</input>    
+        <div id="suite">
+            <legend>Type du produit</legend>
+            <input type="radio" name="typeProduit" value="Progiciel" checked="checked">Progiciel</input>            
+            <input type="radio" name="typeProduit" value="SiteWeb">Site web</input>
+            
+            <input type="text" name="objet" id="objet" placeholder="Objet">
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <textarea name="cahierCharge" id="cahierCharge" placeholder="Cahier des Charge"></textarea>
+            <input type="text" name="budget" id="budget" placeholder="Budget">
+            <input type="text" name="mail" id="mail" placeholder="Adresse e-mail">
+            <input type="submit" id="submitDevis" value="Envoyer">
+        </div>
+    </form>';
     display($title,$contenu);
 }
 
