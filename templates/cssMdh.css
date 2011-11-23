@@ -41,7 +41,7 @@ body {
 
 
 #header {
-    background-color: #0e2947;
+    background: url("./images/header.png") no-repeat top center #0e2947;
     height: 128px;
     padding: 0;
     position: relative;
@@ -90,6 +90,7 @@ body {
 #navigation li a:hover {
     background-color: #343333;
     color: #5c9de6;
+    opacity: 0.9;
     padding-top: 60px;
     -moz-border-radius-topleft: 0px;
     -moz-border-radius-topright: 0px;
@@ -304,7 +305,7 @@ input, textarea {
 }
 
 textarea {
-    height: 70px;
+    min-height: 70px;
     width: 380px;
     resize: vertical;
 }
