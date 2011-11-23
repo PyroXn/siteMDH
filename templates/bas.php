@@ -1,11 +1,15 @@
  </div>
  <div class="clearboth"></div>
         </div>
-        <div id="bot">
+        <div class="bot">
             <img alt="fond bot" src="./templates/images/contenu_fond_bot.png"/>
         </div>
         <div id="footer">
+            <div class="top">
+                <img alt="fond top" src="./templates/images/footer_fond_top.png"/>
+            </div>
             <div id="wrapper">
+                
                 <div id="footer_top">
                     <div class="col-left"><img src="./templates/images/mdh2.png" /></div>
                     <div class="col-right">
@@ -32,6 +36,9 @@
                     <div class="clearboth"></div>
                 </div>
                 <div class="copyrigth">&copy; 2011 My Dev House Sarl</div>
+            </div>
+            <div class="bot">
+                <img alt="fond bot" src="./templates/images/footer_fond_bot.png"/>
             </div>
         </div>
     </body>
