@@ -111,7 +111,7 @@ function services() {
     $contenu .= '<div class="clearboth"></div>';
     $contenu .= '<ul>';
     $contenu .= '
-        <li>
+        <li class="footer-box" id="site_web">
             <a href="#" title="Site web">
                 <span class="titre_liste">Site web</span>
                     <span class="paragraphe_liste">Pour vous, notre équipe est capable de concevoir des sites internet allant du site vitrine au site e commerce en passant par 
@@ -122,7 +122,7 @@ function services() {
             </a>
         </li>';
     $contenu .= '
-        <li>
+        <li class="footer-box">
             <a href="#" title="Logiciel">
                 <span class="titre_liste">Logiciel</span>
                 <span class="paragraphe_liste">Vous souhaitez informatiser, optimiser ou disposer de logiciel efficace pour votre entreprise? Notre équipe spécialisé dans le
@@ -133,7 +133,7 @@ function services() {
         </li>';
 
     $contenu .= '
-        <li>
+        <li class="footer-box">
             <a href="#" title="Design">
                 <span class="titre_liste">Design</span>
                 <span class="paragraphe_liste">Pour votre identité visuelle nous créons ou relookons vos chartes graphiques, logos ainsi que différents supports tels que des 
@@ -144,7 +144,7 @@ function services() {
         </li>';
     
     $contenu .= '
-        <li>
+        <li class="footer-box">
             <a href="#" title="Referencement">
                 <span class="titre_liste">Referencement</span>
                 <span class="paragraphe_liste">Vous souhaitez améliorer le positionnement et la visibilitée de votre site internet sur les moteurs de recherche ? 
@@ -155,7 +155,7 @@ function services() {
         </li>';
     
     $contenu .= '
-        <li>
+        <li class="footer-box">
             <span class="titre_liste">Formation</span>
             <span class="paragraphe_liste">My Dev House vous propose des formations sur mesure. Nous établissons ensemble les points sur lesquels vous souhaitez être
             formé ce qui vous assure une formation utile et constructive.
@@ -163,7 +163,7 @@ function services() {
         </li>';
     
     $contenu .= '
-        <li>
+        <li class="footer-box">
             <span class="titre_liste">Application smartphone</span>
             <span class="paragraphe_liste">Nous proposons à nos clients des applications smartphone sur mesure. Nous sommes à l\'écoute de vos besoins afin de vous 
             proposez une solution au plus près de vos attentes.

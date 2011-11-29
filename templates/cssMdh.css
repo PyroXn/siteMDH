@@ -54,7 +54,7 @@ body {
 }
 
 #navigation {
-    
+
 }
 
 #navigation ul {
@@ -70,21 +70,21 @@ body {
 }
 
 #navigation li a {
-    display: block;
-    padding: 35px 10px 2px 10px;
-    font-size: 15px;
-    color: #888;
+        display: block;
+        padding: 35px 10px 2px 10px;
+        font-size: 15px;
+        color: #888;
+        
+        -moz-border-radius-topleft: 0px;
+        -moz-border-radius-topright: 0px;
+        -moz-border-radius-bottomright: 8px;
+        -moz-border-radius-bottomleft: 8px;
+        -webkit-border-radius: 0px 0px 8px 8px;
+        border-radius: 0px 0px 8px 8px;
     
-    -moz-border-radius-topleft: 0px;
-    -moz-border-radius-topright: 0px;
-    -moz-border-radius-bottomright: 8px;
-    -moz-border-radius-bottomleft: 8px;
-    -webkit-border-radius: 0px 0px 8px 8px;
-    border-radius: 0px 0px 8px 8px;
-
-    transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
 }
 
 #navigation li a:hover {
@@ -133,10 +133,10 @@ a {
 }
 
 #content_background {
-    
-/*    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;*/
+
+    /*    -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;*/
     background: url("./images/content-back2.png") repeat-y scroll top center transparent;
 }
 
@@ -160,20 +160,27 @@ a {
     list-style: none;
 }
 
-#content_background li {
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -o-border-radius: 15px;
-    border-radius: 15px 15px 15px 15px;
+.footer-box {
+    margin: 10px;
     float: left;
-    margin: 0 20px 10px;
-    padding: 20px 5px 25px;
-    width: 171px;
-    cursor: pointer;
-}
-
-#content_background li:hover {
-    background-color: #d8eaff;
+    width: 274px;
+    height: 250px;
+    padding: 10px;
+    background: #E6E2DF;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    border: 8px solid transparent;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    text-align: justify;
 }
 
 #content_background li .titre_liste {
@@ -187,6 +194,11 @@ a {
     font-size: 14px;
     line-height: 20px;
     word-spacing: 1px;
+}
+
+#content_background #site_web:hover  {
+    background: url("./images/globe_web.png") #5d9ee6 no-repeat scroll left top;
+/*    position: absolute;*/
 }
 
 #content_background li em {
@@ -216,6 +228,22 @@ a {
     width: 100%;
 }
 
+#methodologie li {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px 15px 15px 15px;
+    float: left;
+    margin: 0 20px 10px;
+    padding: 20px 5px 25px;
+    width: 171px;
+    cursor: pointer;
+}
+
+#methodologie li:hover {
+    background-color: #d8eaff;
+}
+
 #methodologie span.image_hover {
     background: url("./images/shema_methodologie3.png") no-repeat scroll left top;
     height: 171px;
@@ -224,18 +252,18 @@ a {
 }
 
 #methodologie li .titre_liste {
-   margin-top: 180px;
-   text-align: center;
+    margin-top: 180px;
+    text-align: center;
 }
 
 #methodologie li .paragraphe_liste {
-   margin-top: 180px;
-   text-align: center;
+    margin-top: 180px;
+    text-align: center;
 }
 
 #methodologie li {
     /***Bug avec firefox centre l'img aussi***/
-/*   text-align: center;*/
+    /*   text-align: center;*/
 }
 
 #methodologie li.analyse span.image_hover {
@@ -274,13 +302,13 @@ a {
 }
 
 .rond{
-	width:200px;
-	height:200px;
-	background:#069;
-	-webkit-border-radius:100px;
-	-moz-border-radius:100px;
-	-o-border-radius:100px;
-	border-radius:100px;
+    width:200px;
+    height:200px;
+    background:#069;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -o-border-radius:100px;
+    border-radius:100px;
 }
 
 
@@ -328,19 +356,19 @@ input[type=submit] {
     padding: 6px 10px;
     cursor:pointer;
     color: #fff;
- 
+
     text-align: center;
     text-shadow: 0 -1px 1px #64799e;
- 
+
     background: #a5b8da;
     background: -moz-linear-gradient(top, #a5b8da 0%, #7089b3 100%);
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a5b8da), to(#7089b3));
- 
+
     border: 1px solid #5c6f91;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
- 
+
     -moz-box-shadow: inset 0 1px 0 0 #aec3e5;
     -webkit-box-shadow: inset 0 1px 0 0 #aec3e5;
     box-shadow: inset 0 1px 0 0 #aec3e5;
@@ -362,7 +390,7 @@ input[type=submit] {
 }
 
 #footer {
-    
+
 }
 
 #wrapper {
