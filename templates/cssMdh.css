@@ -196,7 +196,7 @@ a {
     word-spacing: 1px;
 }
 
-#content_background #site_web:hover  {
+#content_background #site_web {
     background: url("./images/globe_web.png") #5d9ee6 no-repeat scroll left top;
 /*    position: absolute;*/
 }
