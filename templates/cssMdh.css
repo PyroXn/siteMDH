@@ -164,7 +164,7 @@ a {
     margin: 10px;
     float: left;
     width: 274px;
-    height: 250px;
+    height: 235px;
     padding: 10px;
     background: #E6E2DF;
     -webkit-background-clip: padding-box;
@@ -183,6 +183,73 @@ a {
     text-align: justify;
 }
 
+.footer-box:after {
+    transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    background-image: url("./images/services.png");
+    content: "";
+    height: 170px;
+    left: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 90px;
+    width: 130px;
+}
+
+.footer-box:hover:after {
+    left: 60%;
+    opacity: 1;
+}
+
+.footer-box:hover {
+    background-position: 0px 0%;
+}
+
+#site_web:after {
+    background-position: 0px 0px;
+}
+#site_web:hover {
+/*    background-color: #b1e9ad;*/
+}
+
+#logiciel:after {
+    background-position: 0px -170px;
+}
+#logiciel:hover {
+/*    background-color: #fdf296;*/
+}
+
+#design:after {
+    background-position: 0px -340px;
+}
+#design:hover {
+/*    background-color: #237ABE;*/
+}
+
+#referencement:after {
+    background-position: 0px -510px;
+}
+#referencement:hover {
+/*    background-color: #237ABE;*/
+}
+
+#formation:after {
+    top: 93px;
+    background-position: 0px -680px;
+}
+#formation:hover {
+/*    background-color: #237ABE;*/
+}
+
+#smartphone:after {
+    top: 105px;
+    background-position: 0px -850px;
+}
+#smartphone:hover {
+/*    background-color: #237ABE;*/
+}
+
 #content_background li .titre_liste {
     display: block;
     font-size: 16px;
@@ -196,18 +263,13 @@ a {
     word-spacing: 1px;
 }
 
-#content_background #site_web {
-    background: url("./images/globe_web.png") #5d9ee6 no-repeat scroll left top;
-/*    position: absolute;*/
-}
-
 #content_background li em {
     display: block;
     color: #56616A;
     margin-top: 15px;
     font-weight: bold;
     margin-right: 5px;
-    text-align: right;
+    text-align: left;
 }
 
 #content_background li em:after {
