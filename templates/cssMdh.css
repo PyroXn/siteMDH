@@ -164,9 +164,9 @@ a {
     margin: 10px;
     float: left;
     width: 274px;
-    height: 235px;
+    height: 255px;
     padding: 10px;
-    background: #E6E2DF;
+    background: whitesmoke;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding-box;
     background-clip: padding-box;
@@ -193,7 +193,7 @@ a {
     left: 100%;
     opacity: 1;
     position: absolute;
-    top: 90px;
+    top: 95px;
     width: 130px;
 }
 
@@ -210,51 +210,80 @@ a {
     background-position: 0px 0px;
 }
 #site_web:hover {
-/*    background-color: #b1e9ad;*/
+/*    background-color: #ffa2a2;*/
+}
+#site_web span.titre_liste {
+    border-bottom: 4px solid #fd6c6c;
+    color: #fd6c6c;
 }
 
 #logiciel:after {
+    top: 110px;
     background-position: 0px -170px;
 }
 #logiciel:hover {
 /*    background-color: #fdf296;*/
 }
+#logiciel span.titre_liste {
+    border-bottom: 4px solid #2396ff;
+    color: #2396ff;
+}
 
 #design:after {
+    top: 107px;
     background-position: 0px -340px;
 }
 #design:hover {
 /*    background-color: #237ABE;*/
 }
+#design span.titre_liste {
+    border-bottom: 4px solid #75d639;
+    color: #75d639;
+}
 
 #referencement:after {
+    top: 113px;
     background-position: 0px -510px;
 }
 #referencement:hover {
 /*    background-color: #237ABE;*/
 }
+#referencement span.titre_liste {
+    border-bottom: 4px solid #F3A01E;
+    color: #F3A01E;
+}
 
 #formation:after {
-    top: 93px;
+    top: 113px;
     background-position: 0px -680px;
 }
 #formation:hover {
 /*    background-color: #237ABE;*/
 }
+#formation span.titre_liste {
+    border-bottom: 4px solid #7C48B5;
+    color: #7C48B5;
+}
 
 #smartphone:after {
-    top: 105px;
+    top: 120px;
     background-position: 0px -850px;
 }
 #smartphone:hover {
 /*    background-color: #237ABE;*/
 }
+#smartphone span.titre_liste {
+    border-bottom: 4px solid #3fbec3;
+    color: #3fbec3;
+}
 
 #content_background li .titre_liste {
     display: block;
-    font-size: 16px;
-    font-weight: bold;
-    color: #56616A;
+    font-size: 24px;
+/*    font-weight: bold;*/
+    font-family: "kulturista-web-1","kulturista-web-2";
+    margin-bottom: 7px;
+    padding-bottom: 4px;
 }
 
 #content_background li .paragraphe_liste {
