@@ -24,6 +24,7 @@ function agence() {
     $title = 'My Dev House - Agence de Developpement Informatique';
     $contenu = '<h1>Qui sommes-nous?</h1>';
     $contenu .= '
+        <div id="presentation_entreprise" class="firstcolonne">
         <h2>Présentation de l\'entreprise</h2>
         <p>My Dev House est une S.A.R.L crée par 3 associés en 2011. Jeunes, dynamiques et passionnés 
            nous utilisons tout notre savoir faire au service de nos clients.
@@ -42,14 +43,17 @@ function agence() {
             Nous sommes à vos côtés de la réalisation du cahier des charges à la mise en place d\'un suivi à long terme.
             Notre équipe saura vous conseiller afin de satisfaire au mieux vos besoins. Notre objectif est de vous fournir un service 
             complet de qualité.
-        </p>';
+        </p>
+        </div>';
     
     $contenu .= '
+        <div id="competences">
         <h2>Notre savoir faire (revoir peut-etre le nom : domaine de competence)</h2>
         <p>
             Mettre les logo des technologies que nous utilisons (php javascript java jquery ajax css gimp linux, ...)
             Petite photo de nous entrain de travaillé (genre)
-        </p>';
+        </p>
+        </div>';
     
     $contenu .= '
         <h2>4 phases de conceptions avec l\'explication de chaque phase : Analyse Création Livraison suivi</h2>

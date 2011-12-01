@@ -184,9 +184,6 @@ a {
 }
 
 .footer-box:after {
-    transition: all 0.2s ease 0s;
-    -webkit-transition: all 0.2s ease 0s;
-    -moz-transition: all 0.2s ease 0s;
     background-image: url("./images/services.png");
     content: "";
     height: 170px;
@@ -195,6 +192,9 @@ a {
     position: absolute;
     top: 95px;
     width: 130px;
+    transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
 }
 
 .footer-box:hover:after {
@@ -318,6 +318,20 @@ a {
     line-height: 0;
     width: 100%;
 }
+
+
+#presentation_entreprise {
+    width: 574px;
+    float: left;
+}
+
+#competences {
+    width: 270px;
+    float: left;
+    height: 485px;
+    background: url("./images/sprite_logiciel.png") no-repeat scroll left top transparent;
+}
+
 
 #methodologie li {
     -moz-border-radius: 15px;
