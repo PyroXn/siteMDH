@@ -189,6 +189,18 @@ function contact() {
     $contenu = '<h1>Nous contacter</h1>';
     $contenu .= '<p>Vous souhaitez nous contacter ? Faire une demande de devis ? Nous vous apportons une réponse sous 72h.</p>';
     $contenu .= '
+        <div id="contactcolonne">
+            <div id="firstBloc">
+                <h3 id="titreBloc"><img id="icones" src="./templates/images/adresse.png"></img>Adresse postale</h3>
+                <p class="adresse">
+                    My Dev House Z.I. Rue de Belgique 54135 Mexy
+                </p>
+                
+                <h3 id="titreBloc"><img id="icones" src="./templates/images/contact.png"></img>Nous contacter</h3>
+                <p  class="adresse"><a href="mailto:contact@mydevhouse.com">contact@mydevhouse.com</a></p>
+            
+            </div>
+        </div>
     <form method="POST" action="index.php?p=contactSend">
         <legend>Type</legend>
         <input type="radio" name="typeContact" value="Devis" checked="checked">Devis</input>            
@@ -199,7 +211,7 @@ function contact() {
             <input type="radio" name="typeProduit" value="SiteWeb">Site web</input>
             
             <input type="text" name="objet" id="objet" placeholder="Objet">
-            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <textarea name="message" id="messageContact" placeholder="Message"></textarea>
             <textarea name="cahierCharge" id="cahierCharge" placeholder="Cahier des Charge"></textarea>
             <input type="text" name="budget" id="budget" placeholder="Budget">
             <input type="text" name="mail" id="mail" placeholder="Adresse e-mail">

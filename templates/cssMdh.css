@@ -155,6 +155,11 @@ a {
     margin-right: 40px;
 }
 
+#contactcolonne {
+    float: right;
+    width: 30%;
+    height: 500px;
+}
 
 #content_background ul {
     list-style: none;
@@ -433,8 +438,8 @@ input, textarea {
 }
 
 textarea {
-    min-height: 70px;
-    width: 380px;
+    min-height: 100px;
+    width: 520px;
     resize: vertical;
 }
 
@@ -454,9 +459,9 @@ legend {
 }
 
 input[type=submit] {    
-    float: right;
+
     height: auto;
-    margin:10px 493px;
+    margin-left: 465px;
     font-weight: bold;
     padding: 6px 10px;
     cursor:pointer;
@@ -547,5 +552,35 @@ input[type=submit] {
 
 .copyright {
     text-align: center;
+}
+
+
+form {
+    margin-left: 30px;
+}
+
+
+#firstBloc {
+     float: right;
+    display: block;
+    width: 55%;
+}
+
+.adresse {   
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 5px;
+}
+
+#icones {
+    position: relative;
+    top: 2px;
+    left: -5px;
+}
+
+#titreBloc {
+    text-align: right;
+    margin-right: 10%;
+    text-decoration: underline;
 }
 
