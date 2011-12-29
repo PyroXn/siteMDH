@@ -1,14 +1,28 @@
 <?php
+
 // Liste des pages
-if(!isset($_GET['p'])) { $_GET['p'] = "home"; home(); }
-elseif ($_GET['p'] == "home") { home(); }
-elseif ($_GET['p'] == "agence") { agence(); }
-elseif ($_GET['p'] == "services") { services(); }
-elseif ($_GET['p'] == "realisations") { realisations(); }
-elseif ($_GET['p'] == "contact") { contact(); }
+if (!isset($_GET['p'])) {
+    $_GET['p'] = "home";
+    home();
+} elseif ($_GET['p'] == "home") {
+    home();
+} elseif ($_GET['p'] == "agence") {
+    agence();
+} elseif ($_GET['p'] == "services") {
+    services();
+} elseif ($_GET['p'] == "realisations") {
+    realisations();
+} elseif ($_GET['p'] == "contact") {
+    contact();
+} elseif($_GET['p'] == "mentions") {
+    mentions();
+} elseif($_GET['p'] == "contactSend") {
+    contactSend();
+}
+
 
 // Fonction display
-function display($title,$contenu) {
+function display($title, $contenu) {
     include 'templates/haut.php';
     echo $contenu;
     include 'templates/bas.php';
@@ -17,7 +31,7 @@ function display($title,$contenu) {
 function home() {
     $title = 'My Dev House - Agence de Developpement Informatique';
     $contenu = 'Acceuil !';
-    display($title,$contenu);
+    display($title, $contenu);
 }
 
 function agence() {
@@ -29,13 +43,13 @@ function agence() {
         <p>My Dev House est une S.A.R.L crée par 3 associés en 2011. Jeunes, dynamiques et passionnés 
            nous utilisons tout notre savoir faire au service de nos clients.
         </p>';
-    
+
     $contenu .= '
         <h2>Bref description de ce qu\'on sait faire sans rentrer dans le détail qui sera dans le menu "Ce qu\'on sait faire"</h2>
         <p>
             Passionnés par les technologies du web, Passionnées par les technologies offerte depuis la disponibilité d\'internet,
         </p>';
-    
+
     $contenu .= '
         <h2>Notre coté interface humaine par rapport a vous (accompagnenment)</h2>
         <p>
@@ -45,7 +59,7 @@ function agence() {
             complet de qualité.
         </p>
         </div>';
-    
+
     $contenu .= '
         <div id="competences">
         <h2>Notre savoir faire (revoir peut-etre le nom : domaine de competence)</h2>
@@ -54,7 +68,7 @@ function agence() {
             Petite photo de nous entrain de travaillé (genre)
         </p>
         </div>';
-    
+
     $contenu .= '
         <h2>4 phases de conceptions avec l\'explication de chaque phase : Analyse Création Livraison suivi</h2>
         <ul id="methodologie">
@@ -81,9 +95,9 @@ function agence() {
                 <span class="paragraphe_liste">Nous restons à votre écoute et proposons des solutions d\'accompagnement tout au long de votre activité.</span>
             </li>
         </ul>';
-    
+
     $contenu .= '<div class="clearboth"></div>';
-    
+
     $contenu .= '
         <h2>Pourquoi nous choisir plutot qu\'un autre</h2>
         <p>My Dev House c\'est :
@@ -94,7 +108,7 @@ function agence() {
                 <li>Un suivi tout au long de votre activité</li>
             </ol>
         </p>';
-    display($title,$contenu);
+    display($title, $contenu);
 }
 
 function services() {
@@ -146,7 +160,7 @@ function services() {
                 </span>
             </a>
         </li>';
-    
+
     $contenu .= '
         <li>
             <a href="#" title="Referencement"  class="footer-box" id="referencement">
@@ -157,7 +171,7 @@ function services() {
                 </span>
             </a>
         </li>';
-    
+
     $contenu .= '
         <li class="footer-box" id="formation">
             <span class="titre_liste">Formation</span>
@@ -165,7 +179,7 @@ function services() {
             formé ce qui vous assure une formation utile et constructive.
             </span>
         </li>';
-    
+
     $contenu .= '
         <li class="footer-box" id="smartphone">
             <span class="titre_liste">Application smartphone</span>
@@ -175,13 +189,13 @@ function services() {
         </li>';
 
     $contenu .= '</ul>';
-    display($title,$contenu);
+    display($title, $contenu);
 }
 
 function realisations() {
     $title = 'My Dev House - Agence de Developpement Informatique';
     $contenu = 'réalisations !';
-    display($title,$contenu);
+    display($title, $contenu);
 }
 
 function contact() {
@@ -190,15 +204,18 @@ function contact() {
     $contenu .= '<p>Vous souhaitez nous contacter ? Faire une demande de devis ? Nous vous apportons une réponse sous 72h.</p>';
     $contenu .= '
         <div id="contactcolonne">
-            <div id="firstBloc">
+            <div class="colonneDroite">
                 <h3 id="titreBloc"><img id="icones" src="./templates/images/adresse.png"></img>Adresse postale</h3>
                 <p class="adresse">
                     My Dev House Z.I. Rue de Belgique 54135 Mexy
                 </p>
-                
+          </div>
+                <p class="map">
+                 <iframe width="250" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=&amp;daddr=49.504869,5.791125&amp;hl=fr&amp;geocode=&amp;sll=49.49935,5.800781&amp;sspn=0.024137,0.066047&amp;vpsrc=0&amp;mra=mift&amp;mrsp=1&amp;sz=15&amp;ie=UTF8&amp;t=h&amp;ll=49.49935,5.800781&amp;spn=0.027872,0.042744&amp;z=13&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=&amp;daddr=49.504869,5.791125&amp;hl=fr&amp;geocode=&amp;sll=49.49935,5.800781&amp;sspn=0.024137,0.066047&amp;vpsrc=0&amp;mra=mift&amp;mrsp=1&amp;sz=15&amp;ie=UTF8&amp;t=h&amp;ll=49.49935,5.800781&amp;spn=0.027872,0.042744&amp;z=13" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
+                </p> 
+             <div class="colonneDroite">
                 <h3 id="titreBloc"><img id="icones" src="./templates/images/contact.png"></img>Nous contacter</h3>
-                <p  class="adresse"><a href="mailto:contact@mydevhouse.com">contact@mydevhouse.com</a></p>
-            
+                <p  class="mail">contact@mydevhouse.com<span class="tel"><img src="./templates/images/telephone.png" id="icones"></img>09.63.32.25.12</span>    </p>
             </div>
         </div>
     <form method="POST" action="index.php?p=contactSend">
@@ -210,49 +227,119 @@ function contact() {
             <input type="radio" name="typeProduit" value="Progiciel" checked="checked">Progiciel</input>            
             <input type="radio" name="typeProduit" value="SiteWeb">Site web</input>
             
-            <input type="text" name="objet" id="objet" placeholder="Objet">
-            <textarea name="message" id="messageContact" placeholder="Message"></textarea>
-            <textarea name="cahierCharge" id="cahierCharge" placeholder="Cahier des Charge"></textarea>
-            <input type="text" name="budget" id="budget" placeholder="Budget">
-            <input type="text" name="mail" id="mail" placeholder="Adresse e-mail">
+            <div><input type="text" name="objet" id="objet" placeholder="Objet"><span class="error"></span></div>
+            <textarea name="message" id="messageContact" placeholder="Message"></textarea><span class="error"></span>
+            <textarea name="cahierCharge" id="cahierCharge" placeholder="Cahier des Charges"></textarea><span class="error"></span>
+            <div><input type="text" name="budget" id="budget" placeholder="Budget"><span class="error"></span></div>
+           <div><input type="text" name="mail" id="mail" placeholder="Adresse e-mail"><span class="error"></span></div>
             <input type="submit" id="submitDevis" value="Envoyer">
         </div>
     </form>';
-    display($title,$contenu);
+    display($title, $contenu);
 }
 
 function contactSend() {
-    // Modifier le destinataire
-    $destinataire = "????";
+    $destinataire = "contact@mydevhouse.com";
     $type = $_POST['typeContact'];
-    switch($type) {
-        case '1':
+    $email = $_POST['mail'];
+    switch ($type) {
+        case 'Devis':
             $objet = 'Devis - ' . $_POST['objet'];
             $message = $_POST['message'];
             $cahier = $_POST['cahierCharge'];
             $budget = $_POST['budget'];
-            $email = $_POST['mail'];
-            
-            $message_html = '';
+
+            $message_html = '<html>
+                                                <head></head>
+                                                <body>
+                                                    <h3>Message</h3>'.$message.'<br />
+                                                    <h3>Cahier des charges</h3>'.$cahier.'<br />
+                                                     <h3>Budget</h3>'.$budget.'<br />
+                                                     <h3>E-Mail</h3>'.$email.'
+                                                 </body>
+                                                 </html>';
             break;
-        case '2':
+        case 'Contact':
             $objet = 'Contact - ' . $_POST['objet'];
             $message = $_POST['message'];
-            $email = $_POST['mail'];
-            
-            $message_html = '';
+
+            $message_html = '<html>
+                                                <head></head>
+                                                <body>
+                                                    <h3>Message</h3>'.$message.'<br />
+                                                    <h3>E-Mail</h3>'.$email.'
+                                                 </body>
+                                                 </html>';
             break;
     }
-    
-    $headers  = "From: $email\n";
-    $headers .= "Reply-To: $email";
+
+    $headers = "From: $email\n";
+    $headers .= "Reply-To: $email\n";
     $headers .= "Content-Type: text/html; charset=\"UTF-8\"";
 
     // envois du mail
-    mail($destinataire,$objet, $message_html, $headers);
-    
+    mail($destinataire, $objet, $message_html, $headers);
+
     $title = 'My Dev House - Message envoyé';
-    $contenu = '';
+    $contenu = '<h1>Nous contacter</h1>';
+    $contenu .= 'Votre message a bien été envoyé. Nous y répondrons dans les plus brefs délais.';
+    display($title, $contenu);
+}
+
+function mentions() {
+    $title = 'My Dev House - Mentions légales';
+    $contenu = '<h2>Informations légales</h2>
+<h3>1. Présentation du site.</h3>
+<p>En vertu de l\'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l\'économie numérique, il est précisé aux utilisateurs du site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a> l\'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :</p>
+<p>Propriétaire : My Dev House – SARL 53765994800013 – Z.I. Rue de Belgique 54135 Mexy<br>
+Créateur  : <a href="http://www.mydevhouse.com">My Dev House</a><br>
+Responsable publication : My Dev House – contact@mydevhouse.com<br>
+Le responsable publication est une personne physique ou une personne morale.<br>
+Webmaster : My Dev House – contact@mydevhouse.com<br>
+Hébergeur : OVH – 140 Quai du Sartel - 59100 Roubaix - France</p>
+<h3>2. Conditions générales d’utilisation du site et des services proposés.</h3>
+<p>L’utilisation du site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a> implique l’acceptation pleine et entière des conditions générales d’utilisation ci-après décrites. Ces conditions d’utilisation sont susceptibles d’être modifiées ou complétées à tout moment, les utilisateurs du site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a> sont donc invités à les consulter de manière régulière.</p>
+<p>Ce site est normalement accessible à tout moment aux utilisateurs. Une interruption pour raison de maintenance technique peut être toutefois décidée par <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a>, qui s’efforcera alors de communiquer préalablement aux utilisateurs les dates et heures de l’intervention.</p>
+<p>Le site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a> est mis à jour régulièrement par My Dev House. De la même façon, les mentions légales peuvent être modifiées à tout moment : elles s’imposent néanmoins à l’utilisateur qui est invité à s’y référer le plus souvent possible afin d’en prendre connaissance.</p>
+<h3>3. Description des services fournis.</h3>
+<p>Le site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a> a pour objet de fournir une information concernant l’ensemble des activités de la société.</p>
+<p>My Dev House s’efforce de fournir sur le site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a> des informations aussi précises que possible. Toutefois, il ne pourra être tenue responsable des omissions, des inexactitudes et des carences dans la mise à jour, qu’elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.</p>
+<p>Tous les informations indiquées sur le site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a> sont données à titre indicatif, et sont susceptibles d’évoluer. Par ailleurs, les renseignements figurant sur le site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a> ne sont pas exhaustifs. Ils sont donnés sous réserve de modifications ayant été apportées depuis leur mise en ligne.</p>
+<h3>4. Limitations contractuelles sur les données techniques.</h3>
+<p>Le site utilise la technologie JavaScript.</p>
+<p>Le site Internet ne pourra être tenu responsable de dommages matériels liés à l’utilisation du site. De plus, l’utilisateur du site s’engage à accéder au site en utilisant un matériel récent, ne contenant pas de virus et avec un navigateur de dernière génération mis-à-jour</p>
+<h3>5. Propriété intellectuelle et contrefaçons.</h3>
+<p>My Dev House est propriétaire des droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site, notamment les textes, images, graphismes, logo, icônes, sons, logiciels.</p>
+<p>Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de : My Dev House.</p>
+<p>Toute exploitation non autorisée du site ou de l’un quelconque des éléments qu’il contient sera considérée comme constitutive d’une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.</p>
+<h3>6. Limitations de responsabilité.</h3>
+<p>My Dev House ne pourra être tenue responsable des dommages directs et indirects causés au matériel de l’utilisateur, lors de l’accès au site My Dev House, et résultant soit de l’utilisation d’un matériel ne répondant pas aux spécifications indiquées au point 4, soit de l’apparition d’un bug ou d’une incompatibilité.</p>
+<p>My Dev House ne pourra également être tenue responsable des dommages indirects (tels par exemple qu’une perte de marché ou perte d’une chance) consécutifs à l’utilisation du site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a>.</p>
+<p>Des espaces interactifs (possibilité de poser des questions dans l’espace contact) sont à la disposition des utilisateurs. My Dev House se réserve le droit de supprimer, sans mise en demeure préalable, tout contenu déposé dans cet espace qui contreviendrait à la législation applicable en France, en particulier aux dispositions relatives à la protection des données. Le cas échéant, My Dev House se réserve également la possibilité de mettre en cause la responsabilité civile et/ou pénale de l’utilisateur, notamment en cas de message à caractère raciste, injurieux, diffamant, ou pornographique, quel que soit le support utilisé (texte, photographie…).</p>
+<h3>7. Gestion des données personnelles.</h3>
+<p>En France, les données personnelles sont notamment protégées par la loi n° 78-87 du 6 janvier 1978, la loi n° 2004-801 du 6 août 2004, l\'article L. 226-13 du Code pénal et la Directive Européenne du 24 octobre 1995.</p>
+<p> A l\'occasion de l\'utilisation du site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a>, peuvent êtres recueillies : l\'URL des liens par l\'intermédiaire desquels l\'utilisateur a accédé au site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a>, le fournisseur d\'accès de l\'utilisateur, l\'adresse de protocole Internet (IP) de l\'utilisateur.</p>
+<p> En tout état de cause My Dev House ne collecte des informations personnelles relatives à l\'utilisateur que pour le besoin de certains services proposés par le site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a>. L\'utilisateur fournit ces informations en toute connaissance de cause, notamment lorsqu\'il procède par lui-même à leur saisie. Il est alors précisé à l \'utilisateur du site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a> l’obligation ou non de fournir ces informations.</p>
+<p> Conformément aux dispositions des articles 38 et suivants de la loi 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, tout utilisateur dispose d’un droit d’accès, de rectification et d’opposition aux données personnelles le concernant, en effectuant sa demande écrite et signée, accompagnée d’une copie du titre d’identité avec signature du titulaire de la pièce, en précisant l’adresse à laquelle la réponse doit être envoyée.</p>
+<p> Aucune information personnelle de l\'utilisateur du site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a> n\'est publiée à l\'insu de l\'utilisateur, échangée, transférée, cédée ou vendue sur un support quelconque à des tiers. Seule l\'hypothèse du rachat de My Dev House et de ses droits permettrait la transmission des dites informations à l\'éventuel acquéreur qui serait à son tour tenu de la même obligation de conservation et de modification des données vis à vis de l\'utilisateur du site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a>.</p>
+<p>Le site n\'est pas déclaré à la CNIL car il ne recueille pas d\'informations personnelles. .</p>
+<p>Les bases de données sont protégées par les dispositions de la loi du 1er juillet 1998 transposant la directive 96/9 du 11 mars 1996 relative à la protection juridique des bases de données.</p>
+<h3>8. Liens hypertextes et cookies.</h3>
+<p>Le site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a> contient un certain nombre de liens hypertextes vers d’autres sites, mis en place avec l’autorisation de My Dev House. Cependant, My Dev House n’a pas la possibilité de vérifier le contenu des sites ainsi visités, et n’assumera en conséquence aucune responsabilité de ce fait.</p>
+<p> La navigation sur le site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a> est susceptible de provoquer l’installation de cookie(s) sur l’ordinateur de l’utilisateur. Un cookie est un fichier de petite taille, qui ne permet pas l’identification de l’utilisateur, mais qui enregistre des informations relatives à la navigation d’un ordinateur sur un site. Les données ainsi obtenues visent à faciliter la navigation ultérieure sur le site, et ont également vocation à permettre diverses mesures de fréquentation.</p>
+<p> Le refus d’installation d’un cookie peut entraîner l’impossibilité d’accéder à certains services. L’utilisateur peut toutefois configurer son ordinateur de la manière suivante, pour refuser l’installation des cookies :<br>
+  Sous Internet Explorer : onglet outil / options internet. Cliquez sur Confidentialité et choisissez Bloquer tous les cookies. Validez sur Ok.<br>
+  Sous Netscape : onglet édition / préférences. Cliquez sur Avancées et choisissez Désactiver les cookies. Validez sur Ok.</p>
+<h3>9. Droit applicable et attribution de juridiction.</h3>
+<p>Tout litige en relation avec l’utilisation du site <a href="http://http://www.mydevhouse.com/" title="My Dev House - http://www.mydevhouse.com">http://www.mydevhouse.com</a> est soumis au droit français. Il est fait attribution exclusive de juridiction aux tribunaux compétents de Paris.</p>
+<h3>10. Les principales lois concernées.</h3>
+<p>Loi n° 78-87 du 6 janvier 1978, notamment modifiée par la loi n° 2004-801 du 6 août 2004 relative à l\'informatique, aux fichiers et aux libertés.</p>
+<p> Loi n° 2004-575 du 21 juin 2004 pour la confiance dans l\'économie numérique.</p>
+<h3>11. Lexique.</h3>
+<p>Utilisateur : Internaute se connectant, utilisant le site susnommé.</p>
+<p> Informations personnelles : « les informations qui permettent, sous quelque forme que ce soit, directement ou non, l\'identification des personnes physiques auxquelles elles s\'appliquent » (article 4 de la loi n° 78-17 du 6 janvier 1978).</p>
+';
     display($title,$contenu);
 }
+
 ?>

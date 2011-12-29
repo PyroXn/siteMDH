@@ -31,7 +31,7 @@
                     </ul>
                     <div class="clearboth"></div>
                 </div>
-                <div class="copyright">&copy; 2011 My Dev House Sarl</div>
+                <div class="copyright">&copy; 2011 My Dev House - <a href="index.php?p=mentions">Mentions légales</a></div>
             </div>
             <div class="bot">
                 <img alt="fond bot" src="./templates/images/footer_fond_bot.png"/>
