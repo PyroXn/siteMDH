@@ -46,7 +46,7 @@ textarea {
 
 #header {
     background: url("./images/header2.png") no-repeat top center #0e2947;
-    height: 128px;
+    height: 135px;
     padding: 0;
     position: relative;
     z-index: 200;
@@ -77,7 +77,10 @@ textarea {
     display: block;
     padding: 35px 10px 2px 10px;
     font-size: 15px;
-    color: #888;
+    color: white;
+    background-color: #888;
+    opacity: 0.9;
+    font-weight: bold;
 
     -moz-border-radius-topleft: 0px;
     -moz-border-radius-topright: 0px;
@@ -93,7 +96,6 @@ textarea {
 
 #navigation li a:hover {
     background-color: #343333;
-    color: #5c9de6;
     opacity: 0.9;
     padding-top: 60px;
     -moz-border-radius-topleft: 0px;
@@ -102,6 +104,47 @@ textarea {
     -moz-border-radius-bottomleft: 8px;
     -webkit-border-radius: 0px 0px 8px 8px;
     border-radius: 0px 0px 8px 8px;
+}
+
+#navigation #accueil_menu a:hover {
+    color: #feb2b2;
+}
+#navigation #accueil_menu .currentpage {
+    background-color: #343333;
+    color: #feb2b2;
+}
+
+
+#navigation #agence_menu a:hover {
+    color: #5d9ee6;
+}
+#navigation #agence_menu .currentpage {
+    background-color: #343333;
+    color: #5d9ee6;
+}
+
+#navigation #services_menu a:hover {
+    color: #b1e9ad;
+}
+#navigation #services_menu .currentpage {
+    background-color: #343333;
+    color: #b1e9ad;
+}
+
+#navigation #realisations_menu a:hover {
+    color: #fdf296;
+}
+#navigation #realisations_menu .currentpage {
+    background-color: #343333;
+    color: #fdf296;
+}
+
+#navigation #contact_menu a:hover {
+    color: #F3A01E;
+}
+#navigation #contact_menu .currentpage {
+    background-color: #343333;
+    color: #F3A01E;
 }
 
 /*****CONTENU*****/

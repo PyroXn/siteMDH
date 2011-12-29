@@ -17,11 +17,11 @@
             </div>
             <div id="navigation">
                 <ul>
-                    <li id="accueil_menu" class="currentpage"><a href="index.php?p=home" title="">Accueil<span class="hover"></span></a></li>
-                    <li id="agence_menu" class=""><a href="index.php?p=agence" title="">Qui sommes-nous<span class="hover"></span></a></li>
-                    <li id="services_menu" class=""><a href="index.php?p=services" title="">Savoir faire<span class="hover"></span></a></li>
-                    <li id="realisations_menu" class=""><a href="index.php?p=realisations" title="">Réalisations<span class="hover"></span></a></li>
-                    <li id="contact_menu" class=""><a href="index.php?p=contact" title="">Contact<span class="hover"></span></a></li>
+                    <li id="accueil_menu" ><a <?php if($_GET['p'] == "home") { echo 'class="currentpage"'; } ?> href="index.php?p=home" title="">Accueil</a></li>
+                    <li id="agence_menu"><a <?php if($_GET['p'] == "agence") { echo 'class="currentpage"'; } ?> href="index.php?p=agence" title="">Qui sommes-nous</a></li>
+                    <li id="services_menu"><a <?php if($_GET['p'] == "services") { echo 'class="currentpage"'; } ?> href="index.php?p=services" title="">Savoir faire</a></li>
+                    <li id="realisations_menu"><a <?php if($_GET['p'] == "realisations") { echo 'class="currentpage"'; } ?> href="index.php?p=realisations" title="">Réalisations</a></li>
+                    <li id="contact_menu"><a <?php if($_GET['p'] == "contact") { echo 'class="currentpage"'; } ?> href="index.php?p=contact" title="">Contact</a></li>
                 </ul>
             </div>
             <div id="top">
