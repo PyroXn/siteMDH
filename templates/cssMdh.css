@@ -38,7 +38,7 @@ textarea {
 }
 
 /*****HEADER****/
-#header, #wrapper, #content_background, #content, .bot, .top, #footer_content {
+#header, #wrapper, #content_background, #content, .bot, .top, #footer_content, #footer_fond {
     margin: 0 auto;
     width: 960px;
 } 
@@ -548,18 +548,18 @@ input[type=submit] {
 
 /****FOOTER****/
 .bot, .top {
-    background-color: #0e2947;
+    background-color: transparent;
 }
 #footer .top {
     height: 19px;
 }
 
-#footer {
-
+#footer_fond {
+    background: url("./images/fond_footer.png") no-repeat top center  #0e2947;
 }
 
 #wrapper {
-    background: url("./images/footer_fond.png") repeat-y scroll top center #0e2947;
+    background: url("./images/footer_fond2.png") repeat-y scroll top center;
 }
 
 #footer_content {
