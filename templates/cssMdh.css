@@ -6,11 +6,6 @@
         Purpose of the stylesheet follows.
 */
 
-/* 
-   TODO customize this sample style
-   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
-*/
-
 html, body, div, img, li, form, fieldset, input, textarea, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, pre, table, blockquote {
     margin: 0;
     padding: 0;
@@ -665,8 +660,8 @@ form {
     text-decoration: underline;
 }
 
-.map {
-
+#contact {
+    display: none;
 }
 
 

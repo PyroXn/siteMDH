@@ -222,16 +222,22 @@ function contact() {
         <legend>Type</legend>
         <input type="radio" name="typeContact" value="Devis" checked="checked">Devis</input>            
         <input type="radio" name="typeContact" value="Contact">Contact</input>    
-        <div id="suite">
+        <div id="devis">
             <legend>Type du produit</legend>
             <input type="radio" name="typeProduit" value="Progiciel" checked="checked">Progiciel</input>            
             <input type="radio" name="typeProduit" value="SiteWeb">Site web</input>
             
             <div><input type="text" name="objet" id="objet" placeholder="Objet"><span class="error"></span></div>
-            <textarea name="message" id="messageContact" placeholder="Message"></textarea><span class="error"></span>
+            <textarea name="message" id="message" placeholder="Message"></textarea><span class="error"></span>
             <textarea name="cahierCharge" id="cahierCharge" placeholder="Cahier des Charges"></textarea><span class="error"></span>
             <div><input type="text" name="budget" id="budget" placeholder="Budget"><span class="error"></span></div>
            <div><input type="text" name="mail" id="mail" placeholder="Adresse e-mail"><span class="error"></span></div>
+            <input type="submit" id="submitDevis" value="Envoyer">
+        </div>
+        <div id="contact">
+            <div><input type="text" name="objet" id="objetContact" placeholder="Objet"><span class="error"></span></div>
+            <textarea name="message" id="messageContact" placeholder="Message"></textarea><span class="error"></span>
+           <div><input type="text" name="mail" id="mailContact" placeholder="Adresse e-mail"><span class="error"></span></div>
             <input type="submit" id="submitDevis" value="Envoyer">
         </div>
     </form>';
