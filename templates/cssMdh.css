@@ -618,7 +618,7 @@ input[type=submit] {
     
     border: 1px black solid;
     opacity: 0.9;
-    background-color: #343333;
+    background-color: #223c58;
 }
 
 #lien_footer #accueil_menu a {
@@ -644,10 +644,14 @@ input[type=submit] {
 .copyright {
     border: 1px black solid;
     text-align: center;
-    color: black;
+    color: white;
+    opacity: 0.9;
+    background-color: #223c58;
+    font-weight: bold;
 }
-.copyright a{
-    color: black;
+.copyright a {
+    color: white;
+    font-weight: bold;
 }
 
 form {

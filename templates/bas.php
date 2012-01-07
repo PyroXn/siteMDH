@@ -33,7 +33,7 @@
                         
                         
                         <div class="clearboth"></div>
-                        <div class="copyright">&copy; 2011 My Dev House - <a href="index.php?p=mentions">Mentions légales</a></div>
+                        <div class="copyright">&copy; 2012 My Dev House - <a href="index.php?p=mentions">Mentions légales</a></div>
                      </div>
                 </div>
             </div>
