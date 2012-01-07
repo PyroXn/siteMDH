@@ -24,6 +24,8 @@ if (!isset($_GET['p'])) {
     logiciel();
 } elseif($_GET['p'] == "design") {
     design();
+} elseif($_GET['p'] == "referencement") {
+    referencement();
 }
 
 
@@ -158,7 +160,7 @@ function services() {
 
     $contenu .= '
         <li>
-            <a href="#" title="Design"  class="footer-box" id="design">
+            <a href="index.php?p=design" title="Design"  class="footer-box" id="design">
                 <span class="titre_liste">Design</span>
                 <span class="paragraphe_liste">Pour votre identité visuelle nous créons ou relookons vos chartes graphiques, logos ainsi que différents supports tels que des 
                     cartes de visite, plaquettes commerciales, flyers, newsletters…
@@ -414,11 +416,29 @@ Apporter des nouveautés, mettre à jour vos données, actualiser votre contenu 
                           </div>';
     $contenu .= '<h2>Que comprend une création de design  ?</h2>';
     $contenu .= '<ul class="categ">
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude consciencieuse de vos besoins</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude de votre infrastructure</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Le développement de votre apllication</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une installation de la solution</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La mise en place d\'un suivi à long terme</li>                 
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude de votre identité visuelle</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude de l\'image que vous souhaitez véhiculer</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La création de votre design</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La mise en place du design</li>                 
+                           </ul>';
+    display($title,$contenu);
+}
+
+function referencement() {  
+    $title = 'My Dev House - Référencement';
+    $contenu = '<h1 id="referencement"><span class="titre_liste">Référencement</span></h1>';
+    $contenu .= '<h2>Nous améliorons votre visibilité sur internet</h2>';
+    $contenu .= '<div>
+                                <img src="./templates/images/referencement.png" class="miniature">
+                                <p class="firstPara">Vous souhaitez <b>améliorer votre positionnement</b> dans les moteurs de recherche ? Améliorer son référencement permet </p>
+                                <p>La refonte de votre site web ou « relookage » permettra à un site déjà construit de gagner des visiteurs et d’être mieux optimisé pour les moteurs de recherche. N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
+                          </div>';
+    $contenu .= '<h2>Que comprend une création de design  ?</h2>';
+    $contenu .= '<ul class="categ">
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude de votre identité visuelle</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude de l\'image que vous souhaitez véhiculer</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La création de votre design</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La mise en place du design</li>                 
                            </ul>';
     display($title,$contenu);
 }
