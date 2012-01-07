@@ -663,7 +663,76 @@ form {
 #contact {
     display: none;
 }
+/* CSS Zoz */
+.miniature {
+    position: relative;
+    float: left;
+}
 
+.firstPara {
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
 
+a.lien {
+    text-decoration: underline;
+}
+
+img.check {
+    margin-right: 5px;
+    vertical-align: -11px;
+}
+
+ul.categ {
+    font-size: 15px;
+}
+
+.box-categ {
+    margin: 10px;
+    float: left;
+    width: 260px;
+    height: 120px;
+    background: whitesmoke;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    border: 8px solid transparent;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;   
+    font-size: 16px;
+    padding-top: 44px;
+    text-align: center;
+}
+
+#vitrine {
+    background-color: #ffddde;
+}
+
+#vitrine:hover {
+    background-color: #feb2b2;
+}
+
+#ecommerce {
+    background-color: #b4d7ff;
+}
+
+#ecommerce:hover {
+    background-color: #67afff;
+}
+
+#demande {
+    background-color: #d1ffcd;
+}
+
+#demande:hover {
+    background-color: #b1e9ad;
+}
 
 

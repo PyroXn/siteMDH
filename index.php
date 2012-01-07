@@ -18,6 +18,12 @@ if (!isset($_GET['p'])) {
     mentions();
 } elseif($_GET['p'] == "contactSend") {
     contactSend();
+} elseif($_GET['p'] == "siteinternet") {
+    siteinternet();
+} elseif($_GET['p'] == "logiciel") {
+    logiciel();
+} elseif($_GET['p'] == "design") {
+    design();
 }
 
 
@@ -130,7 +136,7 @@ function services() {
     $contenu .= '<ul>';
     $contenu .= '
         <li>
-            <a href="#" title="Site web" class="footer-box" id="site_web">
+            <a href="index.php?p=siteinternet" title="Site web" class="footer-box" id="site_web">
                 <span class="titre_liste">Site web</span>
                     <span class="paragraphe_liste">Nous concevons des sites internet allant du site vitrine au site e commerce en passant par 
                         des sites événementiels, communautaires, des blogs ou toutes autres demandes spécifiques.
@@ -141,7 +147,7 @@ function services() {
         </li>';
     $contenu .= '
         <li>
-            <a href="#" title="Logiciel"  class="footer-box" id="logiciel">
+            <a href="index.php?p=logiciel" title="Logiciel"  class="footer-box" id="logiciel">
                 <span class="titre_liste">Logiciel</span>
                 <span class="paragraphe_liste">Vous souhaitez informatiser, optimiser ou disposer de logiciel efficace pour votre entreprise? Notre équipe spécialisé dans le
                     développement de progiciel est à votre écoute.
@@ -348,4 +354,72 @@ Hébergeur : OVH – 140 Quai du Sartel - 59100 Roubaix - France</p>
     display($title,$contenu);
 }
 
+function siteinternet() {
+    $siteVitrine = 'Le site vitrine présente votre entreprise, son activité, ses produits et services. C\'est un outil indispensable pour renforcer votre notoriété. Le site vitrine doit imprégner l\'internaute de l\'image que vous souhaitez faire transparaître.';
+    
+    $title = 'My Dev House - Création de site internet';
+    $contenu = '<h1 id="site_web"><span class="titre_liste">Création de site internet</span></h1>';
+    $contenu .= '<h2>Nous créons des sites de qualité</h2>';
+    $contenu .= '<div>
+                                <img src="./templates/images/globe_web_miniature.png" class="miniature">
+                                <p class="firstPara">L\'équipe de My Dev House met tout son savoir faire afin de vous proposer des <b>sites internet</b> de qualité.
+                                Nous travaillons de manière consciencieuse le visuel de nos sites internet afin de coller au plus près de  l\'image de votre entreprise. Notre minutie ne s\'arrète pas là, nos sites internet sont <b>optimisés</b> pour être <b>accessible</b> à tous mais également pour faciliter leur <b>référencement</b>.</p>
+                                <p>Nous sommes présent à vos côtés durant les différentes phases de réalisation de votre projet. Qu\'elle que soit l\'envergure de votre projet, n\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
+                          </div>';
+    $contenu .= '<h2>Que comprend une création de site internet ?</h2>';
+    $contenu .= '<ul class="categ">
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Un travail de recherche et d\'élaboration du design pour conserver votre identité visuelle</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Le développement de votre site internet. Cette étape est soumise aux différentes validations du processus par le client.</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une installation de la solution.</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La mise en place d\'un suivi à long terme.</li>                 
+                           </ul>';
+    $contenu .= '<p></p>';
+    $contenu .= '<h2>Les différents sites internet</h2>';
+    $contenu .= '<div class="box-categ" id="vitrine"><a class="tTip" title="'.$siteVitrine.'" href="#">Vitrine</a></div>
+                            <div class="box-categ" id="ecommerce"><a class="tTip" title="Un site e-commerce est une véritable boutique accessible 24h/24." href="#">E-commerce</a></div>
+                            <div class="box-categ" id="demande">A la demande</div>';
+    display($title,$contenu);
+}
+
+function logiciel() {  
+    $title = 'My Dev House - Développement de logiciel';
+    $contenu = '<h1 id="logiciel"><span class="titre_liste">Développement de logiciel</span></h1>';
+    $contenu .= '<h2>Nous créons des logiciels sur mesure</h2>';
+    $contenu .= '<div>
+                                <img src="./templates/images/logiciel.png" class="miniature">
+                                <p class="firstPara">L\'équipe de My Dev House développe <b>des progiciels</b> sur mesure. Vous souhaitez <b>informatiser</b> une tache de votre entreprise ? Gagner du temps et par conséquent de l\'argent ? <b>Faites nous confiance !</b> Nous répondrons à vos besoins grâce à une solution développée sur mesure.</p>
+                                <p>Nous sommes présent à vos côtés durant les différentes phases de réalisation de votre projet. Qu\'elle que soit l\'envergure de votre projet, n\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
+                          </div>';
+    $contenu .= '<h2>Que comprend un développement logiciel ?</h2>';
+    $contenu .= '<ul class="categ">
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude consciencieuse de vos besoins</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude de votre infrastructure</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Le développement de votre apllication</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une installation de la solution</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La mise en place d\'un suivi à long terme</li>                 
+                           </ul>';
+    display($title,$contenu);
+}
+
+function design() {  
+    $title = 'My Dev House - Création de design';
+    $contenu = '<h1 id="design"><span class="titre_liste">Création de design</span></h1>';
+    $contenu .= '<h2>Nous créons des design uniques</h2>';
+    $contenu .= '<div>
+                                <img src="./templates/images/design.png" class="miniature">
+                                <p class="firstPara">Vous voulez <b>redorer</b> votre image et votre site Internet actuel ne correspond pas à cette attente ?
+La refonte de votre site web ou « <b>relookage</b> » est un atout supplémentaire pour <b>fidéliser</b> votre clientèle et donner l\'image d\'une société <b>dynamique</b> en perpétuelle évolution.
+Apporter des nouveautés, mettre à jour vos données, actualiser votre contenu sont des modifications nécessaires à prendre en compte pour rendre dynamique votre site internet</p>
+                                <p>La refonte de votre site web ou « relookage » permettra à un site déjà construit de gagner des visiteurs et d’être mieux optimisé pour les moteurs de recherche. N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
+                          </div>';
+    $contenu .= '<h2>Que comprend une création de design  ?</h2>';
+    $contenu .= '<ul class="categ">
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude consciencieuse de vos besoins</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude de votre infrastructure</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Le développement de votre apllication</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une installation de la solution</li>
+                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La mise en place d\'un suivi à long terme</li>                 
+                           </ul>';
+    display($title,$contenu);
+}
 ?>
