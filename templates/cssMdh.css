@@ -559,22 +559,23 @@ input[type=submit] {
 
 #footer_content {
     width: 884px;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 #social {
+    text-align: center;
     list-style-type: none;
-    float: right;
 }
 
 #social li {
-    display: block;
+    display: inline-block;
+    margin-right: 50px;
     width: 60px;
     height: 60px;
 }
 
 #social li a {
-    background: url("./images/social_sprite.png") no-repeat scroll left top;
+    background: url("./images/social_sprite.png") no-repeat scroll;
     height: 50px;
     width: 50px;
     position: absolute;
@@ -600,15 +601,58 @@ input[type=submit] {
     background-position: -100px 0px;
 }
 
-.copyright {
+#lien_footer {
     text-align: center;
+    margin-bottom: 15px;
 }
 
+#lien_footer li {
+    display: inline;
+    margin: 0 30px;
+}
+
+#lien_footer li a {
+    padding: 2px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    
+    border: 1px black solid;
+    opacity: 0.9;
+    background-color: #343333;
+}
+
+#lien_footer #accueil_menu a {
+    color: #ef1717;
+}
+
+#lien_footer #agence_menu a {
+    color: #59c6f9;
+}
+
+#lien_footer #services_menu a {
+    color: #3fef32;
+}
+
+#lien_footer #realisations_menu a {
+    color: #edd612;
+}
+
+#lien_footer #contact_menu a {
+    color: #edad00;
+}
+
+.copyright {
+    border: 1px black solid;
+    text-align: center;
+    color: black;
+}
+.copyright a{
+    color: black;
+}
 
 form {
     margin-left: 30px;
 }
-
 
 .colonneDroite {
     float: right;
