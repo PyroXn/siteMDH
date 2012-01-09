@@ -369,12 +369,12 @@ function siteinternet() {
                                 <p>Nous sommes présent à vos côtés durant les différentes phases de réalisation de votre projet. Qu\'elle que soit l\'envergure de votre projet, n\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                           </div>';
     $contenu .= '<h2>Que comprend une création de site internet ?</h2>';
-    $contenu .= '<ul class="categ">
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Un travail de recherche et d\'élaboration du design pour conserver votre identité visuelle</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Le développement de votre site internet. Cette étape est soumise aux différentes validations du processus par le client.</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une installation de la solution.</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La mise en place d\'un suivi à long terme.</li>                 
-                           </ul>';
+    $contenu .= '<ol class="categ">
+                                <li>Un travail de recherche et d\'élaboration du design pour conserver votre identité visuelle</li>
+                                <li>Le développement de votre site internet. Cette étape est soumise aux différentes validations du processus par le client.</li>
+                                <li>Une installation de la solution.</li>
+                                <li>La mise en place d\'un suivi à long terme.</li>                 
+                           </ol>';
     $contenu .= '<p></p>';
     $contenu .= '<h2>Les différents sites internet</h2>';
     $contenu .= '<div class="box-categ" id="vitrine"><a class="tTip" title="'.$siteVitrine.'" href="#">Vitrine</a></div>
@@ -393,13 +393,13 @@ function logiciel() {
                                 <p>Nous sommes présent à vos côtés durant les différentes phases de réalisation de votre projet. Qu\'elle que soit l\'envergure de votre projet, n\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                           </div>';
     $contenu .= '<h2>Que comprend un développement logiciel ?</h2>';
-    $contenu .= '<ul class="categ">
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude consciencieuse de vos besoins</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude de votre infrastructure</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Le développement de votre apllication</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une installation de la solution</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La mise en place d\'un suivi à long terme</li>                 
-                           </ul>';
+    $contenu .= '<ol class="categ">
+                                <li>Une étude consciencieuse de vos besoins</li>
+                                <li>Une étude de votre infrastructure</li>
+                                <li>Le développement de votre apllication</li>
+                                <li>Une installation de la solution</li>
+                                <li>La mise en place d\'un suivi à long terme</li>                 
+                           </ol>';
     display($title,$contenu);
 }
 
@@ -415,12 +415,12 @@ Apporter des nouveautés, mettre à jour vos données, actualiser votre contenu 
                                 <p>La refonte de votre site web ou « relookage » permettra à un site déjà construit de gagner des visiteurs et d’être mieux optimisé pour les moteurs de recherche. N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                           </div>';
     $contenu .= '<h2>Que comprend une création de design  ?</h2>';
-    $contenu .= '<ul class="categ">
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude de votre identité visuelle</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude de l\'image que vous souhaitez véhiculer</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La création de votre design</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La mise en place du design</li>                 
-                           </ul>';
+    $contenu .= '<ol class="categ">
+                                <li>Une étude de votre identité visuelle</li>
+                                <li>Une étude de l\'image que vous souhaitez véhiculer</li>
+                                <li>La création de votre design</li>
+                                <li>La mise en place du design</li>                 
+                           </ol>';
     display($title,$contenu);
 }
 
@@ -433,13 +433,13 @@ function referencement() {
                                 <p class="firstPara">Vous souhaitez <b>améliorer votre positionnement</b> dans les moteurs de recherche ? Et donc devenir plus compétitif ? Notre équipe reprendra en intégralité les étapes pour améliorer votre référencement./p>
                                 <p>La refonte de votre site web ou « relookage » permettra à un site déjà construit de gagner des visiteurs et d’être mieux optimisé pour les moteurs de recherche. N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                           </div>';
-    $contenu .= '<h2>Que comprend une création de design  ?</h2>';
-    $contenu .= '<ul class="categ">
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude de votre identité visuelle</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>Une étude de l\'image que vous souhaitez véhiculer</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La création de votre design</li>
-                                <li><img src="./templates/images/fleche-web.png" class="check"></img>La mise en place du design</li>                 
-                           </ul>';
+    $contenu .= '<h2>Que comprend une création de design ?</h2>';
+    $contenu .= '<ol class="categ">
+                                <li>Une étude de votre identité visuelle</li>
+                                <li>Une étude de l\'image que vous souhaitez véhiculer</li>
+                                <li>La création de votre design</li>
+                                <li>La mise en place du design</li>                 
+                           </ol>';
     display($title,$contenu);
 }
 ?>
