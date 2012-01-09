@@ -14,7 +14,7 @@
 		});
        </script>
          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-         <meta name="keywords" lang="fr" content="developpement,informatique,agence,creation,site internet,logiciel,referencement,formation,application,progiciel" />
+         <meta name="keywords" lang="fr" content="developpement,informatique,agence,creation,site internet,logiciel,referencement,formation,application,progiciel,lorraine" />
          <meta name="description" content="<?php echo $description; ?>" />
          <meta http-equiv="Content-Language" content="fr" />
     </head>
