@@ -175,7 +175,7 @@ function services() {
 
     $contenu .= '
         <li>
-            <a href="#" title="Referencement"  class="footer-box" id="referencement">
+            <a href="index.php?p=referencement" title="Referencement"  class="footer-box" id="referencement">
                 <span class="titre_liste">Referencement</span>
                 <span class="paragraphe_liste">Vous souhaitez améliorer le positionnement et la visibilitée de votre site internet ? 
                     Nous proposons diverses offres vous permettant d\'acceder à un référencement durable. 
@@ -443,14 +443,13 @@ function referencement() {
     $contenu .= '<div>
                                 <img src="./templates/images/referencement.png" class="miniature">
                                 <p class="firstPara">Vous souhaitez <b>améliorer votre positionnement</b> dans les moteurs de recherche ? Et donc devenir plus compétitif ? Notre équipe reprendra en intégralité les différentes étapes pour améliorer votre référencement.</p>
-                                <p>La refonte de votre site web ou « relookage » permettra à un site déjà construit de gagner des visiteurs et d’être mieux optimisé pour les moteurs de recherche. N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
+                                <p>L\'étude et la modification des paramètres de référencement permet de gagner des visiteurs et donc potentiellement de nouveaux clients. N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                           </div>';
-    $contenu .= '<h2>Que comprend une création de design ?</h2>';
+    $contenu .= '<h2>Que comprend notre offre référencement ?</h2>';
     $contenu .= '<ol class="categ">
-                                <li>Une étude de votre identité visuelle</li>
-                                <li>Une étude de l\'image que vous souhaitez véhiculer</li>
-                                <li>La création de votre design</li>
-                                <li>La mise en place du design</li>                 
+                                <li>Une étude de votre identité sur internet</li>
+                                <li>Une étude des mots clés liés à votre activité</li>
+                                <li>La mise en place d\'une solution adaptée</li>                 
                            </ol>';
     display($title,$contenu,$description);
 }
