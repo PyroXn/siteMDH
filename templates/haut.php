@@ -3,7 +3,6 @@
 <html xmlns ="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
     <head>
         <title><?php echo $title; ?></title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
         <script language="javascript" type="text/javascript" src="./js/javascript.js"></script>
         <script language="javascript" type="text/javascript" src="./js/jquery.tinyTips.js"></script>
@@ -13,7 +12,11 @@
 		$(document).ready(function() {
 			$('a.tTip').tinyTips('title');
 		});
-		</script>
+       </script>
+         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+         <meta name="keywords" lang="fr" content="developpement,informatique,agence,creation,site internet,logiciel,referencement,formation,application,progiciel" />
+         <meta name="description" content="<?php echo $description; ?>" />
+         <meta http-equiv="Content-Language" content="fr" />
     </head>
     <body>
         <div id="header">
