@@ -430,7 +430,7 @@ function referencement() {
     $contenu .= '<h2>Nous améliorons votre visibilité sur internet</h2>';
     $contenu .= '<div>
                                 <img src="./templates/images/referencement.png" class="miniature">
-                                <p class="firstPara">Vous souhaitez <b>améliorer votre positionnement</b> dans les moteurs de recherche ? Améliorer son référencement permet </p>
+                                <p class="firstPara">Vous souhaitez <b>améliorer votre positionnement</b> dans les moteurs de recherche ? Et donc devenir plus compétitif ? Notre équipe reprendra en intégralité les étapes pour améliorer votre référencement./p>
                                 <p>La refonte de votre site web ou « relookage » permettra à un site déjà construit de gagner des visiteurs et d’être mieux optimisé pour les moteurs de recherche. N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                           </div>';
     $contenu .= '<h2>Que comprend une création de design  ?</h2>';
