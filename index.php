@@ -399,7 +399,7 @@ function logiciel() {
                                 <li>Le développement de votre apllication</li>
                                 <li>Une installation de la solution</li>
                                 <li>La mise en place d\'un suivi à long terme</li>                 
-                           </ol>';
+                           </ol><div><p class="bouton_contact">Nous contacter -</p></div>';
     display($title,$contenu);
 }
 
