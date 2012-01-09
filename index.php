@@ -43,7 +43,7 @@ function home() {
 }
 
 function agence() {
-    $title = 'My Dev House - Agence de Developpement Informatique';
+    $title = 'My Dev House - Notre agence';
     $description = 'My Dev House est une agence de développement informatique. Nous créons des progiciels & des sites internet de qualité.';
     $contenu = '<h1>Qui sommes-nous?</h1>';
     $contenu .= '
@@ -121,7 +121,7 @@ function agence() {
 }
 
 function services() {
-    $title = 'My Dev House - Agence de Developpement Informatique';
+    $title = 'My Dev House - Nos services';
     $description = 'Nous maitrisons de manières globales les différentes technologies web nous permettant de vous accompagner du début 
                                 à la fin de votre projet. Le référencement et le respect des standards web permettent à nos réalisations d\'être 
                                 accessible par le plus grand nombre d\'utilisateurs quels que soient leurs plateformes.';
@@ -205,14 +205,14 @@ function services() {
 }
 
 function realisations() {
-    $title = 'My Dev House - Agence de Developpement Informatique';
+    $title = 'My Dev House - Nos réalisations';
     $description = 'Découvrez nos réalisations';
     $contenu = 'réalisations !';
     display($title, $contenu, $description);
 }
 
 function contact() {
-    $title = 'My Dev House - Agence de Developpement Informatique';
+    $title = 'My Dev House - Contact';
     $description = 'Vous souhaitez nous contacter ? Faire une demande de devis ? Nous vous apportons une réponse sous 72h';
     $contenu = '<h1>Nous contacter</h1>';
     $contenu .= '<p>Vous souhaitez nous contacter ? Faire une demande de devis ? Nous vous apportons une réponse sous 72h.</p>';
