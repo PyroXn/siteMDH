@@ -372,7 +372,7 @@ a {
     float: left;
 }
 
-#competences {
+#competences p {
     width: 270px;
     float: left;
     height: 485px;

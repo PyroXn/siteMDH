@@ -74,8 +74,7 @@ function agence() {
         <div id="competences">
         <h2>Notre savoir faire (revoir peut-etre le nom : domaine de competence)</h2>
         <p>
-            Mettre les logo des technologies que nous utilisons (php javascript java jquery ajax css gimp linux, ...)
-            Petite photo de nous entrain de travaillé (genre)
+            
         </p>
         </div>';
 
