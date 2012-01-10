@@ -880,6 +880,18 @@ h1#referencement {
     width: 251px;
 }
 
+h1#formation {
+    background: url("./images/titreFormation.png");
+    height: 38px;
+    width: 178px;
+}
+
+h1#smartphone {
+    background: url("./images/titreSmartphone.png");
+    height: 48px;
+    width: 204px;
+}
+
 /*permet de sortir le titre de la page puisque le titre et remplacer par mon image mais de garder un referencement correct*/
 .texte_out_sreen {
   position:absolute;

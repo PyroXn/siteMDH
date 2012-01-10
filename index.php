@@ -466,7 +466,7 @@ function referencement() {
 function formation() {
     $title = 'My Dev House - Formation';
     $description = '';
-    $contenu = '<h1 id="formation">Formation</h1>';
+    $contenu = '<h1 id="formation"><span class="texte_out_sreen">Formation</span></h1>';
     $contenu .= '<h2>N\'ayez plus peur du changement</h2>';
     $contenu .= '<div>
                             <img src="./templates/images/formation.png" class="miniature">
@@ -479,7 +479,7 @@ function formation() {
 function smartphone() {
     $title = 'My Dev House -Application Smartphone';
     $description = '';
-    $contenu = '<h1 id="smartphone">Smartphone</h1>';
+    $contenu = '<h1 id="smartphone"><span class="texte_out_sreen">Smartphone</span></h1>';
     $contenu .= '<h2>N\'ayez plus peur du changement</h2>';
     $contenu .= '<div>
                             <img src="./templates/images/smartphone.png" class="miniature">
