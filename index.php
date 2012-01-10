@@ -38,8 +38,9 @@ function display($title, $contenu,$description) {
 
 function home() {
     $title = 'My Dev House - Agence de Developpement Informatique';
+    $description = 'informatique lorraine | mydevhouse.com';
     $contenu = 'Acceuil !';
-    display($title, $contenu);
+    display($title, $contenu, $description);
 }
 
 function agence() {
@@ -117,7 +118,7 @@ function agence() {
                 <li>Un suivi tout au long de votre activité</li>
             </ol>
         </p>';
-    display($title, $contenu,$description);
+    display($title, $contenu, $description);
 }
 
 function services() {
@@ -369,7 +370,7 @@ function siteinternet() {
     
     $title = 'My Dev House - Création de site internet';
     $description = 'My Dev House met tout son savoir faire afin de vous proposer des sites internet de qualité.';
-    $contenu = '<h1 id="site_web"><span class="titre_liste">Création de site internet</span></h1>';
+    $contenu = '<h1 id="site_web"><span class="texte_out_sreen">Création de site internet</span></h1>';
     $contenu .= '<h2>Nous créons des sites de qualité</h2>';
     $contenu .= '<div>
                                 <img src="./templates/images/globe_web_miniature.png" class="miniature">
@@ -395,7 +396,7 @@ function siteinternet() {
 function logiciel() {  
     $title = 'My Dev House - Développement de logiciel';
     $description = 'Vous souhaitez informatiser une tache de votre entreprise ? Gagner du temps et par conséquent de l\'argent ? Nous développons des logiciels sur mesure.';
-    $contenu = '<h1 id="logiciel"><span class="titre_liste">Développement de logiciel</span></h1>';
+    $contenu = '<h1 id="logiciel"><span class="texte_out_sreen">Développement de logiciel</span></h1>';
     $contenu .= '<h2>Nous créons des logiciels sur mesure</h2>';
     $contenu .= '<div>
                                 <img src="./templates/images/logiciel.png" class="miniature">
@@ -416,7 +417,7 @@ function logiciel() {
 function design() {  
     $title = 'My Dev House - Création de design';
     $description = 'Vous voulez redorer votre image et votre site Internet actuel ne correspond pas à cette attente ? La refonte de votre site web ou « relookage » permettra à un site déjà construit de gagner des visiteurs et d’être mieux optimisé pour les moteurs de recherche.';
-    $contenu = '<h1 id="design"><span class="titre_liste">Création de design</span></h1>';
+    $contenu = '<h1 id="design"><span class="texte_out_sreen">Création de design</span></h1>';
     $contenu .= '<h2>Nous créons des design uniques</h2>';
     $contenu .= '<div>
                                 <img src="./templates/images/design.png" class="miniature">
@@ -438,7 +439,7 @@ Apporter des nouveautés, mettre à jour vos données, actualiser votre contenu 
 function referencement() {  
     $title = 'My Dev House - Référencement';
     $description = 'Vous souhaitez améliorer votre positionnement dans les moteurs de recherche ? Et donc devenir plus compétitif ? Notre équipe reprendra en intégralité les différentes étapes pour améliorer votre référencement.';
-    $contenu = '<h1 id="referencement"><span class="titre_liste">Référencement</span></h1>';
+    $contenu = '<h1 id="referencement"><span class="texte_out_sreen">Référencement</span></h1>';
     $contenu .= '<h2>Nous améliorons votre visibilité sur internet</h2>';
     $contenu .= '<div>
                                 <img src="./templates/images/referencement.png" class="miniature">

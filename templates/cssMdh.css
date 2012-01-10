@@ -853,3 +853,39 @@ img.check {
     box-shadow:1px 1px 10px black inset, 0 1px 0 rgba(255,255,255,0.4);
 }
 
+
+/**** Page *****/
+
+h1#logiciel {
+    background: url("./images/titreLogiciel.png");
+    height: 48px;
+    width: 434px;
+}
+
+h1#site_web {
+    background: url("./images/titreSiteWeb.png");
+    height: 38px;
+    width: 388px;
+}
+
+h1#design {
+    background: url("./images/titreDesign.png");
+    height: 48px;
+    width: 304px;
+}
+
+h1#referencement {
+    background: url("./images/titreReferencement.png");
+    height: 38px;
+    width: 251px;
+}
+
+/*permet de sortir le titre de la page puisque le titre et remplacer par mon image mais de garder un referencement correct*/
+.texte_out_sreen {
+  position:absolute;
+  left:0px;
+  top:-500px;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
