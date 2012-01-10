@@ -26,6 +26,10 @@ if (!isset($_GET['p'])) {
     design();
 } elseif($_GET['p'] == "referencement") {
     referencement();
+} elseif($_GET['p'] == "formation") {
+    formation();
+} elseif($_GET['p'] == "smartphone") {
+    smartphone();
 }
 
 
@@ -185,19 +189,23 @@ function services() {
         </li>';
 
     $contenu .= '
-        <li class="footer-box" id="formation">
+        <li>
+        <a href="index.php?p=formation" title="Formation"  class="footer-box" id="formation">
             <span class="titre_liste">Formation</span>
             <span class="paragraphe_liste">My Dev House vous propose des formations sur mesure. Nous établissons ensemble les points sur lesquels vous souhaitez être
             formé ce qui vous assure une formation utile et constructive.
             </span>
+        </a>
         </li>';
 
     $contenu .= '
-        <li class="footer-box" id="smartphone">
+        <li>
+        <a href="index.php?p=smartphone" title="Smartphone"  class="footer-box" id="smartphone">
             <span class="titre_liste">Application smartphone</span>
             <span class="paragraphe_liste">Nous proposons à nos clients des applications smartphone sur mesure. Nous sommes à l\'écoute de vos besoins afin de vous 
             proposez une solution au plus près de vos attentes.
             </span>
+        </a>
         </li>';
 
     $contenu .= '</ul>';
@@ -449,8 +457,35 @@ function referencement() {
     $contenu .= '<ol class="categ">
                                 <li>Une étude de votre identité sur internet</li>
                                 <li>Une étude des mots clés liés à votre activité</li>
-                                <li>La mise en place d\'une solution adaptée</li>                 
+                                <li>La mise en place d\'une solution adaptée</li>   
+                                <li>Un suivi régulié à long terme</li>
                            </ol>';
+    display($title,$contenu,$description);
+}
+
+function formation() {
+    $title = 'My Dev House - Formation';
+    $description = '';
+    $contenu = '<h1 id="formation">Formation</h1>';
+    $contenu .= '<h2>N\'ayez plus peur du changement</h2>';
+    $contenu .= '<div>
+                            <img src="./templates/images/formation.png" class="miniature">
+                            <p class="firstPara">Vous souhaitez <b>développer</b> vos connaissances dans le domaine informatique ?</p>
+                            <p>N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
+                      </div>';
+    display($title,$contenu,$description);
+}
+
+function smartphone() {
+    $title = 'My Dev House -Application Smartphone';
+    $description = '';
+    $contenu = '<h1 id="smartphone">Smartphone</h1>';
+    $contenu .= '<h2>N\'ayez plus peur du changement</h2>';
+    $contenu .= '<div>
+                            <img src="./templates/images/smartphone.png" class="miniature">
+                            <p class="firstPara">Vous souhaitez <b>développer</b> vos connaissances dans le domaine informatique ?</p>
+                            <p>N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
+                      </div>';
     display($title,$contenu,$description);
 }
 ?>
