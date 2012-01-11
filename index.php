@@ -246,7 +246,7 @@ function contact() {
                 <div class="adresse">
                     <h3 class="titreBloc"><img class="icones2" src="./templates/images/contact.png"></img>Nous contacter</h3>
                     <p>
-                        contact@mydevhouse.com<span><img src="./templates/images/telephone.png" class="icones"></img>09.63.32.25.12</span>    
+                        contact@mydevhouse.com<span><img src="./templates/images/telephone.png" class="icones"></img>03.82.44.35.66</span>    
                     </p>
                 </div>
             </div>
