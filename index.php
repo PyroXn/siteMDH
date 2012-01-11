@@ -54,14 +54,21 @@ function agence() {
     $contenu .= '
         <div id="presentation_entreprise" class="firstcolonne">
         <h2>Présentation de l\'entreprise</h2>
-        <p>My Dev House est une S.A.R.L crée par 3 associés en 2011. Jeunes, dynamiques et passionnés 
-           nous utilisons tout notre savoir faire au service de nos clients.
+        <p>My Dev House est une S.A.R.L crée par 3 associés en 2011. Nous proposons nos compétences à toutes formes de
+        structures: entreprises, particuliers, associations, artisans, collectivités....
         </p>';
 
     $contenu .= '
-        <h2>Notre domaine d\'activité</h2>
+        <h2>Nos domaines d\'activité</h2>
         <p>
-            
+            Une equipe de développement jeune, dynamique et passionnée est à votre diposition afin de répondre à vos attentes dans les domaines de :
+            <ul>
+                <li>La création de sites Internet</li>
+                <li>L\'édition de logiciel</li>
+                <li>La création ou la "refonte" de votre design</li>
+                <li>Le référencement</li>
+                <li>La formation</li>
+            </ul>
         </p>';
 
     $contenu .= '
