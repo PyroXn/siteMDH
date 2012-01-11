@@ -676,7 +676,11 @@ input[type=submit] {
 }
 
 form {
-    margin-left: 30px;
+/*    margin-left: 30px;*/
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 3px #C6C6C6;
+    width: 540px;
+    padding: 5px 10px 15px 15px;
 }
 
 .colonneDroite {
