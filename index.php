@@ -62,13 +62,13 @@ function agence() {
         <h2>Nos domaines d\'activité</h2>
         <p>
             Une equipe de développement jeune, dynamique et passionnée est à votre diposition afin de répondre à vos attentes dans les domaines de :
-            <ol class="categ">
+            <ul>
                 <li>La création de sites Internet</li>
                 <li>L\'édition de logiciel</li>
                 <li>La création ou la "refonte" de votre design</li>
                 <li>Le référencement</li>
                 <li>La formation</li>
-            </ol>
+            </ul>
         </p>';
 
     $contenu .= '
@@ -90,6 +90,7 @@ function agence() {
         </div>';
 
     $contenu .= '
+
         <ul id="methodologie">
             <li class="analyse">
                 <span class="image_hover"></span>
