@@ -231,11 +231,11 @@ function contact() {
                 <p class="adresse">
                     My Dev House Z.I. Rue de Belgique 54135 Mexy
                 </p>
-          </div>
+            </div>
                 <p class="map">
-                 <iframe width="250" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=&amp;daddr=49.504869,5.791125&amp;hl=fr&amp;geocode=&amp;sll=49.49935,5.800781&amp;sspn=0.024137,0.066047&amp;vpsrc=0&amp;mra=mift&amp;mrsp=1&amp;sz=15&amp;ie=UTF8&amp;t=h&amp;ll=49.49935,5.800781&amp;spn=0.027872,0.042744&amp;z=13&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=&amp;daddr=49.504869,5.791125&amp;hl=fr&amp;geocode=&amp;sll=49.49935,5.800781&amp;sspn=0.024137,0.066047&amp;vpsrc=0&amp;mra=mift&amp;mrsp=1&amp;sz=15&amp;ie=UTF8&amp;t=h&amp;ll=49.49935,5.800781&amp;spn=0.027872,0.042744&amp;z=13" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
+                    <iframe width="250" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=&amp;daddr=49.504869,5.791125&amp;hl=fr&amp;geocode=&amp;sll=49.49935,5.800781&amp;sspn=0.024137,0.066047&amp;vpsrc=0&amp;mra=mift&amp;mrsp=1&amp;sz=15&amp;ie=UTF8&amp;t=h&amp;ll=49.49935,5.800781&amp;spn=0.027872,0.042744&amp;z=13&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=&amp;daddr=49.504869,5.791125&amp;hl=fr&amp;geocode=&amp;sll=49.49935,5.800781&amp;sspn=0.024137,0.066047&amp;vpsrc=0&amp;mra=mift&amp;mrsp=1&amp;sz=15&amp;ie=UTF8&amp;t=h&amp;ll=49.49935,5.800781&amp;spn=0.027872,0.042744&amp;z=13" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
                 </p> 
-             <div class="colonneDroite">
+            <div class="colonneDroite">
                 <h3 id="titreBloc"><img id="icones" src="./templates/images/contact.png"></img>Nous contacter</h3>
                 <p  class="mail">contact@mydevhouse.com<span class="tel"><img src="./templates/images/telephone.png" id="icones"></img>09.63.32.25.12</span>    </p>
             </div>
