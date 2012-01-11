@@ -198,12 +198,6 @@ a {
     margin-right: 40px;
 }
 
-#contactcolonne {
-    float: right;
-    width: 30%;
-    height: 500px;
-}
-
 #content_background ul {
     list-style: none;
 }
@@ -542,6 +536,85 @@ input[type=submit] {
     color:    #999;
 }
 
+#contactcolonne {
+    float: right;
+    width: 300px;;
+}
+
+form {
+    width: 540px;
+    padding: 5px 10px 15px 15px;
+}
+
+#map {
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+
+.encadrement {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 0 3px #C6C6C6;
+    -webkit-box-shadow: 0 0 3px #C6C6C6;
+    -moz-box-shadow: 0 0 3px #C6C6C6;
+}
+
+.colonneDroite {
+    float: right;
+    display: block;
+    margin-top: 10px;
+}
+
+.adresse {   
+    float: left;
+    width: 140px;
+    margin-left: 10px;
+}
+
+.adresse p {
+    font-size: 12px;
+}
+
+.error {
+    font-size: 85%;
+    font-style: italic;
+    font-weight: bold;
+    color: #e70000;
+    margin-left: 5px;
+    display: none;
+
+
+}
+
+.icones {
+    position: relative;
+    top: 2px;
+    left: -5px;
+}
+
+.icones2 {
+    position: relative;
+    top: 5px;
+    left: -5px;
+}
+
+.titreBloc {
+    text-decoration: underline;
+    display: inline;
+}
+
+#contact {
+    display: none;
+}
+
+.error img {
+    vertical-align: -3px;
+}
+
 /****FOOTER****/
 .bot, .top {
     background-color: transparent;
@@ -675,70 +748,6 @@ input[type=submit] {
     font-weight: bold;
 }
 
-form {
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    box-shadow: 0 0 3px #C6C6C6;
-    -webkit-box-shadow: 0 0 3px #C6C6C6;
-    -moz-box-shadow: 0 0 3px #C6C6C6;
-    width: 540px;
-    padding: 5px 10px 15px 15px;
-}
-
-.colonneDroite {
-    float: right;
-    display: block;
-    width: 55%;
-}
-
-.adresse {   
-    text-align: right;
-    margin-right: 10%;
-    margin-top: 5px;
-}
-
-.mail {
-    font-size: 12px;
-
-    margin-left: -15px;
-}
-
-.tel {
-    font-size: 12px;
-    margin-left: 50px;
-}
-
-.error {
-    font-size: 85%;
-    font-style: italic;
-    font-weight: bold;
-    color: #e70000;
-    margin-left: 5px;
-    display: none;
-
-
-}
-
-.error img {
-    vertical-align: -3px;
-}
-
-#icones {
-    position: relative;
-    top: 2px;
-    left: -5px;
-}
-
-#titreBloc {
-    text-align: right;
-    margin-right: 10%;
-    text-decoration: underline;
-}
-
-#contact {
-    display: none;
-}
 /* CSS Zoz */
 .miniature {
     position: relative;

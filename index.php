@@ -226,21 +226,30 @@ function contact() {
     $contenu .= '<p>Vous souhaitez nous contacter ? Faire une demande de devis ? Nous vous apportons une réponse sous 72h.</p>';
     $contenu .= '
         <div id="contactcolonne">
+           
+            <div id="map" class="encadrement">
+                    <iframe width="250" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                    src="http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=&amp;daddr=49.504869,5.791125&amp;hl=fr&amp;geocode=&amp;
+                    sll=49.49935,5.800781&amp;sspn=0.024137,0.066047&amp;vpsrc=0&amp;mra=mift&amp;mrsp=1&amp;sz=15&amp;ie=UTF8&amp;t=h&amp;
+                    ll=49.49935,5.800781&amp;spn=0.027872,0.042744&amp;z=13&amp;output=embed"></iframe><br />
+                    
+            </div> 
             <div class="colonneDroite">
-                <h3 id="titreBloc"><img id="icones" src="./templates/images/adresse.png"></img>Adresse postale</h3>
-                <p class="adresse">
-                    My Dev House Z.I. Rue de Belgique 54135 Mexy
-                </p>
-            </div>
-                <p class="map">
-                    <iframe width="250" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=&amp;daddr=49.504869,5.791125&amp;hl=fr&amp;geocode=&amp;sll=49.49935,5.800781&amp;sspn=0.024137,0.066047&amp;vpsrc=0&amp;mra=mift&amp;mrsp=1&amp;sz=15&amp;ie=UTF8&amp;t=h&amp;ll=49.49935,5.800781&amp;spn=0.027872,0.042744&amp;z=13&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=&amp;daddr=49.504869,5.791125&amp;hl=fr&amp;geocode=&amp;sll=49.49935,5.800781&amp;sspn=0.024137,0.066047&amp;vpsrc=0&amp;mra=mift&amp;mrsp=1&amp;sz=15&amp;ie=UTF8&amp;t=h&amp;ll=49.49935,5.800781&amp;spn=0.027872,0.042744&amp;z=13" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
-                </p> 
-            <div class="colonneDroite">
-                <h3 id="titreBloc"><img id="icones" src="./templates/images/contact.png"></img>Nous contacter</h3>
-                <p  class="mail">contact@mydevhouse.com<span class="tel"><img src="./templates/images/telephone.png" id="icones"></img>09.63.32.25.12</span>    </p>
+                <div class="adresse">
+                    <h3 class="titreBloc"><img class="icones" src="./templates/images/adresse.png"></img>Adresse postale</h3>
+                    <p>
+                        My Dev House</br>Z.I. Rue de Belgique</br>54135 Mexy
+                    </p>
+                </div>
+                <div class="adresse">
+                    <h3 class="titreBloc"><img class="icones2" src="./templates/images/contact.png"></img>Nous contacter</h3>
+                    <p>
+                        contact@mydevhouse.com<span><img src="./templates/images/telephone.png" class="icones"></img>09.63.32.25.12</span>    
+                    </p>
+                </div>
             </div>
         </div>
-    <form method="POST" action="index.php?p=contactSend">
+    <form class="encadrement" method="POST" action="index.php?p=contactSend">
         <legend>Type</legend>
         <input type="radio" name="typeContact" value="Devis" checked="checked">Devis</input>            
         <input type="radio" name="typeContact" value="Contact">Contact</input>    
