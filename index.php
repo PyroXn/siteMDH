@@ -55,7 +55,7 @@ function agence() {
         <div id="presentation_entreprise" class="firstcolonne">
         <h2>Présentation de l\'entreprise</h2>
         <p>My Dev House est une S.A.R.L crée par 3 associés en 2011. Nous proposons nos compétences à toutes formes de
-        structures: entreprises, particuliers, associations, artisans, collectivités....
+        structures : entreprises, particuliers, associations, artisans, collectivités....
         </p>';
 
     $contenu .= '
