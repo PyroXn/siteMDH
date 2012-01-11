@@ -90,7 +90,6 @@ function agence() {
         </div>';
 
     $contenu .= '
-
         <ul id="methodologie">
             <li class="analyse">
                 <span class="image_hover"></span>
