@@ -90,7 +90,6 @@ function agence() {
         </div>';
 
     $contenu .= '
-        <h2>4 phases de conceptions avec l\'explication de chaque phase : Analyse Création Livraison suivi</h2>
         <ul id="methodologie">
             <li class="analyse">
                 <span class="image_hover"></span>
