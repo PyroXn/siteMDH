@@ -1,4 +1,8 @@
- </div>
+<?php if($_GET['p'] != "contact") {
+    echo '<div class="clearboth"></div>
+    <a class="bouton_contact" href="index.php?p=contact">Nous contacter</a>';
+}?>
+</div>
  <div class="clearboth"></div>
         <div id="footer_fond">
         <div class="bot">
