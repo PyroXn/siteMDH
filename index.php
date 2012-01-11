@@ -413,17 +413,18 @@ function siteinternet() {
     $contenu .= '<h2>Les différents sites internet</h2>';
     $contenu .= '
         <div class="box-categ" id="vitrine">
+            <img src="./templates/images/siteVitrine.jpg">
             <a class="tTip" title="'.$siteVitrine.'" href="#">
-                Vitrine
+                <span class="cellule_site">Vitrine</span>
             </a>
         </div>
         <div class="box-categ" id="ecommerce">
             <a class="tTip" title="Un site e-commerce est une véritable boutique accessible 24h/24." href="#">
-                E-commerce
+                <span class="cellule_site">E-commerce</span>
             </a>
         </div>
         <div class="box-categ" id="demande">
-            A la demande
+            <span class="cellule_site">A la demande</span>
         </div>';
     display($title,$contenu,$description);
 }

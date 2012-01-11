@@ -791,10 +791,10 @@ img.check {
 }
 
 .box-categ {
-    margin: 10px;
+    margin: 7px;
     float: left;
-    width: 260px;
-    height: 120px;
+    width: 280px;
+    height: 313px;
     background: whitesmoke;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding-box;
@@ -814,8 +814,15 @@ img.check {
     text-align: center;
 }
 
+.cellule_site {
+    font-size: 22px;
+    font-weight: bold;
+    color: #5c6f91;
+}
+
 #vitrine {
-    background-color: #ffddde;
+    background-image: url("./images/siteVitrine.png");
+/*    background-color: #ffddde;*/
 }
 
 #vitrine:hover {
