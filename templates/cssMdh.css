@@ -839,11 +839,13 @@ img.check {
 }
 
 .bouton_contact {
+    display: block;
     font-family:Arial,sans-serif;
     font-size:18px;
     font-weight: bold;
     width:180px;
-    height:10px;
+    height:30px;
+    margin: 15px auto 0;
     padding-top:7px; /*permet le centrage vertical*/
     text-align:center;
     color:#FFF;
