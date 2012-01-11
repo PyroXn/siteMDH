@@ -50,7 +50,7 @@ function home() {
 function agence() {
     $title = 'My Dev House - Notre agence';
     $description = 'My Dev House est une agence de développement informatique. Nous créons des progiciels & des sites internet de qualité.';
-    $contenu = '<h1>Qui sommes-nous?</h1>';
+    $contenu = '<h1 id="agence"><span class="texte_out_sreen">Qui sommes-nous?</span></h1>';
     $contenu .= '
         <div id="presentation_entreprise" class="firstcolonne">
         <h2>Présentation de l\'entreprise</h2>
@@ -129,7 +129,7 @@ function services() {
     $description = 'Nous maitrisons de manières globales les différentes technologies web nous permettant de vous accompagner du début 
                                 à la fin de votre projet. Le référencement et le respect des standards web permettent à nos réalisations d\'être 
                                 accessible par le plus grand nombre d\'utilisateurs quels que soient leurs plateformes.';
-    $contenu = '<h1>Notre savoir faire</h1>';
+    $contenu = '<h1 id="services"><span class="texte_out_sreen">Notre savoir faire</span></h1>';
     $contenu .= '
         <h2>Découvrez notre savoir faire à travers nos différents domaines de compétences</h2>
         <p class="paraDouble firstcolonne">
@@ -215,14 +215,14 @@ function services() {
 function realisations() {
     $title = 'My Dev House - Nos réalisations';
     $description = 'Découvrez nos réalisations';
-    $contenu = 'réalisations !';
+    $contenu = '<h1 id="realisations"><span class="texte_out_sreen">Nos réalisations</span></h1>';
     display($title, $contenu, $description);
 }
 
 function contact() {
     $title = 'My Dev House - Contact';
     $description = 'Vous souhaitez nous contacter ? Faire une demande de devis ? Nous vous apportons une réponse sous 72h';
-    $contenu = '<h1>Nous contacter</h1>';
+    $contenu = '<h1 id="titre_contact"><span class="texte_out_sreen">Nous contacter</span></h1>';
     $contenu .= '<p>Vous souhaitez nous contacter ? Faire une demande de devis ? Nous vous apportons une réponse sous 72h.</p>';
     $contenu .= '
         <div id="contactcolonne">

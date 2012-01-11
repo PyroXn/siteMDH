@@ -145,7 +145,7 @@ textarea {
 /*****CONTENU*****/
 h1 {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #5d9ee6;
 }
 
@@ -155,6 +155,7 @@ h2 {
     font-size: 20px;
     font-weight: bold;
     color: #56616A;
+    font-style: italic;
 }
 
 p {
@@ -890,6 +891,30 @@ h1#smartphone {
     background: url("./images/titreSmartphone.png");
     height: 48px;
     width: 204px;
+}
+
+h1#agence {
+    background: url("./images/titreQuiSommeNous.png");
+    height: 44px;
+    width: 318px;
+}
+
+h1#services {
+    background: url("./images/titreNotreSavoirFaire.png");
+    height: 37px;
+    width: 282px;
+}
+
+h1#titre_contact {
+    background: url("./images/titreNousContacter.png");
+    height: 37px;
+    width: 247px;
+}
+
+h1#realisations {
+    background: url("./images/titreNosRealisations.png");
+    height: 37px;
+    width: 257px;
 }
 
 /*permet de sortir le titre de la page puisque le titre et remplacer par mon image mais de garder un referencement correct*/
