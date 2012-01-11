@@ -8,6 +8,7 @@
         <script language="javascript" type="text/javascript" src="./js/jquery.tinyTips.js"></script>
         <link rel="stylesheet" type="text/css" href="./templates/cssMdh.css" media="screen" />
          <link rel="stylesheet" type="text/css" href="./templates/tinyTips.css" media="screen" />
+         <link rel="icon" type="image/png" href="./templates/images/ico.png" />
         <script type="text/javascript">
 		$(document).ready(function() {
 			$('a.tTip').tinyTips('title');

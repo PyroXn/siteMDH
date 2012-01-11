@@ -118,7 +118,7 @@ function agence() {
     $contenu .= '<div class="clearboth"></div>';
 
     $contenu .= '
-        <h2>Pourquoi nous choisir plutot qu\'un autre</h2>
+        <h2>Pourquoi nous choisir ?</h2>
         <p>My Dev House c\'est :
             <ol>
                 <li>Un interlocuteur disponible</li>
