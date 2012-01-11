@@ -50,7 +50,7 @@ function home() {
 function agence() {
     $title = 'My Dev House - Notre agence';
     $description = 'My Dev House est une agence de développement informatique. Nous créons des progiciels & des sites internet de qualité.';
-    $contenu = '<h1 id="agence"><span class="texte_out_sreen">Qui sommes-nous?</span></h1>';
+    $contenu = '<h1 id="agence"><span class="texte_out_sreen">Qui sommes-nous ?</span></h1>';
     $contenu .= '
         <div id="presentation_entreprise" class="firstcolonne">
         <h2>Présentation de l\'entreprise</h2>
@@ -194,6 +194,7 @@ function services() {
             <span class="titre_liste">Formation</span>
             <span class="paragraphe_liste">My Dev House vous propose des formations sur mesure. Nous établissons ensemble les points sur lesquels vous souhaitez être
             formé ce qui vous assure une formation utile et constructive.
+            <em>En savoir</em>
             </span>
         </a>
         </li>';
@@ -204,6 +205,7 @@ function services() {
             <span class="titre_liste">Application smartphone</span>
             <span class="paragraphe_liste">Nous proposons à nos clients des applications smartphone sur mesure. Nous sommes à l\'écoute de vos besoins afin de vous 
             proposez une solution au plus près de vos attentes.
+            <em>En savoir</em>
             </span>
         </a>
         </li>';
