@@ -1,6 +1,6 @@
 $(function() {
     var ck_email = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-   var objet = true;
+   var objet = false;
     var budget = true;
     var mail = true;
     var messageContact = true;
@@ -173,5 +173,19 @@ $(function() {
             
         }
     });
+    
+    $("#submitDevis").click(function() {
+        if($("input[name=typeContact]:radio").val() == 'Devis') {
+            if(!objet || !budget || !mail || !messageContact || !cahierCharge) {
+                alert("Merci de bien vouloir saisir tous les champs")
+                return false;
+            }
+        } else {
+            if(!objet || !mail || !messageContact) {
+                return false;
+            }
+        }
+        return true;
+    })
     
 });
