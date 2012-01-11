@@ -405,9 +405,20 @@ function siteinternet() {
                            </ol>';
     $contenu .= '<p></p>';
     $contenu .= '<h2>Les différents sites internet</h2>';
-    $contenu .= '<div class="box-categ" id="vitrine"><a class="tTip" title="'.$siteVitrine.'" href="#">Vitrine</a></div>
-                            <div class="box-categ" id="ecommerce"><a class="tTip" title="Un site e-commerce est une véritable boutique accessible 24h/24." href="#">E-commerce</a></div>
-                            <div class="box-categ" id="demande">A la demande</div>';
+    $contenu .= '
+        <div class="box-categ" id="vitrine">
+            <a class="tTip" title="'.$siteVitrine.'" href="#">
+                Vitrine
+            </a>
+        </div>
+        <div class="box-categ" id="ecommerce">
+            <a class="tTip" title="Un site e-commerce est une véritable boutique accessible 24h/24." href="#">
+                E-commerce
+            </a>
+        </div>
+        <div class="box-categ" id="demande">
+            A la demande
+        </div>';
     display($title,$contenu,$description);
 }
 
