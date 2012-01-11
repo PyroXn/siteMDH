@@ -59,13 +59,13 @@ function agence() {
         </p>';
 
     $contenu .= '
-        <h2>Bref description de ce qu\'on sait faire sans rentrer dans le détail qui sera dans le menu "Ce qu\'on sait faire"</h2>
+        <h2>Notre domaine d\'activité</h2>
         <p>
-            Passionnés par les technologies du web, Passionnées par les technologies offerte depuis la disponibilité d\'internet,
+            
         </p>';
 
     $contenu .= '
-        <h2>Notre coté interface humaine par rapport a vous (accompagnenment)</h2>
+        <h2>Une équipe à votre écoute</h2>
         <p>
             L\'équipe de My Dev House vous accompagne tout au long des différentes étapes de la réalisation de votre projet. 
             Nous sommes à vos côtés de la réalisation du cahier des charges à la mise en place d\'un suivi à long terme.
@@ -246,7 +246,7 @@ function contact() {
                 <div class="adresse">
                     <h3 class="titreBloc"><img class="icones2" src="./templates/images/contact.png"></img>Nous contacter</h3>
                     <p>
-                        contact@mydevhouse.com<span><img src="./templates/images/telephone.png" class="icones"></img>09.63.32.25.12</span>    
+                        contact@mydevhouse.com<span><img src="./templates/images/telephone.png" class="icones"></img>03.82.44.35.66</span>    
                     </p>
                 </div>
             </div>
