@@ -355,7 +355,7 @@ a {
 
 #content_background li:hover em:after {    
     margin-left: 10px;
-    content: ' >>';
+    content: '>>';
 }
 
 .clearboth {
