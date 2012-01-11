@@ -54,14 +54,21 @@ function agence() {
     $contenu .= '
         <div id="presentation_entreprise" class="firstcolonne">
         <h2>Présentation de l\'entreprise</h2>
-        <p>My Dev House est une S.A.R.L crée par 3 associés en 2011. Jeunes, dynamiques et passionnés 
-           nous utilisons tout notre savoir faire au service de nos clients.
+        <p>My Dev House est une S.A.R.L crée par 3 associés en 2011. Nous proposons nos compétences à toutes formes de
+        structures : entreprises, particuliers, associations, artisans, collectivités....
         </p>';
 
     $contenu .= '
-        <h2>Notre domaine d\'activité</h2>
+        <h2>Nos domaines d\'activité</h2>
         <p>
-            
+            Une equipe de développement jeune, dynamique et passionnée est à votre diposition afin de répondre à vos attentes dans les domaines de :
+            <ul>
+                <li>La création de sites Internet</li>
+                <li>L\'édition de logiciel</li>
+                <li>La création ou la "refonte" de votre design</li>
+                <li>Le référencement</li>
+                <li>La formation</li>
+            </ul>
         </p>';
 
     $contenu .= '
@@ -83,7 +90,6 @@ function agence() {
         </div>';
 
     $contenu .= '
-        <h2>4 phases de conceptions avec l\'explication de chaque phase : Analyse Création Livraison suivi</h2>
         <ul id="methodologie">
             <li class="analyse">
                 <span class="image_hover"></span>
@@ -135,19 +141,19 @@ function services() {
         <p class="paraDouble firstcolonne">
             Nous maitrisons de manières globales les différentes technologies web nous permettant de vous accompagner du début 
             à la fin de votre projet. Le référencement et le respect des standards web permettent à nos réalisations d\'être 
-            accessible par le plus grand nombre d\'utilisateurs quels que soient leurs plateformes.
+            <b>accessible</b> par le plus grand nombre d\'utilisateurs quels que soient leurs plateformes.
         </p>
         <p class="paraDouble">
             Le design quand à lui nous permet de rendre chacune de nos réalisations unique. Notre méthodologie et notre expérience 
             rend possible le respect des délai établis. Enfin notre professionalisme et le suivi de nos clients vous garantissent une 
-            tranquilitées d\'esprit sur le produit livré.
+            <b>tranquilité d\'esprit</b> sur le produit livré.
         </p>';
     $contenu .= '<div class="clearboth"></div>';
     $contenu .= '<ul>';
     $contenu .= '
         <li>
-            <a href="index.php?p=siteinternet" title="Site web" class="footer-box" id="site_web">
-                <span class="titre_liste">Site web</span>
+            <a href="index.php?p=siteinternet" title="Site internet" class="footer-box" id="site_web">
+                <span class="titre_liste">Site internet</span>
                     <span class="paragraphe_liste">Nous concevons des sites internet allant du site vitrine au site e commerce en passant par 
                         des sites événementiels, communautaires, des blogs ou toutes autres demandes spécifiques.
                         <em>En savoir</em>
@@ -159,7 +165,7 @@ function services() {
         <li>
             <a href="index.php?p=logiciel" title="Logiciel"  class="footer-box" id="logiciel">
                 <span class="titre_liste">Logiciel</span>
-                <span class="paragraphe_liste">Vous souhaitez informatiser, optimiser ou disposer de logiciel efficace pour votre entreprise? Notre équipe spécialisé dans le
+                <span class="paragraphe_liste">Vous souhaitez informatiser, optimiser ou disposer de logiciel efficace pour votre entreprise ? Notre équipe spécialisé dans le
                     développement de progiciel est à votre écoute.
                     <em>En savoir</em>
                 </span>
@@ -180,7 +186,7 @@ function services() {
     $contenu .= '
         <li>
             <a href="index.php?p=referencement" title="Referencement"  class="footer-box" id="referencement">
-                <span class="titre_liste">Referencement</span>
+                <span class="titre_liste">Référencement</span>
                 <span class="paragraphe_liste">Vous souhaitez améliorer le positionnement et la visibilitée de votre site internet ? 
                     Nous proposons diverses offres vous permettant d\'acceder à un référencement durable. 
                     <em>En savoir</em>

@@ -177,11 +177,12 @@ $(function() {
     $("#submitDevis").click(function() {
         if($("input[name=typeContact]:radio").val() == 'Devis') {
             if(!objet || !budget || !mail || !messageContact || !cahierCharge) {
-                alert("Merci de bien vouloir saisir tous les champs")
+                alert("Merci de bien vouloir saisir tous les champs");
                 return false;
             }
         } else {
             if(!objet || !mail || !messageContact) {
+                alert("Merci de bien vouloir saisir tous les champs");
                 return false;
             }
         }
