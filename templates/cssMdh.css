@@ -794,7 +794,7 @@ img.check {
     margin: 7px;
     float: left;
     width: 280px;
-    height: 313px;
+    height: 120px;
     background: whitesmoke;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding-box;
@@ -821,8 +821,7 @@ img.check {
 }
 
 #vitrine {
-    background-image: url("./images/siteVitrine.png");
-/*    background-color: #ffddde;*/
+    background-color: #ffddde;
 }
 
 #vitrine:hover {

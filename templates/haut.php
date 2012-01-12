@@ -12,6 +12,7 @@
         <script type="text/javascript">
 		$(document).ready(function() {
 			$('a.tTip').tinyTips('title');
+                                                      $('div.tTip').tinyTips('title');
 		});
        </script>
          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
