@@ -80,10 +80,10 @@ function agence() {
             complet de qualité.
         </p>
         </div>';
-
+//<h2>Notre savoir faire (revoir peut-etre le nom : domaine de competence)</h2>
     $contenu .= '
         <div id="competences">
-        <h2>Notre savoir faire (revoir peut-etre le nom : domaine de competence)</h2>
+        <h2>Domaines de compétences</h2>
         <p>
             
         </p>
@@ -391,7 +391,7 @@ Hébergeur : OVH – 140 Quai du Sartel - 59100 Roubaix - France</p>
 
 function siteinternet() {
     $siteVitrine = '<p class=\'test\'>Le site vitrine présente votre entreprise, son activité, ses produits et services. C\'est un outil indispensable pour renforcer votre notoriété. Le site vitrine doit imprégner l\'internaute de l\'image que vous souhaitez faire transparaître.</p>
-                            <p class=\'test\'>Exemple :</p><br /><img src=\'./templates/images/siteVitrine.jpg\'></img>';
+                            <u>Exemple :</u><br /><img class=\'minia\' src=\'./templates/images/siteVitrine.jpg\'></img>';
     
     $title = 'My Dev House - Création de site internet';
     $description = 'My Dev House met tout son savoir faire afin de vous proposer des sites internet de qualité.';

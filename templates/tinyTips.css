@@ -25,5 +25,9 @@ img.tTip {
     font: 0px/0px sans-serif; }
 
 p.test {
-    font-size: 16px;
+    font-size: 18px;
+}
+
+img.minia {
+    margin-left: 15px;
 }
