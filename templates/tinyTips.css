@@ -23,3 +23,7 @@ img.tTip {
     height: 47px; 
     background: url(./images/tinyTip-bottom.png) 0px 0px no-repeat; 
     font: 0px/0px sans-serif; }
+
+p.test {
+    font-size: 16px;
+}
