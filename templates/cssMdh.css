@@ -368,17 +368,25 @@ a {
 }
 
 #competences h2 {
-        margin-top: -50px;
         float: left;
         
 }
 #competences p {
-    margin-top: -22px;
     width: 270px;
     float: left;
     height: 300px;
     background: url("./images/sprite_logiciel.png") no-repeat scroll left top transparent;
 }
+
+#competences {
+    float: left;
+    height: 310px;
+    width: 270px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
 
 #methodologie li {
     -moz-border-radius: 15px;
@@ -389,7 +397,7 @@ a {
     margin: 0 20px 10px;
     padding: 20px 5px 25px;
     width: 171px;
-    cursor: pointer;
+    height: 365px;
 }
 
 #methodologie li:hover {
@@ -954,4 +962,39 @@ h1#realisations {
   width:1px;
   height:1px;
   overflow:hidden;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////*/
+.agence-box {
+    margin: 10px;
+    float: left;
+    width: 201px;
+    height: 300px;
+    padding: 10px;
+    background: whitesmoke;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    border: 8px solid transparent;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    text-align: justify;
+}
+
+.agence-box img {
+    margin-left: 20px;;
+    padding: 0;
+}
+
+.agence-box b {
+    font-size: 15px;
+    text-align: center;
 }

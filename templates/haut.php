@@ -6,8 +6,10 @@
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
         <script language="javascript" type="text/javascript" src="./js/javascript.js"></script>
         <script language="javascript" type="text/javascript" src="./js/jquery.tinyTips.js"></script>
+        <script language="javascript" type="text/javascript" src="./js/zoombox.js"></script>
         <link rel="stylesheet" type="text/css" href="./templates/cssMdh.css" media="screen" />
          <link rel="stylesheet" type="text/css" href="./templates/tinyTips.css" media="screen" />
+         <link rel="stylesheet" type="text/css" href="./templates/zoombox.css" media="screen" />
          <link rel="icon" type="image/png" href="./templates/images/ico.png" />
         <script type="text/javascript">
 		$(document).ready(function() {
@@ -15,6 +17,12 @@
                                                       $('div.tTip').tinyTips('title');
 		});
        </script>
+         <script type="text/javascript">
+            jQuery(function($){
+                $('a.zoombox').zoombox();
+
+            });
+        </script>
          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
          <meta name="keywords" lang="fr" content="developpement,informatique,agence,creation,site internet,logiciel,referencement,formation,application,progiciel,lorraine" />
          <meta name="description" content="<?php echo $description; ?>" />

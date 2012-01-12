@@ -82,7 +82,7 @@ function agence() {
         </div>';
 //<h2>Notre savoir faire (revoir peut-etre le nom : domaine de competence)</h2>
     $contenu .= '
-        <div id="competences">
+        <div id="competences" class="encadrement">
         <h2>&nbsp;&nbsp;&nbsp;Domaines de compétences</h2>
         <p>         
         </p>
@@ -118,14 +118,28 @@ function agence() {
 
     $contenu .= '
         <h2>Pourquoi nous choisir ?</h2>
-        <p>My Dev House c\'est :
             <ol>
-                <li>Un interlocuteur disponible</li>
-                <li>Une équipe dynamique et passionée</li>
-                <li>Des délais de livraison respecté</li>
-                <li>Un suivi tout au long de votre activité</li>
-            </ol>
-        </p>';
+                <li class="agence-box">
+                    <img src="./templates/images/mail.png"></img>
+                    <b>Une équipe disponible</b>
+                    <p>Un problème ? Des questions ? N\'hésitez pas, nous sommes à votre écoute.</p>
+                </li>
+                <li class="agence-box">
+                    <img src="./templates/images/user.png"></img>
+                    <b>Une équipe dynamique et passionée</b>
+                    <p>L\'informatique étant une passion, </p>
+                </li>
+                <li class="agence-box">
+                    <img src="./templates/images/sablier.png"></img>
+                    <b>Des délais de livraison respecté</b>
+                    <p>Nous mettons un point d\'honneur à respecter l\'échéancier établis lors de la rédaction du cahier des charges.</p>
+                </li>
+                <li class="agence-box">
+                    <img src="./templates/images/report.png">
+                    <b>Un suivi tout au long de votre activité</b>
+                    <p>Pas de panique ! Nous continuerons de vous accompagner !</p>
+                </li>
+            </ol>';
     display($title, $contenu, $description);
 }
 
@@ -140,7 +154,7 @@ function services() {
         <p class="paraDouble firstcolonne">
             Nous maitrisons de manières globales les différentes technologies web nous permettant de vous accompagner du début 
             à la fin de votre projet. Le référencement et le respect des standards web permettent à nos réalisations d\'être 
-            <b>accessible</b> par le plus grand nombre d\'utilisateurs quels que soient leurs plateformes.
+            <strong>accessible</strong> par le plus grand nombre d\'utilisateurs quels que soient leurs plateformes.
         </p>
         <p class="paraDouble">
             Le design quand à lui nous permet de rendre chacune de nos réalisations unique. Notre méthodologie et notre expérience 
@@ -389,8 +403,7 @@ Hébergeur : OVH – 140 Quai du Sartel - 59100 Roubaix - France</p>
 }
 
 function siteinternet() {
-    $siteVitrine = '<p class=\'test\'>Le site vitrine présente votre entreprise, son activité, ses produits et services. C\'est un outil indispensable pour renforcer votre notoriété. Le site vitrine doit imprégner l\'internaute de l\'image que vous souhaitez faire transparaître.</p>
-                            <u>Exemple :</u><br /><img class=\'minia\' src=\'./templates/images/siteVitrine.jpg\'></img>';
+    $siteVitrine = 'Le site vitrine présente votre entreprise, son activité, ses produits et services. C\'est un outil indispensable pour renforcer votre notoriété. Le site vitrine doit imprégner l\'internaute de l\'image que vous souhaitez faire transparaître.';
     
     $title = 'My Dev House - Création de site internet';
     $description = 'My Dev House met tout son savoir faire afin de vous proposer des sites internet de qualité.';
@@ -412,9 +425,8 @@ function siteinternet() {
     $contenu .= '<p></p>';
     $contenu .= '<h2>Les différents sites internet</h2>';
     $contenu .= '
-        <div class="box-categ tTip" id="vitrine" title="'.$siteVitrine.'">
-
-                <span class="cellule_site">Vitrine</span>
+        <div>
+                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></img></a>
 
         </div>
         <div class="box-categ" id="ecommerce">
