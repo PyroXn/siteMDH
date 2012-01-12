@@ -390,7 +390,8 @@ Hébergeur : OVH – 140 Quai du Sartel - 59100 Roubaix - France</p>
 }
 
 function siteinternet() {
-    $siteVitrine = 'Le site vitrine présente votre entreprise, son activité, ses produits et services. C\'est un outil indispensable pour renforcer votre notoriété. Le site vitrine doit imprégner l\'internaute de l\'image que vous souhaitez faire transparaître.';
+    $siteVitrine = 'Le site vitrine présente votre entreprise, son activité, ses produits et services. C\'est un outil indispensable pour renforcer votre notoriété. Le site vitrine doit imprégner l\'internaute de l\'image que vous souhaitez faire transparaître.
+                            <br /><img src=\'./templates/images/siteVitrine.jpg\'></img>';
     
     $title = 'My Dev House - Création de site internet';
     $description = 'My Dev House met tout son savoir faire afin de vous proposer des sites internet de qualité.';
@@ -413,7 +414,6 @@ function siteinternet() {
     $contenu .= '<h2>Les différents sites internet</h2>';
     $contenu .= '
         <div class="box-categ" id="vitrine">
-            <img src="./templates/images/siteVitrine.jpg">
             <a class="tTip" title="'.$siteVitrine.'" href="#">
                 <span class="cellule_site">Vitrine</span>
             </a>
