@@ -58,18 +58,18 @@ function agence() {
         structures : entreprises, particuliers, associations, artisans, collectivités....
         </p>';
 
-    $contenu .= '
-        <h2>Nos domaines d\'activité</h2>
-        <p>
-            Une equipe de développement jeune, dynamique et passionnée est à votre diposition afin de répondre à vos attentes dans les domaines de :
-            <ul>
-                <li>La création de sites Internet</li>
-                <li>L\'édition de logiciel</li>
-                <li>La création ou la "refonte" de votre design</li>
-                <li>Le référencement</li>
-                <li>La formation</li>
-            </ul>
-        </p>';
+//    $contenu .= '
+//        <h2>Nos domaines d\'activité</h2>
+//        <p>
+//            Une equipe de développement jeune, dynamique et passionnée est à votre diposition afin de répondre à vos attentes dans les domaines de :
+//            <ul>
+//                <li>La création de sites Internet</li>
+//                <li>L\'édition de logiciel</li>
+//                <li>La création ou la "refonte" de votre design</li>
+//                <li>Le référencement</li>
+//                <li>La formation</li>
+//            </ol>
+//        </p>';
 
     $contenu .= '
         <h2>Une équipe à votre écoute</h2>
@@ -83,9 +83,8 @@ function agence() {
 //<h2>Notre savoir faire (revoir peut-etre le nom : domaine de competence)</h2>
     $contenu .= '
         <div id="competences">
-        <h2>Domaines de compétences</h2>
-        <p>
-            
+        <h2>&nbsp;&nbsp;&nbsp;Domaines de compétences</h2>
+        <p>         
         </p>
         </div>';
 

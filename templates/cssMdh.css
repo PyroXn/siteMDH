@@ -367,13 +367,18 @@ a {
     float: left;
 }
 
+#competences h2 {
+        margin-top: -50px;
+        float: left;
+        
+}
 #competences p {
+    margin-top: -22px;
     width: 270px;
     float: left;
-    height: 500px;
+    height: 300px;
     background: url("./images/sprite_logiciel.png") no-repeat scroll left top transparent;
 }
-
 
 #methodologie li {
     -moz-border-radius: 15px;
