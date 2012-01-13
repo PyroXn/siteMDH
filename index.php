@@ -301,7 +301,7 @@ function contact() {
                 <div class="adresse">
                     <h3 class="titreBloc"><img class="icones2" src="./templates/images/contact.png">Nous contacter</h3>
                     <p>
-                        contact@mydevhouse.com<span><img src="./templates/images/telephone.png" class="icones">03.82.44.35.66</span>    
+                        <a href="mailto:contact@mydevhouse.com" title="Contact">contact@mydevhouse.com</a><span><img src="./templates/images/telephone.png" class="icones">03.82.44.35.66</span>    
                     </p>
                 </div>
             </div>
