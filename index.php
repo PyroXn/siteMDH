@@ -453,33 +453,23 @@ function siteinternet() {
                           </div>';
     $contenu .= '<h2>Que comprend une création de site internet ?</h2>';
     $contenu .= '<ol>
-                <li class="agence-box">
-                    <img src="./templates/images/mail.png"></img>
-                    <b>Une équipe disponible</b>
-                    <p>Un problème ? Des questions ? N\'hésitez pas, nous sommes à votre écoute.</p>
-                </li>
-                <li class="agence-box">
-                    <img src="./templates/images/user.png"></img>
-                    <b>Une équipe dynamique et passionée</b>
-                    <p>L\'informatique étant une passion, </p>
-                </li>
-                <li class="agence-box">
-                    <img src="./templates/images/sablier.png"></img>
-                    <b>Des délais de livraison respecté</b>
-                    <p>Nous mettons un point d\'honneur à respecter l\'échéancier établis lors de la rédaction du cahier des charges.</p>
-                </li>
-                <li class="agence-box">
-                    <img src="./templates/images/report.png">
-                    <b>Un suivi tout au long de votre activité</b>
-                    <p>Pas de panique ! Nous continuerons de vous accompagner tout au long de votre activité !</p>
-                </li>
-            </ol>';
-    $contenu .= '<ol class="categ">
-                                <li>Un travail de recherche et d\'élaboration du design pour conserver votre identité visuelle</li>
-                                <li>Le développement de votre site internet. Cette étape est soumise aux différentes validations du processus par le client.</li>
-                                <li>Une installation de la solution.</li>
-                                <li>La mise en place d\'un suivi à long terme.</li>                 
-                           </ol>';
+                                <li class="agence-box">
+                                    <img src="./templates/images/identite.png"></img>
+                                    <p>Un travail de recherche et d\'élaboration du design pour <b>conserver votre identité visuelle</b>.</p>
+                                </li>
+                                <li class="agence-box">
+                                    <img src="./templates/images/coding.png"></img>
+                                    <p>Le <b>développement</b> de votre site internet. Cette étape est soumise aux différentes validations du processus par le client.</p>
+                                </li>
+                                <li class="agence-box">
+                                    <img src="./templates/images/cle.png"></img>
+                                    <p>Une installation de la solution. Votre site internet est <b>maintenant prêt à l\'emploi</b>.</p>
+                                </li>
+                                <li class="agence-box">
+                                    <img src="./templates/images/loupe.png">
+                                    <p>La mise en place d\'un suivi à <b>long terme</b>.</p>
+                                </li>
+                        </ol>';
     $contenu .= '<p></p>';
     $contenu .= '<h2>Les différents sites internet</h2>';
     $contenu .= '
@@ -506,13 +496,24 @@ function logiciel() {
                                 <p>Nous sommes présent à vos côtés durant les différentes phases de réalisation de votre projet. Qu\'elle que soit l\'envergure de votre projet, n\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                           </div>';
     $contenu .= '<h2>Que comprend un développement logiciel ?</h2>';
-    $contenu .= '<ol class="categ">
-                                <li>Une étude consciencieuse de vos besoins</li>
-                                <li>Une étude de votre infrastructure</li>
-                                <li>Le développement de votre apllication</li>
-                                <li>Une installation de la solution</li>
-                                <li>La mise en place d\'un suivi à long terme</li>                 
-                           </ol>';
+    $contenu .= '<ol>
+                                <li class="agence-box">
+                                    <img src="./templates/images/infrastructure.png"></img>
+                                    <p>Une étude de votre <b>infrastructure</b>.</p>
+                                </li>
+                                <li class="agence-box">
+                                    <img src="./templates/images/coding.png"></img>
+                                    <p>Le <b>développement</b> de votre apllication. Cette étape est soumise aux différentes validations du processus par le client.</p>
+                                </li>
+                                <li class="agence-box">
+                                    <img src="./templates/images/cle.png"></img>
+                                    <p>Une installation de la solution. Votre logiciel est <b>maintenant prêt à l\'emploi</b>.</p>
+                                </li>
+                                <li class="agence-box">
+                                    <img src="./templates/images/loupe.png">
+                                    <p><b>Une formation</b> et la mise en place d\'un suivi à long terme.</p>
+                                </li>
+                        </ol>';
     display($title,$contenu,$description);
 }
 
@@ -529,12 +530,24 @@ Apporter des nouveautés, mettre à jour vos données, actualiser votre contenu 
                                 <p>La refonte de votre site web ou « relookage » permettra à un site déjà construit de gagner des visiteurs et d’être mieux optimisé pour les moteurs de recherche. N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                           </div>';
     $contenu .= '<h2>Que comprend une création de design  ?</h2>';
-    $contenu .= '<ol class="categ">
-                                <li>Une étude de votre identité visuelle</li>
-                                <li>Une étude de l\'image que vous souhaitez véhiculer</li>
-                                <li>La création de votre design</li>
-                                <li>La mise en place du design</li>                 
-                           </ol>';
+    $contenu .= '<ol>
+                                <li class="agence-box">
+                                    <img src="./templates/images/visuelle.png"></img>
+                                    <p>Une étude de votre <b>identité visuelle</b>.</p>
+                                </li>
+                                <li class="agence-box">
+                                    <img src="./templates/images/vehiculer.png"></img>
+                                    <p>Une étude de l\'image que vous souhaitez <b>véhiculer</b>.</p>
+                                </li>
+                                <li class="agence-box">
+                                    <img src="./templates/images/drawing.png"></img>
+                                    <p>La <b>création</b> de votre design. Cette étape est soumise aux différentes validations du processus par le client.</p>
+                                </li>
+                                <li class="agence-box">
+                                    <img src="./templates/images/cle.png">
+                                    <p>La <b>mise en place</b> du design.</p>
+                                </li>
+                        </ol>';
     display($title,$contenu,$description);
 }
 
@@ -549,12 +562,24 @@ function referencement() {
                                 <p>L\'étude et la modification des paramètres de référencement permet de gagner des visiteurs et donc potentiellement de nouveaux clients. N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                           </div>';
     $contenu .= '<h2>Que comprend notre offre référencement ?</h2>';
-    $contenu .= '<ol class="categ">
-                                <li>Une étude de votre identité sur internet</li>
-                                <li>Une étude des mots clés liés à votre activité</li>
-                                <li>La mise en place d\'une solution adaptée</li>   
-                                <li>Un suivi régulié à long terme</li>
-                           </ol>';
+        $contenu .= '<ol>
+                                <li class="agence-box">
+                                    <img src="./templates/images/visuelle.png"></img>
+                                    <p>Une étude de votre <b>identité</b> sur internet.</p>
+                                </li>
+                                <li class="agence-box">
+                                    <img src="./templates/images/testimonial.png"></img>
+                                    <p>Une étude des <b>mots clés</b> liés à votre activité.</p>
+                                </li>
+                                <li class="agence-box">
+                                    <img src="./templates/images/ampoule.png"></img>
+                                    <p>La mise en place d\'une solution <b>adaptée</b>.</p>
+                                </li>
+                                <li class="agence-box">
+                                    <img src="./templates/images/loupe.png">
+                                    <p>Un suivi régulié à <b>long terme</b>.</p>
+                                </li>
+                        </ol>';
     display($title,$contenu,$description);
 }
 
