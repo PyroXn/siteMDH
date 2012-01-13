@@ -416,6 +416,28 @@ function siteinternet() {
                                 <p>Nous sommes présent à vos côtés durant les différentes phases de réalisation de votre projet. Qu\'elle que soit l\'envergure de votre projet, n\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                           </div>';
     $contenu .= '<h2>Que comprend une création de site internet ?</h2>';
+    $contenu .= '<ol>
+                <li class="agence-box">
+                    <img src="./templates/images/mail.png"></img>
+                    <b>Une équipe disponible</b>
+                    <p>Un problème ? Des questions ? N\'hésitez pas, nous sommes à votre écoute.</p>
+                </li>
+                <li class="agence-box">
+                    <img src="./templates/images/user.png"></img>
+                    <b>Une équipe dynamique et passionée</b>
+                    <p>L\'informatique étant une passion, </p>
+                </li>
+                <li class="agence-box">
+                    <img src="./templates/images/sablier.png"></img>
+                    <b>Des délais de livraison respecté</b>
+                    <p>Nous mettons un point d\'honneur à respecter l\'échéancier établis lors de la rédaction du cahier des charges.</p>
+                </li>
+                <li class="agence-box">
+                    <img src="./templates/images/report.png">
+                    <b>Un suivi tout au long de votre activité</b>
+                    <p>Pas de panique ! Nous continuerons de vous accompagner tout au long de votre activité !</p>
+                </li>
+            </ol>';
     $contenu .= '<ol class="categ">
                                 <li>Un travail de recherche et d\'élaboration du design pour conserver votre identité visuelle</li>
                                 <li>Le développement de votre site internet. Cette étape est soumise aux différentes validations du processus par le client.</li>
