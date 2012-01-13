@@ -7,20 +7,42 @@
         <script language="javascript" type="text/javascript" src="./js/javascript.js"></script>
         <script language="javascript" type="text/javascript" src="./js/jquery.tinyTips.js"></script>
         <script language="javascript" type="text/javascript" src="./js/zoombox.js"></script>
+        <script language="javascript" type="text/javascript" src="./js/caroufredsel.js"></script>
         <link rel="stylesheet" type="text/css" href="./templates/cssMdh.css" media="screen" />
-         <link rel="stylesheet" type="text/css" href="./templates/tinyTips.css" media="screen" />
-         <link rel="stylesheet" type="text/css" href="./templates/zoombox.css" media="screen" />
-         <link rel="icon" type="image/png" href="./templates/images/ico.png" />
+        <link rel="stylesheet" type="text/css" href="./templates/tinyTips.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="./templates/zoombox.css" media="screen" />
+        <link rel="icon" type="image/png" href="./templates/images/ico.png" />
         <script type="text/javascript">
 		$(document).ready(function() {
 			$('a.tTip').tinyTips('title');
                                                       $('div.tTip').tinyTips('title');
 		});
-       </script>
-         <script type="text/javascript">
+        </script>
+        <script type="text/javascript">
             jQuery(function($){
                 $('a.zoombox').zoombox();
-
+            });
+        </script>
+        <script type="text/javascript">
+            jQuery(function($){
+                $('#carrousel').carouFredSel({
+//                    direction: 'up',
+                    items: 1,
+                    scroll: {
+                        fx: 'directscroll',
+                        duration: 1000
+                        
+                    },
+                    width: 884,
+                    pagination : {
+                        container: '#pagination',
+                        anchorBuilder : function(nr, item) {
+                            var src = $('img', item).attr('src');
+                            src = src.replace('884/250', '100/100');
+                            return '<a href="#'+nr+'"></a>';
+                        }
+                    }
+                });
             });
         </script>
          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />

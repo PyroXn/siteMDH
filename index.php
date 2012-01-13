@@ -43,7 +43,43 @@ function display($title, $contenu,$description) {
 function home() {
     $title = 'My Dev House - Agence de Developpement Informatique';
     $description = 'informatique lorraine | mydevhouse.com';
-    $contenu = 'Acceuil !';
+    
+    $contenu = '<div class="carrousel" id="carrousel">
+                    <div class="slide">
+                        <a href="#">
+                            <img src="http://lorempixel.com/884/250/sports/1">
+                        </a>
+                        <span class="info">voila linformation</span>
+                    </div>
+                    <div class="slide">
+                        <a href="#">
+                            <img src="http://lorempixel.com/884/250/sports/2">
+                        </a>
+                        <span class="info">voila linformation2</span>
+                    </div>
+                    <div class="slide">
+                        <a href="#">
+                            <img src="http://lorempixel.com/884/250/sports/3">
+                        </a>
+                        <span class="info">voila linformation3</span>
+                    </div>
+                    <div class="slide">
+                        <a href="#">
+                            <img src="http://lorempixel.com/884/250/sports/4">
+                        </a>
+                        <span class="info">voila linformation4</span>
+                    </div>
+                    <div class="slide">
+                        <a href="#">
+                            <img src="http://lorempixel.com/884/250/sports/5">
+                        </a>
+                        <span class="info">voila linformation5</span>
+                    </div>
+                    
+                </div>
+                <div id="pagination" class="pagination"></div>';
+    
+    
     display($title, $contenu, $description);
 }
 
@@ -120,17 +156,17 @@ function agence() {
         <h2>Pourquoi nous choisir ?</h2>
             <ol>
                 <li class="agence-box">
-                    <img src="./templates/images/mail.png"></img>
+                    <img src="./templates/images/mail.png">
                     <b>Une équipe disponible</b>
                     <p>Un problème ? Des questions ? N\'hésitez pas, nous sommes à votre écoute.</p>
                 </li>
                 <li class="agence-box">
-                    <img src="./templates/images/user.png"></img>
+                    <img src="./templates/images/user.png">
                     <b>Une équipe dynamique et passionée</b>
                     <p>L\'informatique étant une passion, </p>
                 </li>
                 <li class="agence-box">
-                    <img src="./templates/images/sablier.png"></img>
+                    <img src="./templates/images/sablier.png">
                     <b>Des délais de livraison respecté</b>
                     <p>Nous mettons un point d\'honneur à respecter l\'échéancier établis lors de la rédaction du cahier des charges.</p>
                 </li>
@@ -257,15 +293,15 @@ function contact() {
             </div> 
             <div class="colonneDroite">
                 <div class="adresse">
-                    <h3 class="titreBloc"><img class="icones" src="./templates/images/adresse.png"></img>Adresse postale</h3>
+                    <h3 class="titreBloc"><img class="icones" src="./templates/images/adresse.png">Adresse postale</h3>
                     <p>
                         My Dev House</br>Z.I. Rue de Belgique</br>54135 Mexy
                     </p>
                 </div>
                 <div class="adresse">
-                    <h3 class="titreBloc"><img class="icones2" src="./templates/images/contact.png"></img>Nous contacter</h3>
+                    <h3 class="titreBloc"><img class="icones2" src="./templates/images/contact.png">Nous contacter</h3>
                     <p>
-                        contact@mydevhouse.com<span><img src="./templates/images/telephone.png" class="icones"></img>03.82.44.35.66</span>    
+                        contact@mydevhouse.com<span><img src="./templates/images/telephone.png" class="icones">03.82.44.35.66</span>    
                     </p>
                 </div>
             </div>
@@ -448,13 +484,13 @@ function siteinternet() {
     $contenu .= '<h2>Les différents sites internet</h2>';
     $contenu .= '
         <div class="site">
-                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></img></a>
+                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
         </div>
         <div class="site">
-                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></img></a>
+                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
         </div>
         <div class="site">
-                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></img></a>
+                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
         </div>';
     display($title,$contenu,$description);
 }
