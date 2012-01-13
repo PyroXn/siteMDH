@@ -467,7 +467,7 @@ function siteinternet() {
                                 </li>
                                 <li class="agence-box">
                                     <img src="./templates/images/loupe.png">
-                                    <p>La mise en place d\'un suivi à <b>long terme</b>.</p>
+                                    <p>La mise en place d\'un suivi <b>personnalisé</b> à long terme.</p>
                                 </li>
                         </ol>';
     $contenu .= '<p></p>';
@@ -498,8 +498,8 @@ function logiciel() {
     $contenu .= '<h2>Que comprend un développement logiciel ?</h2>';
     $contenu .= '<ol>
                                 <li class="agence-box">
-                                    <img src="./templates/images/infrastructure.png"></img>
-                                    <p>Une étude de votre <b>infrastructure</b>.</p>
+                                    <img src="./templates/images/documents.png"></img>
+                                    <p>Une étude de votre <b>infrastructure</b> et la réalisation d\'un <b>cahier des charges</b>.</p>
                                 </li>
                                 <li class="agence-box">
                                     <img src="./templates/images/coding.png"></img>
