@@ -137,7 +137,7 @@ function agence() {
                 <li class="agence-box">
                     <img src="./templates/images/report.png">
                     <b>Un suivi tout au long de votre activité</b>
-                    <p>Pas de panique ! Nous continuerons de vous accompagner !</p>
+                    <p>Pas de panique ! Nous continuerons de vous accompagner tout au long de votre activité !</p>
                 </li>
             </ol>';
     display($title, $contenu, $description);
@@ -408,7 +408,7 @@ function siteinternet() {
     $title = 'My Dev House - Création de site internet';
     $description = 'My Dev House met tout son savoir faire afin de vous proposer des sites internet de qualité.';
     $contenu = '<h1 id="site_web"><span class="texte_out_sreen">Création de site internet</span></h1>';
-    $contenu .= '<h2>Nous créons des sites de qualité</h2>';
+    $contenu .= '<h2>Nous créons des sites internet de qualité</h2>';
     $contenu .= '<div>
                                 <img src="./templates/images/globe_web_miniature.png" class="miniature">
                                 <p class="firstPara">L\'équipe de My Dev House met tout son savoir faire afin de vous proposer des <b>sites internet</b> de qualité.
@@ -425,17 +425,14 @@ function siteinternet() {
     $contenu .= '<p></p>';
     $contenu .= '<h2>Les différents sites internet</h2>';
     $contenu .= '
-        <div>
+        <div class="site">
                 <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></img></a>
-
         </div>
-        <div class="box-categ" id="ecommerce">
-            <a class="tTip" title="Un site e-commerce est une véritable boutique accessible 24h/24." href="#">
-                <span class="cellule_site">E-commerce</span>
-            </a>
+        <div class="site">
+                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></img></a>
         </div>
-        <div class="box-categ" id="demande">
-            <span class="cellule_site">A la demande</span>
+        <div class="site">
+                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></img></a>
         </div>';
     display($title,$contenu,$description);
 }
@@ -510,7 +507,7 @@ function formation() {
     $contenu .= '<h2>N\'ayez plus peur du changement</h2>';
     $contenu .= '<div>
                             <img src="./templates/images/formation.png" class="miniature">
-                            <p class="firstPara">Vous souhaitez <b>développer</b> vos connaissances dans le domaine informatique ?</p>
+                            <p class="firstPara">Vous souhaitez <b>développer</b> vos connaissances dans le domaine informatique ? Notre objectif consiste à former vos collaborateurs à l\'utilisation d\'outils adaptés à leurs besoins. Chaque cours alterne présentations théoriques, exercices pratiques et mise en situation réelle.</p>
                             <p>N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                       </div>';
     display($title,$contenu,$description);
@@ -523,7 +520,13 @@ function smartphone() {
     $contenu .= '<h2>N\'ayez plus peur du changement</h2>';
     $contenu .= '<div>
                             <img src="./templates/images/smartphone.png" class="miniature">
-                            <p class="firstPara">Vous souhaitez <b>développer</b> vos connaissances dans le domaine informatique ?</p>
+                            <p class="firstPara">Suite à la croissance exponentielle du nombre de smartphone en France, les applications mobiles sont devenues un vecteur de communication incontournable. Elles augmenteront votre visibilité ou permettront de développer vos services.
+                                Une application smartphone demande une etude approfondie au préalable et c\'est pourquoi my Dev House vous accompagnera dans vos démarches ainsi que pour la définition du cahier des charges.
+                            </p>
+                            <p>Les applications mobiles se scindent en deux parties :
+                                    les applications téléchargeables sur les Market des distributeurs
+                                    les applications Web mobiles qui sont des versions portables de votre site ou application
+                            </p>
                             <p>N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                       </div>';
     display($title,$contenu,$description);

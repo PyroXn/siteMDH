@@ -186,6 +186,7 @@ a {
 #content {
     width: 884px;
     padding: 20px 0;
+    min-height: 600px;
 }
 
 .paraDouble {
@@ -997,4 +998,8 @@ h1#realisations {
 .agence-box b {
     font-size: 15px;
     text-align: center;
+}
+
+.site {
+    display: inline;
 }
