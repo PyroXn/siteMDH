@@ -1003,3 +1003,46 @@ h1#realisations {
 .site {
     display: inline;
 }
+
+
+/*****CARROUSEL*****/
+.carrousel {
+    width: 884px;
+    height: 250px;
+}
+.carrousel .slide {
+    display: block;
+    float: left;
+    width: 884px;
+    height: 250px;
+    position: relative;
+}
+.carrousel .slide .info {
+    display: block;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:  rgba(0,0,0,0.8);
+    position: absolute;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+}
+
+.pagination {
+    float: right;
+}
+
+.pagination a {
+    display: inline-block;
+    background: url("./images/pagination.png") 0 0 no-repeat transparent;
+    width: 20px;
+    height: 20px;
+}
+
+.pagination a.selected {
+    background-position: -20px 0;
+    cursor: default;
+}
+
