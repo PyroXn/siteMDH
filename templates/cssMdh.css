@@ -1031,18 +1031,18 @@ h1#realisations {
 }
 
 .pagination {
-    float: right;
+    position: absolute;
+    
 }
 
 .pagination a {
     display: inline-block;
-    background: url("./images/pagination.png") 0 0 no-repeat transparent;
-    width: 20px;
-    height: 20px;
+    background: url("./images/bouton_pagination.png") 0 0 no-repeat transparent;
+    width: 8px;
+    height: 8px;
 }
 
 .pagination a.selected {
-    background-position: -20px 0;
+    background-position: 0 -8px;
     cursor: default;
 }
-

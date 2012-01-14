@@ -75,7 +75,6 @@ function home() {
                         </a>
                         <span class="info">voila linformation5</span>
                     </div>
-                    
                 </div>
                 <div id="pagination" class="pagination"></div>';
     
