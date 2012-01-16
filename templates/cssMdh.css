@@ -1031,8 +1031,10 @@ h1#realisations {
 }
 
 .pagination {
-    position: absolute;
-    
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    top: -30px;
 }
 
 .pagination a {
@@ -1040,6 +1042,7 @@ h1#realisations {
     background: url("./images/bouton_pagination.png") 0 0 no-repeat transparent;
     width: 8px;
     height: 8px;
+    margin-left: 3px;
 }
 
 .pagination a.selected {

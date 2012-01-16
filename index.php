@@ -44,39 +44,41 @@ function home() {
     $title = 'My Dev House - Agence de Developpement Informatique';
     $description = 'informatique lorraine | mydevhouse.com';
     
-    $contenu = '<div class="carrousel" id="carrousel">
-                    <div class="slide">
-                        <a href="#">
-                            <img src="http://lorempixel.com/884/250/sports/1">
-                        </a>
-                        <span class="info">voila linformation</span>
+    $contenu = '<div>
+                    <div class="carrousel" id="carrousel">
+                        <div class="slide">
+                            <a href="#">
+                                <img src="http://lorempixel.com/884/250/sports/1">
+                            </a>
+                            <span class="info">voila linformation</span>
+                        </div>
+                        <div class="slide">
+                            <a href="#">
+                                <img src="http://lorempixel.com/884/250/sports/2">
+                            </a>
+                            <span class="info">voila linformation2</span>
+                        </div>
+                        <div class="slide">
+                            <a href="#">
+                                <img src="http://lorempixel.com/884/250/sports/3">
+                            </a>
+                            <span class="info">voila linformation3</span>
+                        </div>
+                        <div class="slide">
+                            <a href="#">
+                                <img src="http://lorempixel.com/884/250/sports/4">
+                            </a>
+                            <span class="info">voila linformation4</span>
+                        </div>
+                        <div class="slide">
+                            <a href="#">
+                                <img src="http://lorempixel.com/884/250/sports/5">
+                            </a>
+                            <span class="info">voila linformation5</span>
+                        </div>
                     </div>
-                    <div class="slide">
-                        <a href="#">
-                            <img src="http://lorempixel.com/884/250/sports/2">
-                        </a>
-                        <span class="info">voila linformation2</span>
-                    </div>
-                    <div class="slide">
-                        <a href="#">
-                            <img src="http://lorempixel.com/884/250/sports/3">
-                        </a>
-                        <span class="info">voila linformation3</span>
-                    </div>
-                    <div class="slide">
-                        <a href="#">
-                            <img src="http://lorempixel.com/884/250/sports/4">
-                        </a>
-                        <span class="info">voila linformation4</span>
-                    </div>
-                    <div class="slide">
-                        <a href="#">
-                            <img src="http://lorempixel.com/884/250/sports/5">
-                        </a>
-                        <span class="info">voila linformation5</span>
-                    </div>
-                </div>
-                <div id="pagination" class="pagination"></div>';
+                    <div id="pagination" class="pagination"></div>
+                </div>';
     
     
     display($title, $contenu, $description);
