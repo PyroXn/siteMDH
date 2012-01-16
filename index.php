@@ -48,13 +48,13 @@ function home() {
                     <div class="carrousel" id="carrousel">
                         <div class="slide">
                             <a href="#">
-                                <img src="./templates/images/pep.jpg">
+                                <img src="./templates/images/pepBandeau.jpg">
                             </a>
                             <span class="info">voila linformation</span>
                         </div>
                         <div class="slide">
                             <a href="#">
-                                <img src="http://lorempixel.com/884/250/sports/2">
+                                <img src="./templates/images/pepBandeau2.jpg">
                             </a>
                             <span class="info">voila linformation2</span>
                         </div>
