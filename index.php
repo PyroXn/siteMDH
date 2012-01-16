@@ -44,40 +44,41 @@ function home() {
     $title = 'My Dev House - Agence de Developpement Informatique';
     $description = 'informatique lorraine | mydevhouse.com';
     
-    $contenu = '<div class="carrousel" id="carrousel">
-                    <div class="slide">
-                        <a href="#">
-                            <img src="http://lorempixel.com/884/250/sports/1">
-                        </a>
-                        <span class="info">voila linformation</span>
+    $contenu = '<div>
+                    <div class="carrousel" id="carrousel">
+                        <div class="slide">
+                            <a href="#">
+                                <img src="./templates/images/pep.jpg">
+                            </a>
+                            <span class="info">voila linformation</span>
+                        </div>
+                        <div class="slide">
+                            <a href="#">
+                                <img src="http://lorempixel.com/884/250/sports/2">
+                            </a>
+                            <span class="info">voila linformation2</span>
+                        </div>
+                        <div class="slide">
+                            <a href="#">
+                                <img src="http://lorempixel.com/884/250/sports/3">
+                            </a>
+                            <span class="info">voila linformation3</span>
+                        </div>
+                        <div class="slide">
+                            <a href="#">
+                                <img src="http://lorempixel.com/884/250/sports/4">
+                            </a>
+                            <span class="info">voila linformation4</span>
+                        </div>
+                        <div class="slide">
+                            <a href="#">
+                                <img src="http://lorempixel.com/884/250/sports/5">
+                            </a>
+                            <span class="info">voila linformation5</span>
+                        </div>
                     </div>
-                    <div class="slide">
-                        <a href="#">
-                            <img src="http://lorempixel.com/884/250/sports/2">
-                        </a>
-                        <span class="info">voila linformation2</span>
-                    </div>
-                    <div class="slide">
-                        <a href="#">
-                            <img src="http://lorempixel.com/884/250/sports/3">
-                        </a>
-                        <span class="info">voila linformation3</span>
-                    </div>
-                    <div class="slide">
-                        <a href="#">
-                            <img src="http://lorempixel.com/884/250/sports/4">
-                        </a>
-                        <span class="info">voila linformation4</span>
-                    </div>
-                    <div class="slide">
-                        <a href="#">
-                            <img src="http://lorempixel.com/884/250/sports/5">
-                        </a>
-                        <span class="info">voila linformation5</span>
-                    </div>
-                    
-                </div>
-                <div id="pagination" class="pagination"></div>';
+                    <div id="pagination" class="pagination"></div>
+                </div>';
     
     
     display($title, $contenu, $description);
@@ -118,10 +119,26 @@ function agence() {
         </div>';
 //<h2>Notre savoir faire (revoir peut-etre le nom : domaine de competence)</h2>
     $contenu .= '
-        <div id="competences" class="encadrement">
-        <h2>&nbsp;&nbsp;&nbsp;Domaines de compétences</h2>
-        <p>         
-        </p>
+        <div id="competences">
+            <h2>Domaines de compétences</h2>
+            <ul class="langage_script">
+                <li class="jquery" title="jquery">jquery</li>
+                <li class="ajax" title="ajax">ajax</li>
+                <li class="javascript" title="javascript">javascript</li>
+            </ul>
+            <ul class="technologie_web">
+                <li class="html5" title="html5">html5</li>
+                <li class="css3" title="css3">css3</li>
+            </ul>
+            <ul class="langage_programmation">
+                <li class="php" title="php">php</li>
+                <li class="java" title="java">java</li>
+            </ul>
+            <ul class="autres_technologie">
+                <li class="gimp" title="gimp">gimp</li>
+                <li class="linux" title="linux">linux</li>
+                <li class="mysql" title="mysql">mysql</li>
+            </ul>
         </div>';
 
     $contenu .= '

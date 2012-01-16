@@ -364,28 +364,149 @@ a {
 
 
 #presentation_entreprise {
-    width: 574px;
+    width: 500px;
     float: left;
 }
 
-#competences h2 {
-        float: left;
-        
-}
-#competences p {
+
+/*#competences p {
     width: 270px;
     float: left;
     height: 300px;
     background: url("./images/sprite_logiciel.png") no-repeat scroll left top transparent;
-}
+}*/
 
 #competences {
+    background: url("./images/fond_competence.png") no-repeat scroll center top transparent;  
     float: left;
-    height: 310px;
-    width: 270px;
+    height: 323px;
+    width: 315px;
     padding-bottom: 15px;
     padding-top: 5px;
     margin-bottom: 5px;
+}
+
+#competences h2 {
+    text-align: center;
+}
+
+#competences ul {
+    clear: both;
+    display: block;
+    list-style: none outside none;
+    margin-bottom:5px;
+/*    margin-right: 5px;*/
+    text-indent: -9999px;
+    height: 70px;
+}
+
+#competences li {
+    background: url("./images/sprite_logiciel.png") no-repeat scroll center top transparent;  
+    float: left;
+}
+
+#competences ul.langage_script li {
+    margin: 0 10px;
+}
+#competences li.jquery {
+    background-position: -270px 0;
+    height: 70px;
+    width: 90px;
+}
+#competences li.jquery:hover {
+    background-position: 0 0;
+}
+#competences li.ajax {
+    background-position: -360px 0;
+    height: 70px;
+    width: 90px;
+}
+#competences li.ajax:hover {
+    background-position: -90px 0;
+}
+#competences li.javascript {
+    background-position: -460px 0;
+    height: 70px;
+    width: 75px;
+}
+#competences li.javascript:hover {
+    background-position: -190px 0;
+}
+
+#competences ul.technologie_web {
+    padding: 0 67px;
+}
+#competences ul.technologie_web li {
+    margin: 0 10px;
+}
+#competences li.html5 {
+    background-position: -325px -70px;
+    height: 70px;
+    width: 70px;
+}
+#competences li.html5:hover {
+    background-position: -55px -70px;
+}
+#competences li.css3 {
+    background-position: -415px -70px;
+    height: 70px;
+    width: 70px;
+}
+#competences li.css3:hover {
+    background-position: -145px -70px;
+}
+
+#competences ul.langage_programmation {
+    padding: 0 10px;
+}
+#competences ul.langage_programmation li {
+    margin: 0 28px;
+}
+#competences li.php {
+    background-position: -315px -140px;
+    height: 70px;
+    width: 90px;
+}
+#competences li.php:hover {
+    background-position: -45px -140px;
+}
+#competences li.java {
+    background-position: -405px -140px;
+    height: 70px;
+    width: 90px;
+}
+#competences li.java:hover {
+    background-position: -135px -140px;
+}
+
+#competences ul.autres_technologie li {
+    margin: 0 7px;
+}
+#competences li.gimp {
+    background-position: -270px -210px;
+    height: 70px;
+    width: 90px;
+}
+#competences li.gimp:hover {
+    background-position: 0 -210px;
+}
+#competences li.linux {
+    position: relative;
+    top: -30px;
+    background-position: -360px -210px;
+    height: 70px;
+    width: 90px;
+}
+#competences li.linux:hover {
+    background-position: -90px -210px;
+}
+#competences li.mysql {
+    background-position: -450px -210px;
+    height: 70px;
+    width: 90px;
+}
+#competences li.mysql:hover {
+    background-position: -180px -210px;
 }
 
 
@@ -1031,18 +1152,21 @@ h1#realisations {
 }
 
 .pagination {
+    position: relative;
     float: right;
+    margin-right: 10px;
+    top: -30px;
 }
 
 .pagination a {
     display: inline-block;
-    background: url("./images/pagination.png") 0 0 no-repeat transparent;
-    width: 20px;
-    height: 20px;
+    background: url("./images/bouton_pagination.png") 0 0 no-repeat transparent;
+    width: 8px;
+    height: 8px;
+    margin-left: 3px;
 }
 
 .pagination a.selected {
-    background-position: -20px 0;
+    background-position: 0 -8px;
     cursor: default;
 }
-
