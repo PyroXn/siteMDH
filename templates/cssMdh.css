@@ -377,8 +377,9 @@ a {
 }*/
 
 #competences {
+    background: url("./images/fond_competence.png") no-repeat scroll center top transparent;  
     float: left;
-    height: 310px;
+    height: 323px;
     width: 315px;
     padding-bottom: 15px;
     padding-top: 5px;

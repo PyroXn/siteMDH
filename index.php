@@ -119,25 +119,25 @@ function agence() {
         </div>';
 //<h2>Notre savoir faire (revoir peut-etre le nom : domaine de competence)</h2>
     $contenu .= '
-        <div id="competences" class="encadrement">
+        <div id="competences">
             <h2>&nbsp;&nbsp;&nbsp;Domaines de compétences</h2>
             <ul class="langage_script">
-                <li class="jquery">jquery</li>
-                <li class="ajax">ajax</li>
-                <li class="javascript">javascript</li>
+                <li class="jquery" title="jquery">jquery</li>
+                <li class="ajax" title="ajax">ajax</li>
+                <li class="javascript" title="javascript">javascript</li>
             </ul>
             <ul class="technologie_web">
-                <li class="html5">html5</li>
-                <li class="css3">css3</li>
+                <li class="html5" title="html5">html5</li>
+                <li class="css3" title="css3">css3</li>
             </ul>
             <ul class="langage_programmation">
-                <li class="php">php</li>
-                <li class="java">java</li>
+                <li class="php" title="php">php</li>
+                <li class="java" title="java">java</li>
             </ul>
             <ul class="autres_technologie">
-                <li class="gimp">gimp</li>
-                <li class="linux">linux</li>
-                <li class="mysql">mysql</li>
+                <li class="gimp" title="gimp">gimp</li>
+                <li class="linux" title="linux">linux</li>
+                <li class="mysql" title="mysql">mysql</li>
             </ul>
         </div>';
 
