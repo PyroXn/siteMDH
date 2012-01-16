@@ -30,9 +30,9 @@
                             <li id="contact_menu" class=""><a href="index.php?p=contact" title="">Contact</a></li>
                         </ul>-->
                         <ul id="social">
-                                <li id="facebook"><a href="http://facebook.com/"></a></li>
-                                <li id="google"><a href="https://plus.google.com/"></a></li>
-                                <li id="github"><a href="https://github.com/"></a></li>
+                                <li id="facebook" title="facebook"><a href="http://facebook.com/"></a></li>
+                                <li id="google" title="google+"><a href="https://plus.google.com/"></a></li>
+                                <li id="github" title="github"><a href="https://github.com/"></a></li>
                         </ul>
                         
                         
