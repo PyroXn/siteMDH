@@ -48,7 +48,7 @@ function home() {
                     <div class="carrousel" id="carrousel">
                         <div class="slide">
                             <a href="#">
-                                <img src="http://lorempixel.com/884/250/sports/1">
+                                <img src="./templates/images/pep.jpg">
                             </a>
                             <span class="info">voila linformation</span>
                         </div>
@@ -120,7 +120,7 @@ function agence() {
 //<h2>Notre savoir faire (revoir peut-etre le nom : domaine de competence)</h2>
     $contenu .= '
         <div id="competences">
-            <h2>&nbsp;&nbsp;&nbsp;Domaines de compétences</h2>
+            <h2>Domaines de compétences</h2>
             <ul class="langage_script">
                 <li class="jquery" title="jquery">jquery</li>
                 <li class="ajax" title="ajax">ajax</li>
