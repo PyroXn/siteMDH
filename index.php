@@ -545,7 +545,7 @@ Apporter des nouveautés, mettre à jour vos données, actualiser votre contenu 
                                 </li>
                                 <li class="agence-box">
                                     <img src="./templates/images/cle.png">
-                                    <p>La <b>mise en place</b> du design.</p>
+                                    <p>La <b>mise en place</b> du design et sa publication en ligne.</p>
                                 </li>
                         </ol>';
     display($title,$contenu,$description);
