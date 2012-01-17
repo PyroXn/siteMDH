@@ -56,7 +56,7 @@ function home() {
                             <a href="#">
                                 <img src="./templates/images/pepBandeau2.jpg">
                             </a>
-                            <span class="info">voila linformation2</span>
+                            <span class="info">La pépiniére d\'entreprise de mexy</span>
                         </div>
                         <div class="slide">
                             <a href="#">
@@ -78,7 +78,19 @@ function home() {
                         </div>
                     </div>
                     <div id="pagination" class="pagination"></div>
-                </div>';
+                </div>
+                <p>
+                    My dev house est une S.A.R.L. implanté au coeur de la pépinière d\'entreprise de Mexy.  
+                    Notre équipe est composé de 3 personnes diplomés en informatique et design.
+                    Recement sortie d\'école nous sommes à la pointe des technologie de développement web.
+                    Nos formations et nos experiences nous permettent de vous proposer une panoplie de service, 
+                    allant de la conception de site internet à la réalisation de progiciel en passant par la 
+                    création d\'application pour smartphone. 
+                    Nous mettont un point d\'honneur au respect des standards et critères de qualités qui sont si souvent oublié dans notre secteur d\'activité.
+                    En savoir plus + sur nous
+                    En savoir plus + sur nos services
+                    Pour nous contacter
+                </p>';
     
     
     display($title, $contenu, $description);
