@@ -494,7 +494,7 @@ function siteinternet() {
                 <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
         </div>
         <div class="site">
-                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
+                <a class=\'zoombox zgallery1\' href=\'./templates/images/ecommerce.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/ecommerce_min.png\'></a>
         </div>
         <div class="site">
                 <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
