@@ -212,7 +212,7 @@ function agence() {
                 <li class="agence-box">
                     <img src="./templates/images/user.png">
                     <b>Une équipe dynamique et passionée</b>
-                    <p>L\'informatique étant une passion, </p>
+                    <p>L\'informatique étant une passion, nous sommes à la pointe des technologie de développement web.</p>
                 </li>
                 <li class="agence-box">
                     <img src="./templates/images/sablier.png">
@@ -425,7 +425,7 @@ function contactSend() {
 
     $title = 'My Dev House - Message envoyé';
     $description = 'Vous souhaitez nous contacter ? N\'hésitez pas !';
-    $contenu = '<h1>Nous contacter</h1>';
+    $contenu = '<h1 id="titre_contact"><span class="texte_out_sreen">Nous contacter</span></h1>';
     $contenu .= 'Votre message a bien été envoyé. Nous y répondrons dans les plus brefs délais.';
     display($title, $contenu,$description);
 }
