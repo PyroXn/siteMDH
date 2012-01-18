@@ -1,6 +1,6 @@
 <?php if($_GET['p'] != "contact" && $_GET['p'] != "realisations" && $_GET['p'] != "services" && $_GET['p'] != "agence" && $_GET['p'] != "home") {
     echo '<div class="clearboth"></div>
-    <a class="bouton_contact" href="index.php?p=contact">Nous contacter</a>';
+    <a class="bouton_contact" href="contact.html">Nous contacter</a>';
 }?>
 </div>
  <div class="clearboth"></div>
@@ -37,7 +37,7 @@
                         
                         
                         <div class="clearboth"></div>
-                        <div class="copyright">&copy; 2012 My Dev House - <a href="index.php?p=mentions">Mentions légales</a></div>
+                        <div class="copyright">&copy; 2012 My Dev House - <a href="mentions-legales.html">Mentions légales</a></div>
                      </div>
                 </div>
             </div>

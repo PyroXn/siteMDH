@@ -42,7 +42,7 @@ function display($title, $contenu,$description) {
 
 function home() {
     $title = 'My Dev House - Agence de Developpement Informatique';
-    $description = 'informatique lorraine | mydevhouse.com';
+    $description = 'My Dev House - Agence de développement informatique lorraine';
     
     $contenu = '<div id="slider">
                     <div class="carrousel" id="carrousel">
@@ -53,7 +53,7 @@ function home() {
                             <span class="info">La pépiniére d\'entreprise de mexy - Nos bureaux</span>
                         </div>
                         <div class="slide" id="site_web">
-                            <a href="index.php?p=siteinternet" title="Site internet">
+                            <a href="creation-site-internet.html" title="Site internet">
                                 <h1 id="site_web"><span class="texte_out_sreen">Création de site internet</span></h1>
                                 <img src="./templates/images/globe_web_miniature.png" class="miniature">
                                 <span class="paragraphe_liste">
@@ -64,7 +64,7 @@ function home() {
                             <span class="info titre_liste">Création de site internet</span>
                         </div>
                         <div class="slide" id="logiciel">
-                            <a href="http://localhost/siteMDH/index.php?p=logiciel" title="Logiciel">
+                            <a href="creation-logiciel.htmll" title="Logiciel">
                                 <h1 id="logiciel"><span class="texte_out_sreen">Développement de logiciel</span></h1>
                                 <img src="./templates/images/logiciel.png" class="miniature">
                                 <span class="paragraphe_liste">
@@ -75,7 +75,7 @@ function home() {
                             <span class="info titre_liste">Développement de logiciel</span>
                         </div>
                         <div class="slide" id="design">
-                            <a href="http://localhost/siteMDH/index.php?p=design" title="Design">
+                            <a href="creation-design.html" title="Design">
                                 <h1 id="design"><span class="texte_out_sreen">Création de design</span></h1>
                                 <img src="./templates/images/design.png" class="miniature">
                                 <span class="paragraphe_liste">
@@ -86,7 +86,7 @@ function home() {
                             <span class="info titre_liste">Création de design</span>
                         </div>
                         <div class="slide" id="referencement">
-                            <a href="http://localhost/siteMDH/index.php?p=referencement" title="Referencement">
+                            <a href="referencement.html" title="Referencement">
                                 <h1 id="referencement"><span class="texte_out_sreen">Référencement</span></h1>
                                 <img src="./templates/images/referencement.png" class="miniature">
                                 <span class="paragraphe_liste">
@@ -101,12 +101,12 @@ function home() {
                 </div>
                 <p class="paraDouble firstcolonne">
                     <strong>My dev house</strong> est une S.A.R.L. implanté au coeur de la pépinière d\'entreprise de Mexy.  
-                    Notre équipe est composé de 3 personnes <strong>diplomés en informatique et design</strong>.
-                    Recement sortie d\'école nous sommes à la pointe des technologie de développement web.
-                    Nous sommes <strong>dynmique</strong>, <strong>passionée</strong> et à votre écoute pour répondre à toutes vos questions.
+                    Notre équipe est composée de 3 personnes <strong>diplomés en informatique et design</strong>.
+                    Recement sortie d\'école nous sommes à la pointe des technologies de développement web.
+                    Nous sommes <strong>dynamique</strong>, <strong>passionée</strong> et à votre écoute pour répondre à toutes vos questions.
                 </p>
                 <p class="paraDouble">
-                    Nos <strong>formations et nos experiences</strong> nous permettent de vous proposer une panoplie de service, 
+                    Nos <strong>formations et nos experiences</strong> nous permettent de vous proposer une panoplie de services, 
                     allant de la conception de site internet à la réalisation de progiciel en passant par la 
                     création d\'application pour smartphone. 
                     Nous mettont un point d\'honneur au <strong>respect des standards et critères de qualités</strong> qui sont 
@@ -114,8 +114,8 @@ function home() {
                 </p>
                 <div class="clearboth"></div>
                 <div id="icone_en_savoir_plus">
-                    <a href="http://localhost/siteMDH/index.php?p=agence"><span id="savoir_plus_nous" class="savoir_plus"></span></a>
-                    <a href="http://localhost/siteMDH/index.php?p=services"><span id="savoir_plus_services" class="savoir_plus"></span></a>
+                    <a href="agence.html><span id="savoir_plus_nous" class="savoir_plus"></span></a>
+                    <a href="savoir-faire.html"><span id="savoir_plus_services" class="savoir_plus"></span></a>
                 </div>';
     
     
@@ -257,7 +257,7 @@ function services() {
     $contenu .= '<ul>';
     $contenu .= '
         <li>
-            <a href="index.php?p=siteinternet" title="Site internet" class="footer-box" id="site_web">
+            <a href="creation-site-internet.html" title="Site internet" class="footer-box" id="site_web">
                 <span class="titre_liste">Site internet</span>
                     <span class="paragraphe_liste">Nous concevons des sites internet allant du site vitrine au site e commerce en passant par 
                         des sites événementiels, communautaires, des blogs ou toutes autres demandes spécifiques.
@@ -268,7 +268,7 @@ function services() {
         </li>';
     $contenu .= '
         <li>
-            <a href="index.php?p=logiciel" title="Logiciel"  class="footer-box" id="logiciel">
+            <a href="creation-logiciel.html" title="Logiciel"  class="footer-box" id="logiciel">
                 <span class="titre_liste">Logiciel</span>
                 <span class="paragraphe_liste">Vous souhaitez informatiser, optimiser ou disposer de logiciel efficace pour votre entreprise ? Notre équipe spécialisé dans le
                     développement de progiciel est à votre écoute.
@@ -279,7 +279,7 @@ function services() {
 
     $contenu .= '
         <li>
-            <a href="index.php?p=design" title="Design"  class="footer-box" id="design">
+            <a href="creation-design.html" title="Design"  class="footer-box" id="design">
                 <span class="titre_liste">Design</span>
                 <span class="paragraphe_liste">Pour votre identité visuelle nous créons ou relookons vos chartes graphiques, logos ainsi que différents supports tels que des 
                     cartes de visite, plaquettes commerciales, flyers, newsletters…
@@ -290,7 +290,7 @@ function services() {
 
     $contenu .= '
         <li>
-            <a href="index.php?p=referencement" title="Referencement"  class="footer-box" id="referencement">
+            <a href="referencement.html" title="Referencement"  class="footer-box" id="referencement">
                 <span class="titre_liste">Référencement</span>
                 <span class="paragraphe_liste">Vous souhaitez améliorer le positionnement et la visibilitée de votre site internet ? 
                     Nous proposons diverses offres vous permettant d\'acceder à un référencement durable. 
@@ -301,7 +301,7 @@ function services() {
 
     $contenu .= '
         <li>
-        <a href="index.php?p=formation" title="Formation"  class="footer-box" id="formation">
+        <a href="formation.html" title="Formation"  class="footer-box" id="formation">
             <span class="titre_liste">Formation</span>
             <span class="paragraphe_liste">My Dev House vous propose des formations sur mesure. Nous établissons ensemble les points sur lesquels vous souhaitez être
             formé ce qui vous assure une formation utile et constructive.
@@ -312,7 +312,7 @@ function services() {
 
     $contenu .= '
         <li>
-        <a href="index.php?p=smartphone" title="Smartphone"  class="footer-box" id="smartphone">
+        <a href="creation-application-smartphone.html" title="Smartphone"  class="footer-box" id="smartphone">
             <span class="titre_liste">Application smartphone</span>
             <span class="paragraphe_liste">Nous proposons à nos clients des applications smartphone sur mesure. Nous sommes à l\'écoute de vos besoins afin de vous 
             proposez une solution au plus près de vos attentes.

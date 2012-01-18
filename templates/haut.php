@@ -59,11 +59,11 @@
             </div>
             <div id="navigation">
                 <ul>
-                    <li id="accueil_menu" ><a <?php if($_GET['p'] == "home") { echo 'class="currentpage"'; } ?> href="index.php?p=home" title="">Accueil</a></li>
-                    <li id="agence_menu"><a <?php if($_GET['p'] == "agence") { echo 'class="currentpage"'; } ?> href="index.php?p=agence" title="">Qui sommes-nous</a></li>
-                    <li id="services_menu"><a <?php if($_GET['p'] == "services") { echo 'class="currentpage"'; } ?> href="index.php?p=services" title="">Savoir faire</a></li>
+                    <li id="accueil_menu" ><a <?php if($_GET['p'] == "home") { echo 'class="currentpage"'; } ?> href="accueil.html" title="">Accueil</a></li>
+                    <li id="agence_menu"><a <?php if($_GET['p'] == "agence") { echo 'class="currentpage"'; } ?> href="agence.html" title="">Qui sommes-nous</a></li>
+                    <li id="services_menu"><a <?php if($_GET['p'] == "services") { echo 'class="currentpage"'; } ?> href="savoir-faire.html" title="">Savoir faire</a></li>
 <!--                    <li id="realisations_menu"><a <?php if($_GET['p'] == "realisations") { echo 'class="currentpage"'; } ?> href="index.php?p=realisations" title="">Réalisations</a></li>-->
-                    <li id="contact_menu"><a <?php if($_GET['p'] == "contact") { echo 'class="currentpage"'; } ?> href="index.php?p=contact" title="">Contact</a></li>
+                    <li id="contact_menu"><a <?php if($_GET['p'] == "contact") { echo 'class="currentpage"'; } ?> href="contact.html" title="">Contact</a></li>
                 </ul>
             </div>
             <div id="top">
