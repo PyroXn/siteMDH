@@ -50,7 +50,7 @@ function home() {
                             <a href="#">
                                 <img src="./templates/images/pepBandeau2.jpg">
                             </a>
-                            <span class="info">La pépiniére d\'entreprise de mexy</span>
+                            <span class="info">La pépiniére d\'entreprise de mexy - Nos bureaux</span>
                         </div>
                         <div class="slide" id="site_web">
                             <a href="index.php?p=siteinternet" title="Site internet">
@@ -152,8 +152,8 @@ function agence() {
         <p>
             L\'équipe de My Dev House vous accompagne tout au long des différentes étapes de la réalisation de votre projet. 
             Nous sommes à vos côtés de la réalisation du cahier des charges à la mise en place d\'un suivi à long terme.
-            Notre équipe saura vous conseiller afin de satisfaire au mieux vos besoins. Notre objectif est de vous fournir un service 
-            complet de qualité.
+            Notre équipe saura vous conseiller afin de satisfaire au mieux vos besoins. Notre objectif : <b>vous fournir un service 
+            complet de qualité</b>.
         </p>
         </div>';
 //<h2>Notre savoir faire (revoir peut-etre le nom : domaine de competence)</h2>
@@ -219,7 +219,7 @@ function agence() {
                 <li class="agence-box">
                     <img src="./templates/images/user.png">
                     <b>Une équipe dynamique et passionée</b>
-                    <p>L\'informatique étant une passion, </p>
+                    <p>L\'informatique étant une passion, nous sommes à la pointe des technologie de développement web.</p>
                 </li>
                 <li class="agence-box">
                     <img src="./templates/images/sablier.png">
@@ -432,7 +432,7 @@ function contactSend() {
 
     $title = 'My Dev House - Message envoyé';
     $description = 'Vous souhaitez nous contacter ? N\'hésitez pas !';
-    $contenu = '<h1>Nous contacter</h1>';
+    $contenu = '<h1 id="titre_contact"><span class="texte_out_sreen">Nous contacter</span></h1>';
     $contenu .= 'Votre message a bien été envoyé. Nous y répondrons dans les plus brefs délais.';
     display($title, $contenu,$description);
 }
@@ -527,17 +527,17 @@ function siteinternet() {
                                 </li>
                         </ol>';
     $contenu .= '<p></p>';
-    $contenu .= '<h2>Les différents sites internet</h2>';
-    $contenu .= '
-        <div class="site">
-                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
-        </div>
-        <div class="site">
-                <a class=\'zoombox zgallery1\' href=\'./templates/images/ecommerce.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/ecommerce_min.png\'></a>
-        </div>
-        <div class="site">
-                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
-        </div>';
+//    $contenu .= '<h2>Les différents sites internet</h2>';
+//    $contenu .= '
+//        <div class="site">
+//                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
+//        </div>
+//        <div class="site">
+//                <a class=\'zoombox zgallery1\' href=\'./templates/images/ecommerce.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/ecommerce_min.png\'></a>
+//        </div>
+//        <div class="site">
+//                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
+//        </div>';
     display($title,$contenu,$description);
 }
 
