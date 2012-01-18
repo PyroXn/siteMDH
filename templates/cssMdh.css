@@ -1151,6 +1151,26 @@ h1#realisations {
     text-indent: 20px;
 }
 
+.slide h1 {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}
+
+.slide .paragraphe_liste {
+    position: absolute;
+    left: 250px;
+    top: 70px;
+    font-size: 18px;
+    color: black;
+}
+
+.slide .miniature {
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+
 .pagination {
     position: relative;
     float: right;

@@ -48,33 +48,53 @@ function home() {
                     <div class="carrousel" id="carrousel">
                         <div class="slide">
                             <a href="#">
-                                <img src="./templates/images/pepBandeau.jpg">
-                            </a>
-                            <span class="info">voila linformation</span>
-                        </div>
-                        <div class="slide">
-                            <a href="#">
                                 <img src="./templates/images/pepBandeau2.jpg">
                             </a>
                             <span class="info">La pépiniére d\'entreprise de mexy</span>
                         </div>
-                        <div class="slide">
-                            <a href="#">
-                                <img src="http://lorempixel.com/884/250/sports/3">
+                        <div class="slide" id="site_web">
+                            <a href="index.php?p=siteinternet" title="Site internet">
+                                <h1 id="site_web"><span class="texte_out_sreen">Création de site internet</span></h1>
+                                <img src="./templates/images/globe_web_miniature.png" class="miniature">
+                                <span class="paragraphe_liste">
+                                    Nous concevons des sites internet allant du site vitrine au site e commerce en passant par 
+                                    des sites événementiels, communautaires, des blogs ou toutes autres demandes spécifiques.
+                                </span>
                             </a>
-                            <span class="info">voila linformation3</span>
+                            <span class="info titre_liste">Création de site internet</span>
                         </div>
-                        <div class="slide">
-                            <a href="#">
-                                <img src="http://lorempixel.com/884/250/sports/4">
+                        <div class="slide" id="logiciel">
+                            <a href="http://localhost/siteMDH/index.php?p=logiciel" title="Logiciel">
+                                <h1 id="logiciel"><span class="texte_out_sreen">Développement de logiciel</span></h1>
+                                <img src="./templates/images/logiciel.png" class="miniature">
+                                <span class="paragraphe_liste">
+                                    Vous souhaitez informatiser, optimiser ou disposer de logiciel efficace pour votre entreprise ? Notre équipe spécialisé dans le
+                                    développement de progiciel est à votre écoute.
+                                </span>
                             </a>
-                            <span class="info">voila linformation4</span>
+                            <span class="info titre_liste">Développement de logiciel</span>
                         </div>
-                        <div class="slide">
-                            <a href="#">
-                                <img src="http://lorempixel.com/884/250/sports/5">
+                        <div class="slide" id="design">
+                            <a href="http://localhost/siteMDH/index.php?p=design" title="Design">
+                                <h1 id="design"><span class="texte_out_sreen">Création de design</span></h1>
+                                <img src="./templates/images/design.png" class="miniature">
+                                <span class="paragraphe_liste">
+                                    Pour votre identité visuelle nous créons ou relookons vos chartes graphiques, logos ainsi que différents supports tels que des 
+                                    cartes de visite, plaquettes commerciales, flyers, newsletters…
+                                </span>
                             </a>
-                            <span class="info">voila linformation5</span>
+                            <span class="info titre_liste">Création de design</span>
+                        </div>
+                        <div class="slide" id="referencement">
+                            <a href="http://localhost/siteMDH/index.php?p=referencement" title="Referencement">
+                                <h1 id="referencement"><span class="texte_out_sreen">Référencement</span></h1>
+                                <img src="./templates/images/referencement.png" class="miniature">
+                                <span class="paragraphe_liste">
+                                    Vous souhaitez améliorer le positionnement et la visibilitée de votre site internet ? 
+                                    Nous proposons diverses offres vous permettant d\'acceder à un référencement durable.
+                                </span>
+                            </a>
+                            <span class="info titre_liste">Référencement</span>
                         </div>
                     </div>
                     <div id="pagination" class="pagination"></div>
