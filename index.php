@@ -152,8 +152,8 @@ function agence() {
         <p>
             L\'équipe de My Dev House vous accompagne tout au long des différentes étapes de la réalisation de votre projet. 
             Nous sommes à vos côtés de la réalisation du cahier des charges à la mise en place d\'un suivi à long terme.
-            Notre équipe saura vous conseiller afin de satisfaire au mieux vos besoins. Notre objectif est de vous fournir un service 
-            complet de qualité.
+            Notre équipe saura vous conseiller afin de satisfaire au mieux vos besoins. Notre objectif : <b>vous fournir un service 
+            complet de qualité</b>.
         </p>
         </div>';
 //<h2>Notre savoir faire (revoir peut-etre le nom : domaine de competence)</h2>
@@ -527,17 +527,17 @@ function siteinternet() {
                                 </li>
                         </ol>';
     $contenu .= '<p></p>';
-    $contenu .= '<h2>Les différents sites internet</h2>';
-    $contenu .= '
-        <div class="site">
-                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
-        </div>
-        <div class="site">
-                <a class=\'zoombox zgallery1\' href=\'./templates/images/ecommerce.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/ecommerce_min.png\'></a>
-        </div>
-        <div class="site">
-                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
-        </div>';
+//    $contenu .= '<h2>Les différents sites internet</h2>';
+//    $contenu .= '
+//        <div class="site">
+//                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
+//        </div>
+//        <div class="site">
+//                <a class=\'zoombox zgallery1\' href=\'./templates/images/ecommerce.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/ecommerce_min.png\'></a>
+//        </div>
+//        <div class="site">
+//                <a class=\'zoombox zgallery1\' href=\'./templates/images/vitrine.png\' title="'.$siteVitrine.'"><img class=\'minia\' src=\'./templates/images/vitrine_min.png\'></a>
+//        </div>';
     display($title,$contenu,$description);
 }
 
