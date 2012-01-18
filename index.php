@@ -44,7 +44,7 @@ function home() {
     $title = 'My Dev House - Agence de Developpement Informatique';
     $description = 'informatique lorraine | mydevhouse.com';
     
-    $contenu = '<div>
+    $contenu = '<div id="slider">
                     <div class="carrousel" id="carrousel">
                         <div class="slide">
                             <a href="#">
@@ -110,7 +110,12 @@ function home() {
                     En savoir plus + sur nous
                     En savoir plus + sur nos services
                     Pour nous contacter
-                </p>';
+                </p>
+                <div id="icone_en_savoir_plus">
+                    <a href="http://localhost/siteMDH/index.php?p=agence"><span id="savoir_plus_nous" class="savoir_plus"></span></a>
+                    <a href="http://localhost/siteMDH/index.php?p=services"><span id="savoir_plus_services" class="savoir_plus"></span></a>
+                </div>';
+    
     
     
     display($title, $contenu, $description);
