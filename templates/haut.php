@@ -53,7 +53,7 @@
     <body>
         <div id="header">
             <div id="logo">
-                <a href="index.php?p=home">
+                <a href="accueil.html">
                     <img alt="mdh" src="./templates/images/mdh2.png"/>
                 </a>
             </div>

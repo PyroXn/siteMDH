@@ -114,7 +114,7 @@ function home() {
                 </p>
                 <div class="clearboth"></div>
                 <div id="icone_en_savoir_plus">
-                    <a href="agence.html><span id="savoir_plus_nous" class="savoir_plus"></span></a>
+                    <a href="agence.html"><span id="savoir_plus_nous" class="savoir_plus"></span></a>
                     <a href="savoir-faire.html"><span id="savoir_plus_services" class="savoir_plus"></span></a>
                 </div>';
     
