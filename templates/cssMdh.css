@@ -1190,3 +1190,29 @@ h1#realisations {
     background-position: 0 -8px;
     cursor: default;
 }
+
+#slider {
+    margin-bottom: 20px;
+}
+
+.savoir_plus {
+    display: inline-block;
+    height: 28px;
+    width: 186px;
+    margin: 0 20px;
+}
+#savoir_plus_nous:hover, #savoir_plus_services:hover {
+    background-position: 0 -28px;
+}
+
+#savoir_plus_nous {
+    background: url("./images/savoirPlusNous.png") 0 0 no-repeat transparent;
+}
+
+#savoir_plus_services {
+    background: url("./images/savoirPlusService.png") 0 0 no-repeat transparent;
+}
+
+#icone_en_savoir_plus {
+    text-align: center;
+}
