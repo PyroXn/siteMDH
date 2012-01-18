@@ -68,7 +68,7 @@ function home() {
                                 <h1 id="logiciel"><span class="texte_out_sreen">Développement de logiciel</span></h1>
                                 <img src="./templates/images/logiciel.png" class="miniature">
                                 <span class="paragraphe_liste">
-                                    Vous souhaitez informatiser, optimiser ou disposer de logiciel efficace pour votre entreprise ? Notre équipe spécialisé dans le
+                                    Vous souhaitez informatiser, optimiser ou disposer de logiciel efficace pour votre entreprise ? Notre équipe spécialisée dans le
                                     développement de progiciel est à votre écoute.
                                 </span>
                             </a>
@@ -100,16 +100,16 @@ function home() {
                     <div id="pagination" class="pagination"></div>
                 </div>
                 <p class="paraDouble firstcolonne">
-                    My dev house est une S.A.R.L. implanté au coeur de la pépinière d\'entreprise de Mexy.  
-                    Notre équipe est composé de 3 personnes diplomés en informatique et design.
+                    <strong>My dev house</strong> est une S.A.R.L. implanté au coeur de la pépinière d\'entreprise de Mexy.  
+                    Notre équipe est composé de 3 personnes <strong>diplomés en informatique et design</strong>.
                     Recement sortie d\'école nous sommes à la pointe des technologie de développement web.
-                    Nous sommes dynmique, passionée et à votre écoute pour répondre à toutes vos questions.
+                    Nous sommes <strong>dynmique</strong>, <strong>passionée</strong> et à votre écoute pour répondre à toutes vos questions.
                 </p>
                 <p class="paraDouble">
-                    Nos formations et nos experiences nous permettent de vous proposer une panoplie de service, 
+                    Nos <strong>formations et nos experiences</strong> nous permettent de vous proposer une panoplie de service, 
                     allant de la conception de site internet à la réalisation de progiciel en passant par la 
                     création d\'application pour smartphone. 
-                    Nous mettont un point d\'honneur au respect des standards et critères de qualités qui sont 
+                    Nous mettont un point d\'honneur au <strong>respect des standards et critères de qualités</strong> qui sont 
                     si souvent oublié dans notre secteur d\'activité.
                 </p>
                 <div class="clearboth"></div>
