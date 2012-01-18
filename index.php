@@ -50,7 +50,7 @@ function home() {
                             <a href="#">
                                 <img src="./templates/images/pepBandeau2.jpg">
                             </a>
-                            <span class="info">La pépiniére d\'entreprise de mexy</span>
+                            <span class="info">La pépiniére d\'entreprise de mexy - Nos bureaux</span>
                         </div>
                         <div class="slide" id="site_web">
                             <a href="index.php?p=siteinternet" title="Site internet">
