@@ -100,17 +100,17 @@ function home() {
                     <div id="pagination" class="pagination"></div>
                 </div>
                 <p class="paraDouble firstcolonne">
-                    <strong>My dev house</strong> est une S.A.R.L. implanté au coeur de la pépinière d\'entreprise de Mexy.  
-                    Notre équipe est composée de 3 personnes <strong>diplomés en informatique et design</strong>.
-                    Recement sortie d\'école nous sommes à la pointe des technologies de développement web.
-                    Nous sommes <strong>dynamique</strong>, <strong>passionée</strong> et à votre écoute pour répondre à toutes vos questions.
+                    <strong>My dev house</strong> est une S.A.R.L. implantée au coeur de la pépinière d\'entreprises de Mexy.  
+                    Notre équipe est composée de 3 personnes <strong>diplomées en informatique et design</strong>.
+                    Recemment sortis d\'école nous sommes à la pointe des technologies de développement web.
+                    Nous sommes <strong>dynamiques</strong>, <strong>passionnés</strong> et à votre écoute pour répondre à toutes vos questions.
                 </p>
                 <p class="paraDouble">
                     Nos <strong>formations et nos experiences</strong> nous permettent de vous proposer une panoplie de services, 
-                    allant de la conception de site internet à la réalisation de progiciel en passant par la 
+                    allant de la conception de site internet à la réalisation de progiciel, en passant par la 
                     création d\'application pour smartphone. 
-                    Nous mettont un point d\'honneur au <strong>respect des standards et critères de qualités</strong> qui sont 
-                    si souvent oublié dans notre secteur d\'activité.
+                    Nous mettons un point d\'honneur au <strong>respect des standards et critères de qualité</strong> qui sont 
+                    si souvent oubliés dans notre secteur d\'activité.
                 </p>
                 <div class="clearboth"></div>
                 <div id="icone_en_savoir_plus">
@@ -218,13 +218,13 @@ function agence() {
                 </li>
                 <li class="agence-box">
                     <img src="./templates/images/user.png">
-                    <b>Une équipe dynamique et passionée</b>
-                    <p>L\'informatique étant une passion, nous sommes à la pointe des technologie de développement web.</p>
+                    <b>Une équipe dynamique et passionnée</b>
+                    <p>L\'informatique étant une passion, nous sommes à la pointe des technologies de développement web.</p>
                 </li>
                 <li class="agence-box">
                     <img src="./templates/images/sablier.png">
-                    <b>Des délais de livraison respecté</b>
-                    <p>Nous mettons un point d\'honneur à respecter l\'échéancier établis lors de la rédaction du cahier des charges.</p>
+                    <b>Des délais de livraison respectés</b>
+                    <p>Nous mettons un point d\'honneur à respecter l\'échéancier établi lors de la rédaction du cahier des charges.</p>
                 </li>
                 <li class="agence-box">
                     <img src="./templates/images/report.png">
@@ -244,14 +244,14 @@ function services() {
     $contenu .= '
         <h2>Découvrez notre savoir faire à travers nos différents domaines de compétences</h2>
         <p class="paraDouble firstcolonne">
-            Nous maitrisons de manières globales les différentes technologies web nous permettant de vous accompagner du début 
+            Nous maitrisons de manière globale les différentes technologies web nous permettant de vous accompagner du début 
             à la fin de votre projet. Le référencement et le respect des standards web permettent à nos réalisations d\'être 
-            <strong>accessible</strong> par le plus grand nombre d\'utilisateurs quels que soient leurs plateformes.
+            <strong>accessibles</strong> par le plus grand nombre d\'utilisateurs quel que soit leurs plateformes.
         </p>
         <p class="paraDouble">
-            Le design quand à lui nous permet de rendre chacune de nos réalisations unique. Notre méthodologie et notre expérience 
-            rend possible le respect des délai établis. Enfin notre professionalisme et le suivi de nos clients vous garantissent une 
-            <b>tranquilité d\'esprit</b> sur le produit livré.
+            Le design quant à lui nous permet de rendre chacune de nos réalisations unique. Notre méthodologie et notre expérience 
+            rendent possibles le respect des délais établis. Enfin notre professionnalisme et le suivi de nos clients vous garantissent une 
+            <b>tranquillité d\'esprit</b> sur le produit livré.
         </p>';
     $contenu .= '<div class="clearboth"></div>';
     $contenu .= '<ul>';
@@ -270,7 +270,7 @@ function services() {
         <li>
             <a href="creation-logiciel.html" title="Logiciel"  class="footer-box" id="logiciel">
                 <span class="titre_liste">Logiciel</span>
-                <span class="paragraphe_liste">Vous souhaitez informatiser, optimiser ou disposer de logiciel efficace pour votre entreprise ? Notre équipe spécialisé dans le
+                <span class="paragraphe_liste">Vous souhaitez informatiser, optimiser ou disposer de logiciel efficace pour votre entreprise ? Notre équipe spécialisée dans le
                     développement de progiciel est à votre écoute.
                     <em>En savoir</em>
                 </span>
@@ -292,7 +292,7 @@ function services() {
         <li>
             <a href="referencement.html" title="Referencement"  class="footer-box" id="referencement">
                 <span class="titre_liste">Référencement</span>
-                <span class="paragraphe_liste">Vous souhaitez améliorer le positionnement et la visibilitée de votre site internet ? 
+                <span class="paragraphe_liste">Vous souhaitez améliorer le positionnement et la visibilité de votre site internet ? 
                     Nous proposons diverses offres vous permettant d\'acceder à un référencement durable. 
                     <em>En savoir</em>
                 </span>
@@ -304,7 +304,7 @@ function services() {
         <a href="formation.html" title="Formation"  class="footer-box" id="formation">
             <span class="titre_liste">Formation</span>
             <span class="paragraphe_liste">My Dev House vous propose des formations sur mesure. Nous établissons ensemble les points sur lesquels vous souhaitez être
-            formé ce qui vous assure une formation utile et constructive.
+            formés ce qui vous assure une formation utile et constructive.
             <em>En savoir</em>
             </span>
         </a>
@@ -315,7 +315,7 @@ function services() {
         <a href="creation-application-smartphone.html" title="Smartphone"  class="footer-box" id="smartphone">
             <span class="titre_liste">Application smartphone</span>
             <span class="paragraphe_liste">Nous proposons à nos clients des applications smartphone sur mesure. Nous sommes à l\'écoute de vos besoins afin de vous 
-            proposez une solution au plus près de vos attentes.
+            proposer une solution au plus près de vos attentes.
             <em>En savoir</em>
             </span>
         </a>
@@ -370,6 +370,9 @@ function contact() {
             <legend>Type du produit</legend>
             <input type="radio" name="typeProduit" value="Progiciel" checked="checked">Progiciel</input>            
             <input type="radio" name="typeProduit" value="SiteWeb">Site web</input>
+            <input type="radio" name="TypeProduit" value="Referencement">Référencement</input>
+            <input type="radio" name="TypeProduit" value="Design">Design</input>
+            <input type="radio" name="TypeProduit" value="App. Smartphone">App. Smartphone</input>
             
             <div><input type="text" name="objet" id="objet" placeholder="Objet"><span class="error"></span></div>
             <textarea name="message" id="message" placeholder="Message"></textarea><span class="error"></span>
@@ -548,8 +551,8 @@ function logiciel() {
     $contenu .= '<h2>Nous créons des logiciels sur mesure</h2>';
     $contenu .= '<div>
                                 <img src="./templates/images/logiciel.png" class="miniature">
-                                <p class="firstPara">L\'équipe de My Dev House développe <b>des progiciels</b> sur mesure. Vous souhaitez <b>informatiser</b> une tache de votre entreprise ? Gagner du temps et par conséquent de l\'argent ? <b>Faites nous confiance !</b> Nous répondrons à vos besoins grâce à une solution développée sur mesure.</p>
-                                <p>Nous sommes présent à vos côtés durant les différentes phases de réalisation de votre projet. Qu\'elle que soit l\'envergure de votre projet, n\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
+                                <p class="firstPara">L\'équipe de My Dev House développe <b>des progiciels</b> sur mesure. Vous souhaitez <b>informatiser</b> une tâche de votre entreprise ? Gagner du temps et par conséquent de l\'argent ? <b>Faites nous confiance !</b> Nous répondrons à vos besoins grâce à une solution développée sur mesure.</p>
+                                <p>Nous sommes présents à vos côtés durant les différentes phases de réalisation de votre projet. Quelle que soit l\'envergure de votre projet, n\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                           </div>';
     $contenu .= '<h2>Que comprend un développement logiciel ?</h2>';
     $contenu .= '<ol>
@@ -659,7 +662,7 @@ function smartphone() {
     $contenu .= '<h2>N\'ayez plus peur du changement</h2>';
     $contenu .= '<div>
                             <img src="./templates/images/smartphone.png" class="miniature">
-                            <p class="firstPara">Suite à la croissance exponentielle du nombre de smartphone en France, les applications mobiles sont devenues un vecteur de communication incontournable. Elles augmenteront votre visibilité ou permettront de développer vos services.
+                            <p class="firstPara">Suite à la croissance exponentielle du nombre de smartphones en France, les applications mobiles sont devenues un vecteur de communication incontournable. Elles augmenteront votre visibilité ou permettront de développer vos services.
                                 Une application smartphone demande une etude approfondie au préalable et c\'est pourquoi my Dev House vous accompagnera dans vos démarches ainsi que pour la définition du cahier des charges.
                             </p>
                             <p>Les applications mobiles se scindent en deux parties :
