@@ -1099,7 +1099,7 @@ h1#realisations {
     margin: 10px;
     float: left;
     width: 201px;
-    height: 303px;
+    height: 300px;
     padding: 10px;
     background: whitesmoke;
     -webkit-background-clip: padding-box;
@@ -1124,8 +1124,12 @@ h1#realisations {
 }
 
 .agence-box b {
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
+}
+
+.agence-box p {
+    font-size: 13px;
 }
 
 .site {
