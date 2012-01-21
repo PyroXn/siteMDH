@@ -88,7 +88,7 @@ function home() {
                         <div class="slide" id="referencement">
                             <a href="referencement.html" title="Referencement">
                                 <h1 id="referencement"><span class="texte_out_sreen">Référencement</span></h1>
-                                <img src="./templates/images/referencement.png" class="miniature">
+                                <img src="./templates/images/seo.png" class="miniature">
                                 <span class="paragraphe_liste">
                                     Vous souhaitez améliorer le positionnement et la visibilitée de votre site internet ? 
                                     Nous proposons diverses offres vous permettant d\'acceder à un référencement durable.
@@ -613,7 +613,7 @@ function referencement() {
     $contenu = '<h1 id="referencement"><span class="texte_out_sreen">Référencement</span></h1>';
     $contenu .= '<h2>Nous améliorons votre visibilité sur internet</h2>';
     $contenu .= '<div>
-                                <img src="./templates/images/referencement.png" class="miniature">
+                                <img src="./templates/images/seo.png" class="miniature">
                                 <p class="firstPara">Vous souhaitez <b>améliorer votre positionnement</b> dans les moteurs de recherche ? Et donc devenir plus compétitif ? Notre équipe reprendra en intégralité les différentes étapes pour améliorer votre référencement.</p>
                                 <p>L\'étude et la modification des paramètres de référencement permet de gagner des visiteurs et donc potentiellement de nouveaux clients. N\'hésitez pas à <a href="index.php?p=contact" class="lien">nous contacter</a>.</p>
                           </div>';
