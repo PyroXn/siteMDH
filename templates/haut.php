@@ -12,6 +12,14 @@
         <link rel="stylesheet" type="text/css" href="./templates/tinyTips.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="./templates/zoombox.css" media="screen" />
         <link rel="icon" type="image/png" href="./templates/images/ico.png" />
+        <!--[if lte IE 8]>
+          <style type="text/css">
+              ..footer-box {
+                filter:progid:DXImageTransform.Microsoft.Shadow(color='rgba(0, 0, 0, 0.3)', Direction=135, Strength=8);
+                zoom: 1;
+              } 
+          </style>
+        <![endif]-->
         <script type="text/javascript">
 		$(document).ready(function() {
 			$('a.tTip').tinyTips('title');
