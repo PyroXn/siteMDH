@@ -30,7 +30,7 @@
                             <li id="contact_menu" class=""><a href="index.php?p=contact" title="">Contact</a></li>
                         </ul>-->
                         <ul id="social">
-                                <li id="facebook" title="facebook"><a href="http://facebook.com/"></a></li>
+                                <li id="facebook" title="facebook"><a href="http://www.facebook.com/mydevhouse"></a></li>
                                 <li id="google" title="google+"><a href="https://plus.google.com/"></a></li>
                                 <li id="github" title="github"><a href="https://github.com/"></a></li>
                         </ul>
@@ -38,6 +38,7 @@
                         
                         <div class="clearboth"></div>
                         <div class="copyright">&copy; 2012 My Dev House - <a href="mentions-legales.html">Mentions légales</a></div>
+                        <a href="http://www.liendur.fr" title="Annuaire de référencement avec liens en dur">Annuaire référencement</a> - <a href="http://annuaire.pro/informatique/">Informatique</a> - <a href="http://www.hannuaire.fr/" title="Annuaire référencement de qualité">Hannuaire</a> - <a href="http://www.mirti.com/">Annuaire mirti</a>
                      </div>
                 </div>
             </div>
